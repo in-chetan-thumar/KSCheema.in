@@ -72,7 +72,7 @@
                         <p>Mercedes Benz Central Star</p>
                     </div>
                     <div class="brands-know-button">
-                        <a href="mercedes-benz-central-star.html"> KNOW MORE</a>
+                        <a href="{{route('mercedes.benz.central.star')}}"> KNOW MORE</a>
                     </div>
                 </div>
                 <div class="brands-logo-box">
@@ -83,7 +83,7 @@
                         <p>Ather</p>
                     </div>
                     <div class="brands-know-button">
-                        <a href="ather.html"> KNOW MORE</a>
+                        <a href="{{route('ather')}}"> KNOW MORE</a>
                     </div>
                 </div>
                 <div class="brands-logo-box">
@@ -94,7 +94,7 @@
                         <p>Garnet Galaxy Absure Car wale</p>
                     </div>
                     <div class="brands-know-button">
-                        <a href="car_wale.html"> KNOW MORE</a>
+                        <a href="{{route('car.wale')}}"> KNOW MORE</a>
                     </div>
                 </div>
                 <div class="brands-logo-box">
@@ -105,7 +105,7 @@
                         <p>Altigreen</p>
                     </div>
                     <div class="brands-know-button">
-                        <a href="altigreen.html">KNOW MORE</a>
+                        <a href="{{route('altigreen')}}">KNOW MORE</a>
                     </div>
                 </div>
             </div>

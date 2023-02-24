@@ -90,7 +90,8 @@
     <div class="container">
         <div class="contact-grup">
             <div class="contact-form">
-                <form>
+                <form method="post" action="{{route('contact.submit')}}">
+                    @csrf
                     <div class="form-group">
                         <label for="fname">First Name</label>
                         <input name="fname" type="text" class="feedback-input" placeholder="John" id="fname">
@@ -113,7 +114,7 @@
                         <textarea name="text" class="feedback-input" id="Message"
                                   placeholder="Type your Messege"></textarea>
                     </div>
-                    <button class="form-button">Send Details<img src="front/images/contact/Arrow-button.png"
+                    <button type="submit" class="form-button">Send Details<img src="front/images/contact/Arrow-button.png"
                                                                  alt=""></button>
                 </form>
             </div>
