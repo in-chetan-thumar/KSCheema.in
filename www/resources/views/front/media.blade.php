@@ -9,7 +9,7 @@
         <div class="news-articles-section position-relative">
             <div class="articles-section-one-mobile"><img src="front/images/articles/bg4.png" alt="bg"></div>
             <div class="articles-section-title">
-                <h1>NEWS and ARTICLES</h1>
+                <h1>News and Updates</h1>
             </div>
             <div class="articles-section-one"><img src="front/images/articles/bg2.png" alt="bg"></div>
         </div>

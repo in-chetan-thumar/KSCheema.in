@@ -12,10 +12,6 @@ MySQL - 10.4.17-MariaDB : Database - test_skote
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
-CREATE DATABASE /*!32312 IF NOT EXISTS*/`test_skote` /*!40100 DEFAULT CHARACTER SET utf8 */;
-
-USE `test_skote`;
-
 /*Table structure for table `failed_jobs` */
 
 DROP TABLE IF EXISTS `failed_jobs`;
