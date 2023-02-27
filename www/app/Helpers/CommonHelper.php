@@ -2,7 +2,12 @@
 
 namespace App\Helpers;
 
+use App\Models\Page;
+use Artesaos\SEOTools\Facades\SEOMeta;
+use Artesaos\SEOTools\Facades\SEOTools;
 use Carbon\CarbonPeriod;
+use Illuminate\Support\Facades\Route;
+
 use function Symfony\Component\String\length;
 
 class CommonHelper
@@ -88,5 +93,12 @@ class CommonHelper
         }
 
         return $financial_year;
+    }
+
+    function getSEOMeta(){
+        $content = Page::select('id','title','meta_keywords','meta_description')->whereRouteName(Route::currentRouteName())->first();
+        SEOTools::setTitle($content->title, false);
+        SEOTools::setDescription($content->meta_description);
+        SEOMeta::addKeyword($content->meta_keywords);
     }
 }

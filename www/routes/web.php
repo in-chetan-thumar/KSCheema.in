@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 
 //Language Translation
-Route::get('index/{locale}', [App\Http\Controllers\Admin\DashBoardController::class, 'lang']);
+// Route::get('index/{locale}', [App\Http\Controllers\Admin\DashBoardController::class, 'lang']);
 
 Route::get('/', [App\Http\Controllers\FrontController::class, 'index'])->name('index');
 Route::get('/about', [App\Http\Controllers\FrontController::class, 'about'])->name('about');
@@ -50,5 +50,9 @@ Route::group(['middleware' => 'auth'], function () {
     // Role Controller
     Route::resource('roles', \App\Http\Controllers\Admin\RoleController::class);
     Route::get('/status/{id}', [\App\Http\Controllers\Admin\RoleController::class, 'changeStatus'])->name('role.status');
+    // News Controller
+    Route::resource("news", \App\Http\Controllers\Admin\NewsController::class);
+    // Pagelist Controller
+    Route::resource('page', \App\Http\Controllers\Admin\PageController::class);
 
 });

@@ -1,0 +1,4 @@
+INSERT INTO `permissions` (`id`, `title`, `name`, `permission_label`, `guard_name`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 'Pages', 'pages.index', 'Pages', 'web', 'Y', '2023-02-25 15:09:26', '2023-02-25 15:09:32');
+INSERT INTO `permissions` (`id`, `title`, `name`, `permission_label`, `guard_name`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 'Pages', 'pages.create', 'Pages', 'web', 'Y', '2023-02-25 15:09:26', '2023-02-25 15:09:32'); 
+INSERT INTO `permissions` (`id`, `title`, `name`, `permission_label`, `guard_name`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 'Pages', 'pages.edit', 'Pages', 'web', 'Y', '2023-02-25 15:09:26', '2023-02-25 15:09:32'); 
+INSERT INTO `permissions` (`id`, `title`, `name`, `permission_label`, `guard_name`, `is_active`, `created_at`, `updated_at`) VALUES (NULL, 'Pages', 'pages.destroy', 'Pages', 'web', 'Y', '2023-02-25 15:09:26', '2023-02-25 15:09:32'); 

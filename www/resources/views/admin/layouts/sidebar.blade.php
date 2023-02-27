@@ -25,7 +25,18 @@
                 {{--                </li>--}}
 
 
-
+                <li>
+                    <a href="{{ route('page.index') }}" class="waves-effect">
+                        {{-- <i class="bx bx-home"></i> --}}
+                        <span>Pages</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ route('news.index') }}" class="waves-effect">
+                        {{-- <i class="bx bx-home"></i> --}}
+                        <span>News</span>
+                    </a>
+                </li>
                 @can('setting.index')
                     <li class="menu-title">Settings</li>
                     @can('usermanagements.index')
