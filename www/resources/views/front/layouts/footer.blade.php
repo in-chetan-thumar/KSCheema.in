@@ -4,7 +4,7 @@
         <div class="footer-detail">
             <div class="footer-img">
                 <img src="{{asset('front/images/footer/Frame-4.png')}}" alt="logo">
-                <p>Copyright@KS Cheema</p>
+                <p>© KS Cheema. Handcrafted with ❤ by <a href="https://www.buzzmakers.in/" target="_blank">Buzz Makers.</a></p>
             </div>
             <div class="footer-info">
                 <div class="footer-home">
@@ -24,19 +24,19 @@
                     <h6>Businesses</h6>
                     <ul>
                         <li>
-                            <p>Garnet Motors (I) Pvt. Ltd.</p>
+                            <p><a href="/" target="_blank">Garnet Motors (I) Pvt. Ltd.</a></p>
                         </li>
                         <li>
-                            <p>KS Metals and Mining Industries Pvt. Ltd.</p>
+                            <p><a href="/" target="_blank">KS Metals and Mining Industries Pvt. Ltd.</a></p>
                         </li>
                         <li>
-                            <p>Diamond Estate Builders & Developers</p>
+                            <p><a href="/" target="_blank">Diamond Estate Builders & Developers</a></p>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="copy-right">
-                <p>Copyright@KS Cheema</p>
+            <p>© KS Cheema. Handcrafted with ❤ by <a href="https://www.buzzmakers.in/" target="_blank">Buzz Makers.</a></p>
             </div>
         </div>
     </div>

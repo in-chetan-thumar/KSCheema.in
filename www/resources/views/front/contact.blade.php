@@ -3,6 +3,27 @@
 @section('title') Contact @endsection
 
 @section('content')
+    <div class="contact-bg">
+        <div class="contact-here">
+            <div class="blank">
+                <div class="line-icon-section">
+                    <img src="front/images/contact/bg1.png" alt="contact">
+                </div>
+            </div>
+            <div class="index">
+                <div class="inbox">
+                    <h1>We want to hear from you!</h1>
+                    <p>We welcome feedback, suggestions, queries, and appreciation in our inbox! Feel free to reach out
+                        to us.</p>
+                </div>
+                <div class="information">
+                    <h1>Let's talk! </h1>
+                    <a href="tel:+917104238121">+91 7104238121/41</a>
+                    <a href="mailto:cndoffice@centrastar.co.in">cndoffice@centrastar.co.in</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="our-companies-map-slider ">
         <h2>OUR COMPANIES</h2>
         <div class="owl-carousel map-section owl-theme">
@@ -87,7 +108,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container reveal">
         <div class="contact-grup">
             <div class="contact-form">
                 <form method="post" action="{{route('contact.submit')}}">
