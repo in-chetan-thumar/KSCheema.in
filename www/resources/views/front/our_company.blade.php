@@ -61,7 +61,7 @@
         </div>
     </div>
 
-    <div class="brands-logo-information">
+    <div class="brands-logo-information reveal">
         <div class="container">
             <div class="brands-logo-inner">
                 <div class="brands-logo-box">
@@ -112,7 +112,7 @@
         </div>
     </div>
 
-    <div class="ks-metals-galler">
+    <div class="ks-metals-galler reveal">
         <div class="container">
             <div class="metals-galler-innner">
                 <div class="metals-galler-box">

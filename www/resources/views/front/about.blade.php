@@ -29,7 +29,7 @@
                     decades of experience in business and an unfettered visionary spirit, Mr Cheema’s hard work and
                     persistence have enabled us to secure a successful future for countless individuals across the
                     country. </p>
-                <p class="mobile-text">Founded by Mr KS Cheema in 2012, the group of companies first saw the daylight by
+                <p class="mobile-text ">Founded by Mr KS Cheema in 2012, the group of companies first saw the daylight by
                     stepping foot into the real estate industry. Since then, we have forayed our way into the automobile
                     and mining sector, led by his vision, values, and guidance. Backed by decades of experience in
                     business and an unfettered visionary spirit, Mr Cheema’s hard work and persistence have enabled us
@@ -41,56 +41,43 @@
     <div class="our-journey-section">
         <div class="container">
             <h2>OUR JOURNEY</h2>
-            <div class="our-journey-wrapper journey-slider-main">
+            <div class="our-journey-wrapper journey-slider-main reveal">
                 <div>
                     <div class="our-journey-slider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <h3 class="year">2012</h3>
-                                <p class="content">With a vision of optimising his worldwide exposure, experience and
-                                    knowledge,
-                                    Mr KS Cheema started his entrepreneurial journey in 2012 with a real estate project
-                                    in Nagpur,
-                                    K K A Lifestyle through an entity, K K Associates Builders & Developers with
-                                    professional partners.
+                                <p class="content">With a vision of optimizing his worldwide exposure, experience and knowledge, Mr KS Cheema started his entrepreneurial journey in 2012 with a real estate project in Nagpur, K K A Lifestyle through an entity, K K Associates Builders & Developers with professional partners.
                                 </p>
                             </div>
                             <div class="swiper-slide">
                                 <h3 class="year">2016</h3>
-                                <p class="content">Expanded the avenues by going solo (100% family owned) with Diamond
-                                    Estate Builders & Developers, which is today one of the leading real estate players
-                                    in
-                                    Nagpur for luxury housing and commercial complexes.
+                                <p class="content">Expanded the avenues by going solo (100% family owned) with Diamond Estate Builders & Developers, which is today one of the leading real estate players in Nagpur for luxury housing and commercial complexes.
                                 </p>
                             </div>
                             <div class="swiper-slide">
                                 <h3 class="year">2018</h3>
-                                <p class="content">Formed Garnet Motors (India) Private Limited (Garnet) and started
-                                    scouting for automobile dealerships.
+                                <p class="content">Formed Garnet Motors (India) Private Limited (Garnet) and started scouting for automobile dealerships.
                                 </p>
                             </div>
                             <div class="swiper-slide">
-                                <h3 class="year">2012</h3>
-                                <p class="content">With a vision of optimising his worldwide exposure, experience and
-                                    knowledge,
-                                    Mr KS Cheema started his entrepreneurial journey in 2012 with a real estate project
-                                    in Nagpur,
-                                    K K A Lifestyle through an entity, K K Associates Builders & Developers with
-                                    professional partners.
+                                <h3 class="year">2019</h3>
+                                <p class="content">Acquired an existing loss-making Mercedes Benz dealership in Nagpur and made it profitable within a year, under the brand name, "Central Star."
                                 </p>
                             </div>
                             <div class="swiper-slide">
-                                <h3 class="year">2016</h3>
-                                <p class="content">Expanded the avenues by going solo (100% family owned) with Diamond
-                                    Estate Builders & Developers, which is today one of the leading real estate players
-                                    in
-                                    Nagpur for luxury housing and commercial complexes.
+                                <h3 class="year">2020</h3>
+                                <p class="content">
+                                    1. Formed KS Metal Industries Private Limited, through which acquired 77 acres of mining land and crushing plant from Aditya Birla Group (UltraTech Cement Limited) situated at Alagondi, Butibori, Nagpur. (Please make it bullet) <br>
+                                    2. Garnet acquired 2 loss-making Mercedes Benz dealerships in Ahmedabad and Surat, and converted them into profitable ventures within the very first year with the same manpower, proving the power of strong business practices and visionary leadership.
                                 </p>
                             </div>
                             <div class="swiper-slide">
-                                <h3 class="year">2018</h3>
-                                <p class="content">Formed Garnet Motors (India) Private Limited (Garnet) and started
-                                    scouting for automobile dealerships.
+                                <h3 class="year">2022</h3>
+                                <p class="content">
+                                    1. Opened Garnet Galaxy in association with Absure - Car Wale in Nagpur and Vadodara. <br>
+                                    2. Opened multiple outlets of Ather electric scooters in Mumbai. <br>
+                                    3. Opened the first Altigreen 3S dealership in Ahmedabad that deals in electric commercial vehicles.
                                 </p>
                             </div>
                         </div>
@@ -113,15 +100,15 @@
     <div class="team-section">
         <div class="container">
             <h4>MEET OUR TEAM</h4>
-            <div class="team-wrapper">
+            <div class="team-wrapper reveal">
                 <div class="member">
                     <div class="member-image">
                         <img src="front/images/aboutus/member1.png" alt="team-member">
                     </div>
                     <div class="member-detail">
-                        <h5>James Branch</h5>
-                        <p>Chairman, K S Cheema Group</p>
-                        <p>Business Administration (MBA)</p>
+                        <h5>Mr Karnail <br>Singh Cheema</h5>
+                        <p>Chairman & Managing Director</p>
+                        <p>BA, LLB, LLM, Post Graduate <br>Diploma in "Industrial Relations <br>& Personnel Management"</p>
                     </div>
                 </div>
                 <div class="member">
@@ -129,9 +116,9 @@
                         <img src="front/images/aboutus/member2.png" alt="team-member">
                     </div>
                     <div class="member-detail">
-                        <h5>James Branch</h5>
-                        <p>Chairman, K S Cheema Group</p>
-                        <p>Business Administration (MBA)</p>
+                        <h5>Mrs Kokila <br>Karnail Cheema</h5>
+                        <p>Director</p>
+                        <p>B.Com. LLB.</p>
                     </div>
                 </div>
                 <div class="member">
@@ -139,9 +126,9 @@
                         <img src="front/images/aboutus/member3.png" alt="team-member">
                     </div>
                     <div class="member-detail">
-                        <h5>James Branch</h5>
-                        <p>Chairman, K S Cheema Group</p>
-                        <p>Business Administration (MBA)</p>
+                        <h5>Mr Ankur <br>Singh Cheema</h5>
+                        <p>Executive Director</p>
+                        <p>BALLB</p>
                     </div>
                 </div>
             </div>
@@ -150,7 +137,7 @@
 
     <div class="tab-section">
         <div class="container">
-            <div class="tab-wrapper image-tab">
+            <div class="tab-wrapper image-tab reveal">
                 <div class="image">
                     <img src="front/images/aboutus/tab-image.png" alt="tab">
                 </div>

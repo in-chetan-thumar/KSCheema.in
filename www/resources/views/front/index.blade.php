@@ -52,14 +52,14 @@
 
     <div class="container our-business-main">
         <div class="our-business-section">
-            <p class="info">A culmination of hard work, ethics, environmentalism, and efficiency over the years has made us a
+            <p class="info reveal">A culmination of hard work, ethics, environmentalism, and efficiency over the years has made us a
                 thriving
                 group
                 of companies,
                 set to continue expanding across India.</p>
             <h2 class="title">Our Businesses</h2>
             <div class="image-content one">
-                <div class="image position-relative">
+                <div class="image position-relative reveal">
                     <img src="{{asset('front/images/garnet-motors.png')}}" alt="garnet-motors">
                     <div class="shape d-flex flex-column align-items-center">
                         <span class="shape1"></span>
@@ -67,7 +67,7 @@
                         <span class="shape3"></span>
                     </div>
                 </div>
-                <div class="content">
+                <div class="content reveal">
                     <h3 class="sub-title">Garnet Motors</h3>
                     <p>With a base in over 5 cities in the country and plans of expansion, Garnet Motors deals in top brands
                         of
@@ -76,7 +76,7 @@
                 </div>
             </div>
 
-            <div class="company-section">
+            <div class="company-section reveal">
                 <div class="company-row justify-content-between">
                     <div class="company d-flex flex-column">
                         <div class="company-icon d-flex align-items-center justify-content-center">
@@ -129,7 +129,7 @@
                 </div>
             </div>
 
-            <div class="image-content two">
+            <div class="image-content two reveal">
                 <div class="image position-relative">
                     <img src="{{asset('front/images/ks-metal.png')}}" alt="ks-metal">
                     <div class="shape d-flex flex-column align-items-center">
@@ -148,7 +148,7 @@
                 </div>
             </div>
 
-            <div class="image-content three">
+            <div class="image-content three reveal">
                 <div class="image position-relative">
                     <img src="{{asset('front/images/diamond-estate.png')}}" alt="diamond-estate">
                     <div class="shape d-flex flex-column align-items-center">
@@ -170,8 +170,8 @@
 
 
     <div class="featured-storie-section">
-        <h2 class="title">Featured Stories</h2>
-        <div class="owl-carousel featured-slider">
+        <h2 class="title reveal">Featured Stories</h2>
+        <div class="owl-carousel featured-slider reveal">
             <div class="owl-stage-outer">
                 <div class="owl-stage">
                     <div class="owl-item">
@@ -233,7 +233,7 @@
         </div>
     </div>
 
-    <div class="chairman-section">
+    <div class="chairman-section reveal">
         <h4 class="title">Chairman’s Corner</h4>
         <div class="chairman chairman-wrapper">
             <div class="image position-relative">
@@ -250,7 +250,7 @@
         </div>
     </div>
 
-    <div class="sustainability-section">
+    <div class="sustainability-section reveal">
         <div class="container">
             <h4 class="title">sustainability</h4>
             <div class="image-tab">
