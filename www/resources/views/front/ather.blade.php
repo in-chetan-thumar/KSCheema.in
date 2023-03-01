@@ -5,17 +5,6 @@
 @endsection
 
 @section('content')
-    {{-- @foreach ($ather_detail as $detail)
-        @foreach ($detail as $key => $value)
-            @if ($key == 'details')
-                {{ $value['name'] }}
-            @elseif($key == 'photos')
-                    <img src="front/images/companies/{{ $value[0]}}" alt="car">
-                    <img src="front\images\companies\{{ $value[1]}}" alt="car">
-            @endif
-        @endforeach
-    @endforeach --}}
-
     <div class="benz-option-car-heading">
         <div class="benz-option-title">
             <h2>Garnet Motors India Pvt. Ltd.</h2>
@@ -32,55 +21,51 @@
                 metropolitan city of Mumbai.</p>
         </div>
     </div>
-    @foreach ($ather_detail as $detail)
-        @foreach ($detail as $key => $value)
-            <div class="benz-gallary-section">
-                <div class="container">
-                    <div class="benz-gallary-item">
-                        <div class="images-group">
-                            <div class="images-box" data-bs-toggle="modal" data-bs-target="#cardekho">
-                                <img src="front/images/companies/{{ $value['photos'][0] }}" alt="car">
-                                <img src="front/images/companies/{{ $value['photos'][1] }}" alt="car">
-                            </div>
-                            <div class="images-box box-2" data-bs-toggle="modal" data-bs-target="#cardekho">
-                                <img src="front/images/companies/{{ $value['photos'][2] }}" alt="car">
-                                <img src="front/images/companies/{{ $value['photos'][3] }}" alt="car">
-                            </div>
-                            <div class="images-counter-galler">+6 Images</div>
+    @foreach (config('constants.ATHER') as $key => $location_detail)
+        <div class="benz-gallary-section">
+            <div class="container">
+                <div class="benz-gallary-item">
+                    <div class="images-group">
+                        <div class="images-box" data-bs-toggle="modal" data-bs-target="#cardekho{{ $key }}">
+                            <img src="front/images/companies/{{ $location_detail['photos'][0] }}" alt="car">
+                            <img src="front/images/companies/{{ $location_detail['photos'][1] }}" alt="car">
                         </div>
-                        <div class="owl-carousel images-group-mobile  owl-theme">
-                            <div class="item"><img src="front/images/companies/{{ $value['photos'][0] }}" alt="slider">
-                            </div>
-                            <div class="item"><img src="front/images/companies/{{ $value['photos'][1] }}" alt="slider">
-                            </div>
-                            <div class="item"><img src="front/images/companies/{{ $value['photos'][2] }}" alt="slider">
-                            </div>
-                            <div class="item"><img src="front/images/companies/{{ $value['photos'][3] }}" alt="slider">
-                            </div>
+                        <div class="images-box box-2" data-bs-toggle="modal" data-bs-target="#cardekho">
+                            <img src="front/images/companies/{{ $location_detail['photos'][2] }}" alt="car">
+                            <img src="front/images/companies/{{ $location_detail['photos'][3] }}" alt="car">
                         </div>
-                        <div class="benz-gallary-contect">
-                            <h2 class="title">{{ $value['name'] }} </h2>
-                            <h3 class="sub-title">{{ $value['short_line'] }}</h3>
-                            <div class="benz-line">
-                                <p class="contact">Contact</p>
-                            </div>
-                            <p>{{ $value['address'] }}</p>
-                            <a class="phone-no" href="tel:+918799916255">Tel: {{ $value['phone'] }}</a>
-                            <a href="#" class="know-more-button">
-                                <span class="icon"> <img src="front/images/benz-option/global.png" alt="global">
-                                </span>
-                                <span class="text">know More</span>
-                            </a>
+                        @php 
+                        $photo_count = sizeof($location_detail['photos']);
+                        @endphp
+                        @if($photo_count > 4)
+                            <div class="images-counter-galler"> +{{ $photo_count }} Images</div>
+                        @endif
+                    </div>
+                    <div class="owl-carousel images-group-mobile  owl-theme">
+                        @foreach($location_detail['photos'] as $photo)
+                            <div class="item"><img src="front/images/companies/{{ $photo }}" alt="slider"></div>
+                        @endforeach
+                    </div>
+                    <div class="benz-gallary-contect">
+                        <h2 class="title">{{ $location_detail['name'] }} </h2>
+                        <h3 class="sub-title">{{ $location_detail['short_line'] }}</h3>
+                        <div class="benz-line">
+                            <p class="contact">Contact</p>
                         </div>
+                        <p>{{ $location_detail['address'] }}</p>
+                        <a class="phone-no" href="tel:{{ $location_detail['phone'] }}">Tel: {{ $location_detail['phone'] }}</a>
+                        <a href="{{ $location_detail['phone'] }}" class="know-more-button">
+                            <span class="icon"> <img src="front/images/benz-option/global.png" alt="global">
+                            </span>
+                            <span class="text">know More</span>
+                        </a>
                     </div>
                 </div>
             </div>
-        @endforeach
+        </div>
     @endforeach
-@endsection
-@foreach ($ather_detail as $detail)
-    @foreach ($detail as $key => $value)
-        <div class="modal fade" id="cardekho" tabindex="-1" aria-labelledby="cardekho" aria-hidden="true">
+    @foreach (config('constants.ATHER') as $key => $location_detail)
+        <div class="modal fade" id="cardekho{{ $key }}" tabindex="-1" aria-labelledby="cardekho{{ $key }}" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -88,30 +73,17 @@
                     </div>
                     <div class="modal-body">
                         <div class="owl-carousel images-galler-section owl-theme">
-                            <div class="item">
-                                <img src="front/images/companies/{{ $value['photos'][0] }}" alt="Car Images">
-                            </div>
-                            <div class="item">
-                                <img src="front/images/companies/{{ $value['photos'][1] }}" alt="Car Images">
-                            </div>
-                            <div class="item">
-                                <img src="front/images/companies/{{ $value['photos'][2] }}" alt="Car Images">
-                            </div>
-                            <div class="item">
-                                <img src="front/images/companies/{{ $value['photos'][3] }}" alt="Car Images">
-                            </div>
-                            <div class="item">
-                                <img src="front/images/companies/{{ $value['photos'][0] }}" alt="Car Images">
-                            </div>
-                            <div class="item">
-                                <img src="front/images/companies/{{ $value['photos'][1] }}" alt="Car Images">
-                            </div>
+                            @foreach($location_detail['photos'] as $photo)
+                                <div class="item"><img src="front/images/companies/{{ $photo }}" alt="Car Images"></div>
+                            @endforeach
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     @endforeach
-@endforeach
+
+@endsection
+
 @section('script')
 @endsection

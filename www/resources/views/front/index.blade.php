@@ -5,6 +5,7 @@
 @section('content')
 
     <div class="banner-section">
+        <div class="banner_logo"><img class="sub-image" src="{{asset('front/images/Asset-1@3x-2.png')}}" alt="banner-image"></div>
         <div class="owl-carousel banner banner-slider">
             <div class="owl-stage-outer">
                 <div class="owl-stage">
@@ -13,8 +14,8 @@
                             <h1 class="sub-title">A future-ready <br>automobile business</h1>
                         </div>
                         <div class="images">
-                            <img class="img" src="{{asset('front/images/Mask-group.png')}}" alt="mask">
-                            <img class="sub-image" src="{{asset('front/images/Asset-1@3x-2.png')}}" alt="banner-image">
+                            <img class="img" src="{{asset('front/images/home_page_slider_1.png')}}" alt="mask">
+
                         </div>
                     </div>
                     <div class="owl-item">
@@ -22,26 +23,7 @@
                             <h1 class="sub-title">A future-ready <br>automobile business</h1>
                         </div>
                         <div class="images">
-                            <img class="img" src="{{asset('front/images/Mask-group.png')}}" alt="mask">
-                            <img class="sub-image" src="{{asset('front/images/Asset-1@3x-2.png')}}" alt="banner-image">
-                        </div>
-                    </div>
-                    <div class="owl-item">
-                        <div class="heading">
-                            <h1 class="sub-title">A future-ready <br>automobile business</h1>
-                        </div>
-                        <div class="images">
-                            <img class="img" src="{{asset('front/images/Mask-group.png')}}" alt="mask">
-                            <img class="sub-image" src="{{asset('front/images/Asset-1@3x-2.png')}}" alt="banner-image">
-                        </div>
-                    </div>
-                    <div class="owl-item">
-                        <div class="heading">
-                            <h1 class="sub-title">A future-ready <br>automobile business</h1>
-                        </div>
-                        <div class="images">
-                            <img class="img" src="{{asset('front/images/Mask-group.png')}}" alt="mask">
-                            <img class="sub-image" src="{{asset('front/images/Asset-1@3x-2.png')}}" alt="banner-image">
+                            <img class="img" src="{{asset('front/images/home_page_slider_2.png')}}" alt="mask">
                         </div>
                     </div>
                 </div>
