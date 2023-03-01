@@ -56,22 +56,26 @@ class NewsController extends Controller
         $data = $params = [];
         DB::beginTransaction();
         try {
-            $validator = Validator::make($request->all(), ['image' => 'mimetypes:image/jpeg,image/webp']);
+            $validator = Validator::make($request->all(), ['cover_image' => 'mimetypes:image/jpeg,image/webp']);
             if ($validator->fails()) {
                 $data['error'] = true;
                 $data['message'] =  $validator->errors()->first();
                 return response()->json($data);
             }
+            // dd($request->all());
 
-            $webp = Webp::make($request->file('image'))->quality(70);
+            $webp = Webp::make($request->file('cover_image'))->quality(70);
             $name = Str::random(16) . '.webp';
 
             if ($webp->save(storage_path('app/public/images/news/' . $name))) {
                 $params = [];
+                $params['category'] = $request->category;
                 $params['title'] = $request->title;
                 $params['description'] = $request->description;
                 $params['cover_photo'] = $name;
-
+                // $params['multiple_Photo'] = $name;
+                $params['link'] = $request->link;
+                
                 $page = resolve('news-repo')->store($params);
                 if (!empty($page)) {
 

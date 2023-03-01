@@ -42,7 +42,9 @@ class FrontController extends Controller
     }
     public function ather()
     {
-        return view('front.ather');
+        $ather_detail = config('constants.ATHER');
+        // dd($ather_detail);
+        return view('front.ather', compact('ather_detail'));
     }
     public function carWale()
     {
