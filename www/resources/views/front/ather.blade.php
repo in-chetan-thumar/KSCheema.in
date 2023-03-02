@@ -65,7 +65,7 @@
         </div>
     @endforeach
     @foreach (config('constants.ATHER') as $key => $location_detail)
-        <div class="modal fade" id="cardekho{{ $key }}" tabindex="-1" aria-labelledby="cardekho{{ $key }}" aria-hidden="true">
+        <div class="modal fade cardekho" id="cardekho{{ $key }}" tabindex="-1" aria-labelledby="cardekho{{ $key }}" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
