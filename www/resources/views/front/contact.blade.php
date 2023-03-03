@@ -32,11 +32,8 @@
                     <h3>Nagpur <span>(Showroom)</span></h3>
                     <p>C-43/1, Central MIDC Rd, Hingna, Nagpur, Maharashtra 440028</p>
                     <a href="tel:+917104238121">7104238121/41</a>
-                    <div class="map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14884.995335677557!2d79.0038316!3d21.1424934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2493accea9af0c55!2sMercedes-Benz%20Central%20Star%20Showroom%20Nagpur!5e0!3m2!1sen!2sin!4v1676993526500!5m2!1sen!2sin"
-                            width="280" height="380" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div id="map1" style="width: 280px;height:380px">
+
                     </div>
                 </div>
             </div>
@@ -45,11 +42,8 @@
                     <h3>Nagpur <span>(Workshop)</span></h3>
                     <p>C-40/B, Central MIDC Rd, Hingna, Nagpur, Maharashtra 440028</p>
                     <a href="tel:+917104238183">7104238183</a>
-                    <div class="map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14884.995335677557!2d79.0038316!3d21.1424934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2493accea9af0c55!2sMercedes-Benz%20Central%20Star%20Showroom%20Nagpur!5e0!3m2!1sen!2sin!4v1676993526500!5m2!1sen!2sin"
-                            width="280" height="380" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div id="map2" style="width: 280px;height:380px">
+
                     </div>
                 </div>
             </div>
@@ -58,11 +52,8 @@
                     <h3>Nagpur <span>(Showroom)</span></h3>
                     <p>P-11/B, Central MIDC Rd, Hingna, Nagpur, Maharashtra 440028</p>
                     <a href="tel:+917104299095">7104299095</a>
-                    <div class="map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14884.995335677557!2d79.0038316!3d21.1424934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2493accea9af0c55!2sMercedes-Benz%20Central%20Star%20Showroom%20Nagpur!5e0!3m2!1sen!2sin!4v1676993526500!5m2!1sen!2sin"
-                            width="280" height="380" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div id="map3" style="width: 280px;height:380px">
+
                     </div>
                 </div>
             </div>
@@ -71,11 +62,8 @@
                     <h3>Nagpur <span>(Workshop)</span></h3>
                     <p>E-18, Central MIDC Rd, Hingna, Nagpur, Maharashtra 440028</p>
                     <a href="tel:+917104299148">7104299148</a>
-                    <div class="map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14884.995335677557!2d79.0038316!3d21.1424934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2493accea9af0c55!2sMercedes-Benz%20Central%20Star%20Showroom%20Nagpur!5e0!3m2!1sen!2sin!4v1676993526500!5m2!1sen!2sin"
-                            width="280" height="380" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div id="map4" style="width: 280px;height:380px">
+
                     </div>
                 </div>
             </div>
@@ -84,11 +72,8 @@
                     <h3>Nagpur <span>(Showroom)</span></h3>
                     <p>C-43/1, Central MIDC Rd, Hingna, Nagpur, Maharashtra 440028</p>
                     <a href="tel:+917104238121">7104238121/41</a>
-                    <div class="map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14884.995335677557!2d79.0038316!3d21.1424934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2493accea9af0c55!2sMercedes-Benz%20Central%20Star%20Showroom%20Nagpur!5e0!3m2!1sen!2sin!4v1676993526500!5m2!1sen!2sin"
-                            width="280" height="380" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div id="map5" style="width: 280px;height:380px">
+
                     </div>
                 </div>
             </div>
@@ -97,11 +82,7 @@
                     <h3>Nagpur <span>(Workshop)</span></h3>
                     <p>C-40/B, Central MIDC Rd, Hingna, Nagpur, Maharashtra 440028</p>
                     <a href="tel:+917104238183">7104238183</a>
-                    <div class="map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14884.995335677557!2d79.0038316!3d21.1424934!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2493accea9af0c55!2sMercedes-Benz%20Central%20Star%20Showroom%20Nagpur!5e0!3m2!1sen!2sin!4v1676993526500!5m2!1sen!2sin"
-                            width="280" height="380" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div id="map6" style="width: 280px;height:380px">
                     </div>
                 </div>
             </div>
@@ -149,5 +130,4 @@
 
 @endsection
 @section('script')
-
 @endsection
