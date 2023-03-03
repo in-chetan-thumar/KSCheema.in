@@ -2336,15 +2336,15 @@ footer {
     opacity: 1;
 }
 
-#cardekho .modal-dialog{
-    max-width: 700px;
+.cardekho .modal-dialog{
+    max-width: 1200px;
 }
 
-#cardekho .modal-dialog .modal-header{
+.cardekho .modal-dialog .modal-header{
     border: unset;
     background-color: transparent;
 }
-#cardekho .modal-dialog .modal-body img{
+.cardekho .modal-dialog .modal-body img{
     width: 100%;
 }
 /* artical css end */

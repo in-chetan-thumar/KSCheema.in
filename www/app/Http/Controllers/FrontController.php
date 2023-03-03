@@ -24,6 +24,7 @@ class FrontController extends Controller
     }
     public function ourCompany()
     {
+        $this->setSEOMeta();
         return view('front.our_company');
     }
     public function media()
@@ -38,20 +39,22 @@ class FrontController extends Controller
     }
     public function mercedesBenzCentralStar()
     {
+        $this->setSEOMeta();
         return view('front.mercedes_benz_central_star');
     }
     public function ather()
     {
-        $ather_detail = config('constants.ATHER');
-        // dd($ather_detail);
-        return view('front.ather', compact('ather_detail'));
+        $this->setSEOMeta();
+        return view('front.ather');
     }
     public function carWale()
     {
+        $this->setSEOMeta();
         return view('front.car_wale');
     }
     public function altigreen()
     {
+        $this->setSEOMeta();
         return view('front.altigreen');
     }
     public function contactSubmit(Request $request)
@@ -59,9 +62,9 @@ class FrontController extends Controller
         dd($request->all());
     }
     public function setSEOMeta(){
-        $content = Page::select('id','title','meta_keywords','meta_description')->whereRouteName(Route::currentRouteName())->first();
+        $content = Page::select('id','title','meta_keywords','meta_description')->whereRouteName(Route::currentRouteName())->first(); 
         SEOTools::setTitle(!empty($content->title)?$content->title:'KSCheema', false);
-        SEOTools::setDescription(!empty($content->meta_description)?$content->meta_description:'KSCheema test description');
-        SEOMeta::addKeyword(!empty($content->meta_keywords)?$content->meta_keywords:'KSCheema test keywords');
+        SEOTools::setDescription(!empty($content->meta_description)?$content->meta_description:'KS Cheema description');
+        SEOMeta::addKeyword(!empty($content->meta_keywords)?$content->meta_keywords:'KS Cheema keywords');
     }
 }

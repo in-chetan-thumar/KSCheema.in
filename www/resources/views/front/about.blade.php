@@ -50,34 +50,34 @@
                                 <p class="content"><br><br>
                                 </p>
                             </div>
-                            <div class="swiper-slide" data-imageurl="{{asset('assets/images/Our_Journey_2012.png')}}">
+                            <div class="swiper-slide" data-imageurl="{{asset('front/images/aboutus/Our_Journey_2012.png')}}">
                                 <h3 class="year">2012</h3>
                                 <p class="content">With a vision of optimizing his worldwide exposure, experience and knowledge, Mr KS Cheema started his entrepreneurial journey in 2012 with a real estate project in Nagpur, K K A Lifestyle through an entity, K K Associates Builders & Developers with professional partners.<br><br>
                                 </p>
                             </div>
-                            <div class="swiper-slide" data-imageurl="{{asset('assets/images/Our_Journey_2016.png')}}">
+                            <div class="swiper-slide" data-imageurl="{{asset('front/images/aboutus/Our_Journey_2016.png')}}">
                                 <h3 class="year">2016</h3>
                                 <p class="content">Expanded the avenues by going solo (100% family owned) with Diamond Estate Builders & Developers, which is today one of the leading real estate players in Nagpur for luxury housing and commercial complexes.<br><br>
                                 </p>
                             </div>
-                            <div class="swiper-slide" data-imageurl="{{asset('assets/images/Our_Journey_2018.png')}}">
+                            <div class="swiper-slide" data-imageurl="{{asset('front/images/aboutus/Our_Journey_2018.png')}}">
                                 <h3 class="year">2018</h3>
                                 <p class="content">Formed Garnet Motors (India) Private Limited (Garnet) and started scouting for automobile dealerships.<br><br>
                                 </p>
                             </div>
-                            <div class="swiper-slide" data-imageurl="{{asset('assets/images/Our_Journey_2019.png')}}">
+                            <div class="swiper-slide" data-imageurl="{{asset('front/images/aboutus/Our_Journey_2019.png')}}">
                                 <h3 class="year">2019</h3>
                                 <p class="content">Acquired an existing loss-making Mercedes Benz dealership in Nagpur and made it profitable within a year, under the brand name, "Central Star."<br><br>
                                 </p>
                             </div>
-                            <div class="swiper-slide" data-imageurl="{{asset('assets/images/Our_Journey_2020.png')}}">
+                            <div class="swiper-slide" data-imageurl="{{asset('front/images/aboutus/Our_Journey_2020.png')}}">
                                 <h3 class="year">2020</h3>
                                 <p class="content">
                                     1. Formed KS Metal Industries Private Limited, through which acquired 77 acres of mining land and crushing plant from Aditya Birla Group (UltraTech Cement Limited) situated at Alagondi, Butibori, Nagpur. (Please make it bullet) <br><br>
                                     2. Garnet acquired 2 loss-making Mercedes Benz dealerships in Ahmedabad and Surat, and converted them into profitable ventures within the very first year with the same manpower, proving the power of strong business practices and visionary leadership.
                                 </p>
                             </div>
-                            <div class="swiper-slide" data-imageurl="{{asset('assets/images/Our_Journey_2022.png')}}">
+                            <div class="swiper-slide" data-imageurl="{{asset('front/images/aboutus/Our_Journey_2022.png')}}">
                                 <h3 class="year">2022</h3>
                                 <p class="content">
                                     1. Opened Garnet Galaxy in association with Absure - Car Wale in Nagpur and Vadodara. <br><br>
@@ -100,7 +100,7 @@
                     </div>
                 </div>
                 <div class="image position-relative">
-                    <img class="main-image" src="{{asset('assets/images/Our_Journey_2012.png')}}" alt="journey">
+                    <img class="main-image" src="{{asset('front/images/aboutus/Our_Journey_2012.png')}}" alt="journey">
                     <img class="shape-image" src="front/images/aboutus/shap-icon.png" alt="shape" title="shape">
                 </div>
             </div>

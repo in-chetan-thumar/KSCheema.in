@@ -30,7 +30,7 @@
                             <h1 class="sub-title">A prime destination <br>for luxury real estate</h1>
                         </div>
                         <div class="images">
-                            <img class="img" src="{{asset('front/images/home_page_slider_2.png')}}" alt="mask">
+                            <img class="img" src="{{asset('front/images/home_page_slider_3.png')}}" alt="mask">
                         </div>
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                     <p>With a base in over 5 cities in the country and plans of expansion, Garnet Motors deals in top brands
                         of
                         automobiles.</p>
-                    <a href="#" class="link">READ MORE</a>
+                    <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#website_under_development">READ MORE</a>
                 </div>
             </div>
 

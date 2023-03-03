@@ -27,7 +27,7 @@
                             <img src="front/images/companies/{{ $location_detail['photos'][0] }}" alt="car">
                             <img src="front/images/companies/{{ $location_detail['photos'][1] }}" alt="car">
                         </div>
-                        <div class="images-box box-2" data-bs-toggle="modal" data-bs-target="#cardekho">
+                        <div class="images-box box-2" data-bs-toggle="modal" data-bs-target="#cardekho{{ $key }}">
                             <img src="front/images/companies/{{ $location_detail['photos'][2] }}" alt="car">
                             <img src="front/images/companies/{{ $location_detail['photos'][3] }}" alt="car">
                         </div>
@@ -63,8 +63,8 @@
     @endforeach
 
     @foreach (config('constants.ALTIGREEN') as $key => $location_detail)
-        <div class="modal fade" id="cardekho{{ $key }}" tabindex="-1" aria-labelledby="cardekho{{ $key }}" aria-hidden="true">
-            <div class="modal-dialog">
+        <div class="modal fade cardekho" id="cardekho{{ $key }}" tabindex="-1" aria-labelledby="cardekho{{ $key }}" aria-hidden="true">
+            <div class="modal-dialog model-xl">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
