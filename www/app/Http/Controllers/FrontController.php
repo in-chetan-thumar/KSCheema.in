@@ -29,6 +29,7 @@ class FrontController extends Controller
     }
     public function media()
     {
+        
         $this->setSEOMeta();
         return view('front.media');
     }
@@ -51,6 +52,11 @@ class FrontController extends Controller
     {
         $this->setSEOMeta();
         return view('front.car_wale');
+    }
+    public function print($print_page)
+    {
+        $this->setSEOMeta();
+        return view('front.print.'.$print_page);
     }
     public function altigreen()
     {

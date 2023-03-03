@@ -38,7 +38,7 @@
                         $photo_count = sizeof($location_detail['photos']);
                         @endphp
                         @if($photo_count > 4)
-                            <div class="images-counter-galler"> +{{ $photo_count }} Images</div>
+                            <div class="images-counter-galler"> +{{ $photo_count - 4}} Images</div>
                         @endif
                     </div>
                     <div class="owl-carousel images-group-mobile  owl-theme">

@@ -61,7 +61,7 @@
                     <p>With a base in over 5 cities in the country and plans of expansion, Garnet Motors deals in top brands
                         of
                         automobiles.</p>
-                    <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#website_under_development">READ MORE</a>
+                    <a href="{{route('ourcompany')}}" class="link">READ MORE</a>
                 </div>
             </div>
 
@@ -75,7 +75,7 @@
                             <p>Mercedes Benz Central Star</p>
                             <div class="company-content">
                                 <span class="line"></span>
-                                <a href="#" class="link">KNOW MORE</a>
+                                <a href="{{route('mercedes.benz.central.star')}}" class="link">KNOW MORE</a>
                             </div>
                         </div>
                     </div>
@@ -87,7 +87,7 @@
                             <p>Garnet Galaxy Absure Car wale</p>
                             <div class="company-content">
                                 <span class="line"></span>
-                                <a href="#" class="link">KNOW MORE</a>
+                                <a href="{{route('ather')}}" class="link">KNOW MORE</a>
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
                             <p>Ather</p>
                             <div class="company-content">
                                 <span class="line"></span>
-                                <a href="#" class="link">KNOW MORE</a>
+                                <a href="{{route('car.wale')}}" class="link">KNOW MORE</a>
                             </div>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                             <p>Altigreen</p>
                             <div class="company-content">
                                 <span class="line"></span>
-                                <a href="#" class="link">KNOW MORE</a>
+                                <a href="{{route('altigreen')}}" class="link">KNOW MORE</a>
                             </div>
                         </div>
                     </div>
@@ -164,60 +164,21 @@
         <div class="owl-carousel featured-slider reveal">
             <div class="owl-stage-outer">
                 <div class="owl-stage">
+                    @foreach (config('constants.MEDIA') as $key => $media)
                     <div class="owl-item">
                         <div class="image">
-                            <img src="{{asset('front/images/featured-1.png')}}" alt="featured">
+                            <img src="{{asset('front/images/'.$media['web_image'])}}" alt="featured">
                         </div>
                         <div class="content">
-                            <p>It is a long established fact that a reader will be distracted</p>
-                            <a href="#" class="link">Read More</a>
+                            <p>{{ $media['title'] }}</p>
+                            @if($media['type'] == 'article')
+                                <a href="{{ $media['link'] }}" class="link" target="_blank">Read More</a>
+                            @else
+                                <a href="{{ route('print', $media['link']) }}" class="link" target="_blank">Read More</a>
+                            @endif
                         </div>
                     </div>
-                    <div class="owl-item">
-                        <div class="image">
-                            <img src="{{asset('front/images/featured-2.png')}}" alt="featured">
-                        </div>
-                        <div class="content">
-                            <p>It is a long established fact that a reader will be distracted</p>
-                            <a href="#" class="link">Read More</a>
-                        </div>
-                    </div>
-                    <div class="owl-item">
-                        <div class="image">
-                            <img src="{{asset('front/images/featured-3.png')}}" alt="featured">
-                        </div>
-                        <div class="content">
-                            <p>It is a long established fact that a reader will be distracted</p>
-                            <a href="#" class="link">Read More</a>
-                        </div>
-                    </div>
-                    <div class="owl-item">
-                        <div class="image">
-                            <img src="{{asset('front/images/featured-1.png')}}" alt="featured">
-                        </div>
-                        <div class="content">
-                            <p>It is a long established fact that a reader will be distracted</p>
-                            <a href="#" class="link">Read More</a>
-                        </div>
-                    </div>
-                    <div class="owl-item">
-                        <div class="image">
-                            <img src="{{asset('front/images/featured-2.png')}}" alt="featured">
-                        </div>
-                        <div class="content">
-                            <p>It is a long established fact that a reader will be distracted</p>
-                            <a href="#" class="link">Read More</a>
-                        </div>
-                    </div>
-                    <div class="owl-item">
-                        <div class="image">
-                            <img src="{{asset('front/images/featured-3.png')}}" alt="featured">
-                        </div>
-                        <div class="content">
-                            <p>It is a long established fact that a reader will be distracted</p>
-                            <a href="#" class="link">Read More</a>
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>

@@ -120,4 +120,141 @@ return [
         ],
     ],
     
+    'MEDIA' => [
+        [
+            'web_image' => 'articles/article-1.png',
+            'mobile_image' => 'articles/article-1-mobile.png',
+            'title' => 'Altigreen EV inaugurates its first dealership in Ahmedabad, Seventh outlet in India',
+            'description' => 'Altigreen EV has inaugurated its first retail outlet in Ahmedabad, Gujarat. This is the company’s seventh dealership launch in India within a span of two months.',
+            'date' => '11 Nov 2022',
+            'link' => 'https://www.financialexpress.com/express-mobility/altigreen-ev-inaugurates-its-first-dealership-in-ahmedabad-seventh-outlet-in-india/2805344/',
+            'type' => 'article',
+        ],
+        [
+            'web_image' => 'articles/article-2.png',
+            'mobile_image' => 'articles/article-2-mobile.png',
+            'title' => 'K S Cheema Group of Companies expands its wings in Gujarat',
+            'description' => 'After successful forays into real estate, automobile, mining and crushing sector in Maharashtra, city based K S Cheema Group of Companies has expanded its wings in Gujarat.',
+            'date' => '26 Nov 2020',
+            'link' => 'https://www.thehitavada.com/Encyc/2020/11/26/K-S-Cheema-Group-of-Companies-expands-its-wings-in-Gujarat.html',
+            'type' => 'article',
+        ],
+        [
+            'web_image' => 'articles/article-3.png',
+            'mobile_image' => 'articles/article-3-mobile.png',
+            'title' => 'K S Metals & Mining Crushing Plant now operational',
+            'description' => 'K S Metals & Mining Industries Private Limited, a group company of K S Cheema Group, has inaugurated it Algondi Mining and Crushing unit on Sunday in a simple ceremony after recitation of "Sukhmani Sahib Path" followed by "Ardas" for the wellbeing of all and "Guru ka Langar".',
+            'date' => '11 Nov 2022',
+            'link' => 'https://www.thehitavada.com/Encyc/2020/10/27/K-S-Metals-Mining-Crushing-Plant-now-operational.html',
+            'type' => 'article',
+        ],
+        [
+            'web_image' => 'articles/article-4.png',
+            'mobile_image' => 'articles/article-4-mobile.png',
+            'title' => 'Nagpur offers huge biz opportunities: K S Cheema',
+            'description' => 'K S Cheema, Chairman and Managing Director of Central Star, dealership of Mercedes-Benz and Garnet Motors (India) Pvt. Ltd said, “Nagpur city offers great business opportunities, that’s why I have selected and decided to settle in Nagpur finally.”',
+            'date' => '29 Nov 2019',
+            'link' => 'https://www.thehitavada.com/Encyc/2019/11/28/Nagpur-offers-huge-biz-opportunities-K-S-Cheema.html',
+            'type' => 'article',
+        ],
+        [
+            'web_image' => 'articles/article-5.png',
+            'mobile_image' => 'articles/article-5-mobile.png',
+            'title' => 'K S Metals & Mining to take over UltraTech crushing plant',
+            'description' => 'City-based company K S Metals and Mining Pvt Ltd is in process of taking over UltraTech crushing and mining plant at Algandhi, near Butibori.',
+            'date' => '29 Nov 2019',
+            'link' => 'https://www.thehitavada.com/Encyc/2019/11/28/K-S-Metals-Mining-to-take-over-UltraTech-crushing-plant.html',
+            'type' => 'article',
+        ],
+        [
+            'web_image' => 'articles/article-6.png',
+            'mobile_image' => 'articles/article-5-mobile.png',
+            'title' => 'Mercedes-Benz India opens two new showrooms in Nagpur',
+            'description' => 'Mercedes-Benz opens two new showrooms in Nagpur with its newest partner Garnet Motors, celebrating 25th anniversary in India',
+            'date' => '24 Apr 2019',
+            'link' => 'https://www.autocarpro.in/news-national/mercedesbenz-india-opens-two-new-showrooms-in-nagpur-42812',
+            'type' => 'article',
+        ],
+        [
+            'web_image' => 'articles/print/print-1-web.png',
+            'mobile_image' => 'articles/print/print-1-mobile.png',
+            'title' => 'NRi of Powai Bags Hind Ratna Award',
+            'description' => 'Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Suspendisse varius Lorem ipsum dolor sit amet, consectetur.',
+            'date' => '11 Nov 2022',
+            'link' => 'print-1',
+            'type' => 'print',
+        ],
+        [
+            'web_image' => 'articles/print/print-2-web.png',
+            'mobile_image' => 'articles/print/print-2-mobile.png',
+            'title' => 'Cheema ne kiya desh ka naam roshan',
+            'description' => 'Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Suspendisse varius Lorem ipsum dolor sit amet, consectetur.',
+            'date' => '11 Nov 2022',
+            'link' => '',
+            'type' => 'print-2',
+        ],
+        [
+            'web_image' => 'articles/print/print-3-web.png',
+            'mobile_image' => 'articles/print-3-mobile.png',
+            'title' => 'Manzil unhi ko milti hai, jinke kadmo me jaan ho',
+            'description' => 'Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Suspendisse varius Lorem ipsum dolor sit amet, consectetur.',
+            'date' => '11 Nov 2022',
+            'link' => '',
+            'type' => 'print-3',
+        ],
+        [
+            'web_image' => 'articles/print/print-4-web.png',
+            'mobile_image' => 'articles/print/print-4-mobile.png',
+            'title' => 'Naming ceremony held for new tanker chartered to oman methanol',
+            'description' => 'Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Suspendisse varius Lorem ipsum dolor sit amet, consectetur.',
+            'date' => '11 Nov 2022',
+            'link' => '',
+            'type' => 'print',
+        ],
+        [
+            'web_image' => 'articles/print/print-5-web.png',
+            'mobile_image' => 'articles/print/print-5-mobile.png',
+            'title' => 'Jog for focus',
+            'description' => 'Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Suspendisse varius Lorem ipsum dolor sit amet, consectetur.',
+            'date' => '11 Nov 2022',
+            'link' => '',
+            'type' => 'print',
+        ],
+        [
+            'web_image' => 'articles/print/print-6-web.png',
+            'mobile_image' => 'articles/print/print-6-mobile.png',
+            'title' => 'Mumbai real estate may slump further',
+            'description' => 'Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Suspendisse varius Lorem ipsum dolor sit amet, consectetur.',
+            'date' => '11 Nov 2022',
+            'link' => '',
+            'type' => 'print',
+        ],
+        [
+            'web_image' => 'articles/print/print-7-web.png',
+            'mobile_image' => 'articles/print/print-7-mobile.png',
+            'title' => 'Karnataka Govt. descision puts Binny in a bind',
+            'description' => 'Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Suspendisse varius Lorem ipsum dolor sit amet, consectetur.',
+            'date' => '11 Nov 2022',
+            'link' => '',
+            'type' => 'print',
+        ],
+        [
+            'web_image' => 'articles/print/print-8-web.png',
+            'mobile_image' => 'articles/print/print-8-mobile.png',
+            'title' => 'Legal Eagle',
+            'description' => 'Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit. Suspendisse varius Lorem ipsum dolor sit amet, consectetur.',
+            'date' => '11 Nov 2022',
+            'link' => '',
+            'type' => 'print',
+        ],
+        
+    ]
 ];
