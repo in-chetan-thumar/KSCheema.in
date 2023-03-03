@@ -25,10 +25,10 @@
                 <div class="latest-news-box">
                     <div class="images-box">
                         <div class="img-destop">
-                            <img src="front/images/articles/mask3.png" alt="news">
+                            <img src="front/images/articles/article-1.png" alt="news">
                         </div>
                         <div class="img-mobile">
-                            <img src="front/images/articles/mask_mobile.png" alt="news">
+                            <img src="front/images/articles/article-1-mobile.png" alt="news">
                         </div>
                     </div>
                     <div class="latest-content">
@@ -52,10 +52,10 @@
                 <div class="latest-news-box">
                     <div class="images-box">
                         <div class="img-destop">
-                            <img src="front/images/articles/mask1.png" alt="news">
+                            <img src="front/images/articles/article-2.png" alt="news">
                         </div>
                         <div class="img-mobile">
-                            <img src="front/images/articles/mask_mobile.png" alt="news">
+                            <img src="front/images/articles/article-2-mobile.png" alt="news">
                         </div>
                     </div>
                     <div class="latest-content">
@@ -78,10 +78,10 @@
                 <div class="latest-news-box">
                     <div class="images-box">
                         <div class="img-destop">
-                            <img src="front/images/articles/mask3.png" alt="news">
+                            <img src="front/images/articles/article-3.png" alt="news">
                         </div>
                         <div class="img-mobile">
-                            <img src="front/images/articles/mask_mobile.png" alt="news">
+                            <img src="front/images/articles/article-3-mobile.png" alt="news">
                         </div>
                     </div>
                     <div class="latest-content">
@@ -104,10 +104,10 @@
                 <div class="latest-news-box">
                     <div class="images-box">
                         <div class="img-destop">
-                            <img src="front/images/articles/mask2.png" alt="news">
+                            <img src="front/images/articles/article-4.png" alt="news">
                         </div>
                         <div class="img-mobile">
-                            <img src="front/images/articles/mask_mobile.png" alt="news">
+                            <img src="front/images/articles/article-4-mobile.png" alt="news">
                         </div>
                     </div>
                     <div class="latest-content">
@@ -130,10 +130,10 @@
                 <div class="latest-news-box">
                     <div class="images-box">
                         <div class="img-destop">
-                            <img src="front/images/articles/mask3.png" alt="news">
+                            <img src="front/images/articles/article-5.png" alt="news">
                         </div>
                         <div class="img-mobile">
-                            <img src="front/images/articles/mask_mobile.png" alt="news">
+                            <img src="front/images/articles/article-5-mobile.png" alt="news">
                         </div>
                     </div>
                     <div class="latest-content">
@@ -156,10 +156,10 @@
                 <div class="latest-news-box">
                     <div class="images-box">
                         <div class="img-destop">
-                            <img src="front/images/articles/mask3.png" alt="news">
+                            <img src="front/images/articles/article-6.png" alt="news">
                         </div>
                         <div class="img-mobile">
-                            <img src="front/images/articles/mask_mobile.png" alt="news">
+                            <img src="front/images/articles/article-6-mobile.png" alt="news">
                         </div>
                     </div>
                     <div class="latest-content">
@@ -182,10 +182,10 @@
                 <div class="latest-news-box">
                     <div class="images-box">
                         <div class="img-destop">
-                            <img src="front/images/articles/mask3.png" alt="news">
+                            <img src="front/images/articles/article-6.png" alt="news">
                         </div>
                         <div class="img-mobile">
-                            <img src="front/images/articles/mask_mobile.png" alt="news">
+                            <img src="front/images/articles/article-6-mobile.png" alt="news">
                         </div>
                     </div>
                     <div class="latest-content">
