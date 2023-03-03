@@ -51,7 +51,7 @@
                         </div>
                         <p>{{ $location_detail['address'] }}</p>
                         <a class="phone-no" href="tel:{{ $location_detail['phone'] }}">Tel: {{ $location_detail['phone'] }}</a>
-                        <a href="{{ $location_detail['phone'] }}" class="know-more-button">
+                        <a href="https://altigreen.com" class="know-more-button" target="_blank">
                             <span class="icon"> <img src="front/images/benz-option/global.png" alt="global">
                             </span>
                             <span class="text">know More</span>

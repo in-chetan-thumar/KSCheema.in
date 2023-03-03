@@ -219,10 +219,10 @@
                     <div class="articles-item">
                         <div class="images-box">
                             <div class="img-destop">
-                                <img src="front/images/articles/img1.png" alt="news">
+                                <img src="front/images/articles/videos/video-1.png" alt="news">
                             </div>
                             <div class="img-mobile">
-                                <img src="front/images/articles/mask_mobile.png" alt="news">
+                                <img src="front/images/articles/videos/video-1-mobile.png" alt="news">
                             </div>
                         </div>
                         <div class="latest-content">
@@ -244,10 +244,10 @@
                     <div class="articles-item">
                         <div class="images-box">
                             <div class="img-destop">
-                                <img src="front/images/articles/img3.png" alt="news">
+                                <img src="front/images/articles/videos/video-2.png" alt="news">
                             </div>
                             <div class="img-mobile">
-                                <img src="front/images/articles/mask_mobile.png" alt="news">
+                                <img src="front/images/articles/videos/video-2-mobile.png" alt="news">
                             </div>
                         </div>
                         <div class="latest-content">
@@ -271,10 +271,10 @@
                     <div class="articles-item">
                         <div class="images-box">
                             <div class="img-destop">
-                                <img src="front/images/articles/img2.png" alt="news">
+                                <img src="front/images/articles/videos/video-3.png" alt="news">
                             </div>
                             <div class="img-mobile">
-                                <img src="front/images/articles/mask_mobile.png" alt="news">
+                                <img src="front/images/articles/videos/video-3-mobile.png" alt="news">
                             </div>
                         </div>
                         <div class="latest-content">
@@ -289,32 +289,6 @@
                             </div>
                             <div class="lat-read-more-button">
                                 <a href="https://youtu.be/gZ4lI_ha-Us" target="_blank">Read More <span><img src="front/images/benz-option/right-arrow.png"
-                                                                 alt="arrow"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="articles-item">
-                        <div class="images-box">
-                            <div class="img-destop">
-                                <img src="front/images/articles/img4.png" alt="news">
-                            </div>
-                            <div class="img-mobile">
-                                <img src="front/images/articles/mask_mobile.png" alt="news">
-                            </div>
-                        </div>
-                        <div class="latest-content">
-                            <div class="img-destop">
-                                <h4>Autism care day</h4>
-                            </div>
-                            <div class="img-mobile">
-                                <h4>Autism care day</h4>
-                            </div>
-                            <div class="date">
-                                <p>15th Nov 2022</p>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur Lorem ipsum dolor sit amet.</p>
-                            <div class="lat-read-more-button">
-                                <a href="#">Read More <span><img src="front/images/benz-option/right-arrow.png"
                                                                  alt="arrow"></span></a>
                             </div>
                         </div>
