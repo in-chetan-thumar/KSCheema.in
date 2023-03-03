@@ -20,7 +20,15 @@
                     </div>
                     <div class="owl-item">
                         <div class="heading">
-                            <h1 class="sub-title">A future-ready <br>automobile business</h1>
+                            <h1 class="sub-title">Largest self-owned <br>stone mines in India</h1>
+                        </div>
+                        <div class="images">
+                            <img class="img" src="{{asset('front/images/home_page_slider_2.png')}}" alt="mask">
+                        </div>
+                    </div>
+                    <div class="owl-item">
+                        <div class="heading">
+                            <h1 class="sub-title">A prime destination <br>for luxury real estate</h1>
                         </div>
                         <div class="images">
                             <img class="img" src="{{asset('front/images/home_page_slider_2.png')}}" alt="mask">
@@ -34,7 +42,7 @@
 
     <div class="container our-business-main">
         <div class="our-business-section">
-            <p class="info reveal">A culmination of hard work, ethics, environmentalism, and efficiency over the years has made us a
+            <p class="info">A culmination of hard work, ethics, environmentalism, and efficiency over the years has made us a
                 thriving
                 group
                 of companies,
