@@ -11,12 +11,17 @@ window.addEventListener("scroll", reveal);
 //
 
 $(window).scroll(function () {
-    if ($(this).scrollTop() > 1) {
+    if ($(this).scrollTop() > 150) {
+        $('.header-section').addClass('sticky')
+    } else {
+        $('.header-section').removeClass('sticky')
+    }if ($(this).scrollTop() > 150) {
         $('.header-section').addClass('sticky')
     } else {
         $('.header-section').removeClass('sticky')
     }
 });
+
 
 let navLinks = document.querySelector(".nav");
 let menuOpenBtn = document.querySelector(".bar-mobile-icon");

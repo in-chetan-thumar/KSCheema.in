@@ -16,7 +16,7 @@
                         </ul>
                         <ul>
                             <li><a href="{{route('contact')}}">Contact Us</a></li>
-                            <li><a href="#">Careers</a></li>
+                            <li><a href="#" data-bs-toggle="modal" data-bs-target="#page_under_development">Careers</a></li>
                         </ul>
                     </div>
                 </div>
@@ -35,8 +35,35 @@
                     </ul>
                 </div>
             </div>
-            <div class="copy-right">
+            <div class="copy-right footer-Businesses">
             <p>© KS Cheema. Handcrafted with ❤ by <a href="https://www.buzzmakers.in/" target="_blank">Buzz Makers.</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade carbenz" id="page_under_development" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="images-box">
+                        <img src="{{asset('front/images/popup.png')}}" alt="popup">
+                        <p>Page under development and will be live soon. <br>Thank you!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade carbenz" id="website_under_development" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="images-box">
+                        <img src="{{asset('front/images/popup.png')}}" alt="popup">
+                        <p>Our website is under development and will be live soon. <br>Thank you!</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
