@@ -132,7 +132,7 @@
                     <p>Producing multi-size metals from its world class crushing plant setup in 77 acres of its own mining
                         land
                         near
-                        Butibori in Nagpur ( Vidarbha)</p>
+                        Butibori in Nagpur (Vidarbha).</p>
                     <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#website_under_development">VISIT WEBSITE</a>
                     
                 </div>
@@ -251,13 +251,7 @@
                                 by sustainable practices that make a difference.</p>
                         </div>
                         <div class="tab-pane fade" id="impact" role="tabpanel" aria-labelledby="impact-tab">
-                            <p>Our goal as a thriving group of companies in the country is to inject growth and success into
-                                every
-                                business, brand, and employee journey associated with us. At the same time, we acknowledge our
-                                duty
-                                towards the planet, our home. As a part of that commitment, we make sure that our businesses are
-                                backed
-                                by sustainable practices that make a difference.</p>
+                            <p>We believe that any contribution made to the well-being of the planet can prove to be monumental. By incorporating sustainable practices like electric mobility, solar power, and organic farming into our work, we aim to reduce carbon emissions and pollution, thereby, making a tangible difference in the environment.</p>
                         </div>
                     </div>
                 </div>

@@ -6,7 +6,7 @@
 
     <div class="artical-banner-section position-relative">
         <img src="{{asset('front/images/artical/artical-banner.png')}}" alt="banner">
-        <h1>Autism care day</h1>
+        <h1>News and Updates/h1>
     </div>
 
     <div class="artical-section">

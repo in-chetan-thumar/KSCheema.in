@@ -42,7 +42,7 @@
                             progress.</p>
                         <h4>MISSION :</h4>
                         <p>Our sole mission is to be a one-stop destination for automobile sales and services, and an
-                            organisation with substance committed to delivering smiles to our stakeholders and customers
+                            organisation with substance committed to delivering smiles to our stakeholders and customers.
                         </p>
                     </div>
                     <div class="mobile-content">
