@@ -2159,7 +2159,7 @@ footer {
     font-weight: 700;
     font-size: 42px;
     line-height: 50px;
-    font-family: var(--PlayfairDisplay-SemiBold);
+    font-family: var(--PlayfairDisplay);
     color: var(--secondary-color);
     text-align: center;
     text-transform: uppercase;

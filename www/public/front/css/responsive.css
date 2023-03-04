@@ -10,6 +10,11 @@
 
 }
 
+@media(max-width: 1200px) {
+    .company-section {
+        margin-left: 0;
+    }
+}
 
 @media(max-width: 1200px) {
     .our-companies .bg-images-two {
@@ -251,8 +256,8 @@
     }
 
     .chairman .content p {
-        font-size: 19px;
-        line-height: 28px;
+        font-size: 15px;
+        line-height: 1.2em;
         margin-bottom: 30px;
     }
 
@@ -608,14 +613,16 @@
 
     .contact-here {
         background: url(../images/contact/background-4.png) no-repeat;
-        height: 874px;
+        height: 620px;
         background-size: 100% 100%;
         width: 100%;
         align-items: start;
         justify-content: start;
         display: block;
         text-align: center;
-        padding-top: 40px;
+        padding-top: 20px;
+        background-size: cover;
+        background-position: center 10px;
     }
 
     .contact-here .blank {
@@ -925,6 +932,23 @@
     }
 }
 
+@media(max-width:767px) {
+    .our_journey_extra{
+        display: none;
+    }
+
+    .our-journey-wrapper.journey-slider-main .slide-button {
+        width: 40px;
+        height: 40px;
+        margin-top: 15px;
+    }
+
+    .featured-slider .content p {
+        margin-bottom: 5px;
+        font-size: 14px;
+        line-height: 1.2em;
+    }
+}
 
 @media(max-width:640px) {
 
