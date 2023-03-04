@@ -108,7 +108,7 @@ return [
             'address' => 'Reegus Business Center, New City light Road, New Tirumala, Near.Bharthana, BRTS Station, Surat, Gujarat – 395007.', 
             'phone' => '+91 78786 33555', 
             'know_more' => '#', 
-            'photos' => ['mercedes-benz\location4.1.JPG', 'mercedes-benz\location4.2.JPG', 'mercedes-benz\location4.3.JPG', 'mercedes-benz\location4.4.JPG', 'mercedes-benz\location4.5.JPG']
+            'photos' => ['mercedes-benz\location4.1.JPG', 'mercedes-benz\location4.2.JPG', 'mercedes-benz\location4.3.JPG', 'mercedes-benz\location4.4.JPG']
         ],
         [
             'name' => 'MERCEDES BENZ CENTRAL STAR', 

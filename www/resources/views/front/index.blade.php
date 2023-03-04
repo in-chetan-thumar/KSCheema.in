@@ -166,17 +166,27 @@
                 <div class="owl-stage">
                     @foreach (config('constants.MEDIA') as $key => $media)
                     <div class="owl-item">
-                        <div class="image">
-                            <img src="{{asset('front/images/'.$media['web_image'])}}" alt="featured">
-                        </div>
-                        <div class="content">
-                            <p>{{ $media['title'] }}</p>
-                            @if($media['type'] == 'article')
-                                <a href="{{ $media['link'] }}" class="link" target="_blank">Read More</a>
-                            @else
-                                <a href="{{ route('print', $media['link']) }}" class="link" target="_blank">Read More</a>
-                            @endif
-                        </div>
+                        @if($media['type'] == 'article')
+                            <a href="{{ $media['link'] }}" target="_blank">
+                        @else
+                            <a href="{{ route('print', $media['link']) }}"  target="_blank">
+                        @endif
+                            
+                            <div class="image">
+                                <img src="{{asset('front/images/'.$media['web_image'])}}" alt="featured">
+                            </div>
+                        
+                        </a>
+                            <div class="content">
+                                @if($media['type'] == 'article')
+                                    <a href="{{ $media['link'] }}" target="_blank">
+                                @else
+                                    <a href="{{ route('print', $media['link']) }}"  target="_blank">
+                                @endif
+                                <p>{{ $media['title'] }}</p>
+                                Read More
+                                </a>
+                            </div>
                     </div>
                     @endforeach
                 </div>

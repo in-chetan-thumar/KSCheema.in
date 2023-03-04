@@ -126,6 +126,7 @@
 
     .banner-section {
         padding-bottom: 50px;
+        overflow: hidden;
     }
 
     .banner-section .images {
@@ -622,7 +623,7 @@
         text-align: center;
         padding-top: 40px;
         background-size: cover;
-        background-position: center 10px;
+        background-position: center 0;
     }
 
     .contact-here .blank {
@@ -930,6 +931,13 @@
     .carbenz .images-box{
         gap: 30px;
     }
+
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
 }
 
 @media(max-width:767px) {
@@ -941,6 +949,7 @@
         width: 40px;
         height: 40px;
         margin-top: 15px;
+        transform: rotate(90deg) !important;
     }
 
     .featured-slider .content p {
