@@ -612,15 +612,15 @@
     }
 
     .contact-here {
-        background: url(../images/contact/background-4.png) no-repeat;
-        height: 620px;
+        background: url(../images/contact/mobile_background-4.png) no-repeat;
+        height: 886px;
         background-size: 100% 100%;
         width: 100%;
         align-items: start;
         justify-content: start;
         display: block;
         text-align: center;
-        padding-top: 20px;
+        padding-top: 40px;
         background-size: cover;
         background-position: center 10px;
     }
