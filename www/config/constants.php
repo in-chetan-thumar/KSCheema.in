@@ -11,6 +11,11 @@ return [
     'APP_VERSION' => env('APP_VERSION', '1.0'),
     'LOGO_FILE_NAME' => 'logo-dark.png',
     'DEVELOPED_BY' => 'Zero technology',
+    'CONTACT_FORM' => [
+        'TO' => ['kscheema1@mailinator.com', 'kscheema2@mailinator.com'],
+        'CC' => ['1@gmail.com', '2@gmail.com'],
+    ],
+    
     'ATHER' => [
         [
             'name' => 'Ather Space', 

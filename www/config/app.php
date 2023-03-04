@@ -161,7 +161,6 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-        Jenssegers\Agent\AgentServiceProvider::class,
         
 
         /*
@@ -180,6 +179,8 @@ return [
         \App\Providers\HelperServiceProvider::class,
         Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class,
         Buglinjo\LaravelWebp\WebpServiceProvider::class,
+        Jenssegers\Agent\AgentServiceProvider::class,
+        Maatwebsite\Excel\ExcelServiceProvider::class,
 
     ],
 
@@ -242,6 +243,7 @@ return [
         'SEO' => Artesaos\SEOTools\Facades\SEOTools::class,
         'Webp' => Buglinjo\LaravelWebp\Facades\Webp::class,
         'Agent' => Jenssegers\Agent\Facades\Agent::class,
+        'Excel' => Maatwebsite\Excel\Facades\Excel::class,
     ],
 
 ];
