@@ -52,6 +52,9 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/status/{id}', [\App\Http\Controllers\Admin\RoleController::class, 'changeStatus'])->name('role.status');
     // News Controller
     Route::resource("news", \App\Http\Controllers\Admin\NewsController::class);
+    // Contact Controller
+    Route::resource("contacts", \App\Http\Controllers\Admin\ContactController::class);
+    Route::get('export',[ \App\Http\Controllers\Admin\ContactController::class, 'export'])->name('contects.export');
     // Pagelist Controller
     Route::resource('page', \App\Http\Controllers\Admin\PageController::class);
 

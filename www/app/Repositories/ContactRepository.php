@@ -3,17 +3,17 @@
 
 namespace App\Repositories;
 
-use App\Models\News;
+use App\Models\Contact;
 use Illuminate\Support\Facades\DB;
 
-class NewsRepository
+class ContactRepository
 {
     public $model;
 
     /**
      * UserRepository constructor.
      */
-    public function __construct(News $model)
+    public function __construct(Contact $model)
     {
         return $this->model = $model;
     }
@@ -46,7 +46,7 @@ class NewsRepository
     public function renderHtmlTable($params) 
     {
         $tableData = $this->filter($params);
-        return view('admin.news.table', compact('tableData'))->render();
+        return view('admin.contact.table', compact('tableData'))->render();
     }
     public function filter($params)
     {

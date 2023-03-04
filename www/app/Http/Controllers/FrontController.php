@@ -2,11 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contact;
 use App\Models\Page;
 use Artesaos\SEOTools\Facades\SEOTools;
 use Artesaos\SEOTools\Facades\SEOMeta;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
+use App\Mail\ContactMail;
+
 
 class FrontController extends Controller
 {
@@ -56,12 +61,43 @@ class FrontController extends Controller
     }
     public function contactSubmit(Request $request)
     {
-        dd($request->all());
+        $data = $params = [];
+        DB::beginTransaction();
+        // dd($request);
+
+        try {
+            $params['fname'] = $request->fname;
+            $params['lname'] = $request->lname;
+            $params['email'] = $request->email;
+            $params['phone'] = $request->phone;
+            $params['message'] = $request->message;
+
+            $page = Contact::create($params);
+
+            if (!empty($page)) {
+
+                Mail::send(new ContactMail($params));
+
+                $data['error'] = false;
+                toastr()->success('contact submitted successfully!');
+                DB::commit();
+            } else {
+                toastr()->error('Oops! Something went wrong!');
+            }
+            return view('front.thank_you');
+        } catch (\Exception $e) {
+            DB::rollBack();
+            $data['error'] = true;
+            $data['message'] = $e->getMessage();
+            return response()->json($data);
+        }
+        // dd($request->all());
     }
-    public function setSEOMeta(){
-        $content = Page::select('id','title','meta_keywords','meta_description')->whereRouteName(Route::currentRouteName())->first();
-        SEOTools::setTitle(!empty($content->title)?$content->title:'KSCheema', false);
-        SEOTools::setDescription(!empty($content->meta_description)?$content->meta_description:'KSCheema test description');
-        SEOMeta::addKeyword(!empty($content->meta_keywords)?$content->meta_keywords:'KSCheema test keywords');
+    public function setSEOMeta()
+    {
+        $content = Page::select('id', 'title', 'meta_keywords', 'meta_description')->whereRouteName(Route::currentRouteName())->first();
+        SEOTools::setTitle(!empty($content->title) ? $content->title : 'KSCheema', false);
+        SEOTools::setDescription(!empty($content->meta_description) ? $content->meta_description : 'KSCheema test description');
+        SEOMeta::addKeyword(!empty($content->meta_keywords) ? $content->meta_keywords : 'KSCheema test keywords');
     }
 }

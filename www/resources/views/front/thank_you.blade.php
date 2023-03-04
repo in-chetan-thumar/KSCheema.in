@@ -111,32 +111,16 @@
     <div class="container reveal">
         <div class="contact-grup">
             <div class="contact-form">
-                <form method="post" action="{{route('contact.submit')}}">
-                    @csrf
-                    <div class="form-group">
-                        <label for="fname">First Name</label>
-                        <input name="fname" type="text" class="feedback-input" placeholder="John" id="fname">
+                
+                    <div class="jumbotron text-center">
+                        <h1 class="display-3">Thank You!</h1>
+                        <p class="lead"><strong> For Showing Interest...</strong></p>
+                        <hr>
+                        <p class="lead">
+                            <a class="btn btn-primary btn-sm" href="{{route('contact')}}" role="button">Back to Contact</a>
+                        </p>
                     </div>
-                    <div class="form-group">
-                        <label for="lname">Last Name</label>
-                        <input name="lname" type="text" class="feedback-input" placeholder="Doe" id="lname">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email Id</label>
-                        <input name="email" type="text" class="feedback-input" id="email"
-                               placeholder="johndoe@gmail.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="name">Phone (Optional)</label>
-                        <input name="phone" type="number" class="feedback-input" placeholder="" id="name">
-                    </div>
-                    <div class="form-group">
-                        <label for="Message">Message</label>
-                        <textarea name="message" class="feedback-input" id="Message"
-                                  placeholder="Type your Messege"></textarea>
-                    </div>
-                    <button type="submit" class="form-button">Send Details<img src="front/images/contact/Arrow-button.png" alt=""></button>
-                </form>
+                     
             </div>
             <div class="contact-image">
                 <img class="image-1 " src="front/images/contact/image.png" alt="">

@@ -37,6 +37,12 @@
                         <span>News</span>
                     </a>
                 </li>
+                <li>
+                    <a href="{{ route('contacts.index') }}" class="waves-effect">
+                        {{-- <i class="bx bx-home"></i> --}}
+                        <span>Contacts</span>
+                    </a>
+                </li>
                 @can('setting.index')
                     <li class="menu-title">Settings</li>
                     @can('usermanagements.index')
