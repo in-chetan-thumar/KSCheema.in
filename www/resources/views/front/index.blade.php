@@ -15,15 +15,22 @@
                         </div>
                         <div class="images">
                             <img class="img" src="{{asset('front/images/home_page_slider_1.png')}}" alt="mask">
-
                         </div>
                     </div>
                     <div class="owl-item">
                         <div class="heading">
-                            <h1 class="sub-title">A future-ready <br>automobile business</h1>
+                            <h1 class="sub-title">Largest self-owned <br>stone mines in India</h1>
                         </div>
                         <div class="images">
                             <img class="img" src="{{asset('front/images/home_page_slider_2.png')}}" alt="mask">
+                        </div>
+                    </div>
+                    <div class="owl-item">
+                        <div class="heading">
+                            <h1 class="sub-title">A prime destination <br>for luxury real estate</h1>
+                        </div>
+                        <div class="images">
+                            <img class="img" src="{{asset('front/images/home_page_slider_3.png')}}" alt="mask">
                         </div>
                     </div>
                 </div>
@@ -34,7 +41,7 @@
 
     <div class="container our-business-main">
         <div class="our-business-section">
-            <p class="info reveal">A culmination of hard work, ethics, environmentalism, and efficiency over the years has made us a
+            <p class="info">A culmination of hard work, ethics, environmentalism, and efficiency over the years has made us a
                 thriving
                 group
                 of companies,
@@ -54,7 +61,7 @@
                     <p>With a base in over 5 cities in the country and plans of expansion, Garnet Motors deals in top brands
                         of
                         automobiles.</p>
-                    <a href="#" class="link">READ MORE</a>
+                    <a href="{{route('ourcompany')}}" class="link">READ MORE</a>
                 </div>
             </div>
 
@@ -68,7 +75,7 @@
                             <p>Mercedes Benz Central Star</p>
                             <div class="company-content">
                                 <span class="line"></span>
-                                <a href="#" class="link">KNOW MORE</a>
+                                <a href="{{route('mercedes.benz.central.star')}}" class="link">KNOW MORE</a>
                             </div>
                         </div>
                     </div>
@@ -80,7 +87,7 @@
                             <p>Garnet Galaxy Absure Car wale</p>
                             <div class="company-content">
                                 <span class="line"></span>
-                                <a href="#" class="link">KNOW MORE</a>
+                                <a href="{{route('ather')}}" class="link">KNOW MORE</a>
                             </div>
                         </div>
                     </div>
@@ -92,7 +99,7 @@
                             <p>Ather</p>
                             <div class="company-content">
                                 <span class="line"></span>
-                                <a href="#" class="link">KNOW MORE</a>
+                                <a href="{{route('car.wale')}}" class="link">KNOW MORE</a>
                             </div>
                         </div>
                     </div>
@@ -104,7 +111,7 @@
                             <p>Altigreen</p>
                             <div class="company-content">
                                 <span class="line"></span>
-                                <a href="#" class="link">KNOW MORE</a>
+                                <a href="{{route('altigreen')}}" class="link">KNOW MORE</a>
                             </div>
                         </div>
                     </div>
@@ -125,8 +132,9 @@
                     <p>Producing multi-size metals from its world class crushing plant setup in 77 acres of its own mining
                         land
                         near
-                        Butibori in Nagpur ( Vidarbha)</p>
-                    <a href="#" class="link">VISIT WEBSITE</a>
+                        Butibori in Nagpur (Vidarbha).</p>
+                    <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#website_under_development">VISIT WEBSITE</a>
+                    
                 </div>
             </div>
 
@@ -144,7 +152,7 @@
                     <p>A one-stop destination for luxurious commercial and residential properties, Diamond Real Estate
                         caters to
                         high-end and valuable real estate in the city of Nagpur.</p>
-                    <a href="#" class="link">VISIT WEBSITE</a>
+                    <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#website_under_development">VISIT WEBSITE</a>
                 </div>
             </div>
         </div>
@@ -156,60 +164,31 @@
         <div class="owl-carousel featured-slider reveal">
             <div class="owl-stage-outer">
                 <div class="owl-stage">
+                    @foreach (config('constants.MEDIA') as $key => $media)
                     <div class="owl-item">
-                        <div class="image">
-                            <img src="{{asset('front/images/featured-1.png')}}" alt="featured">
-                        </div>
-                        <div class="content">
-                            <p>It is a long established fact that a reader will be distracted</p>
-                            <a href="#" class="link">Read More</a>
-                        </div>
+                        @if($media['type'] == 'article')
+                            <a href="{{ $media['link'] }}" target="_blank">
+                        @else
+                            <a href="{{ route('print', $media['link']) }}"  target="_blank">
+                        @endif
+                            
+                            <div class="image">
+                                <img src="{{asset('front/images/'.$media['web_image'])}}" alt="featured">
+                            </div>
+                        
+                        </a>
+                            <div class="content">
+                                @if($media['type'] == 'article')
+                                    <a href="{{ $media['link'] }}" target="_blank">
+                                @else
+                                    <a href="{{ route('print', $media['link']) }}"  target="_blank">
+                                @endif
+                                <p>{{ $media['title'] }}</p>
+                                Read More
+                                </a>
+                            </div>
                     </div>
-                    <div class="owl-item">
-                        <div class="image">
-                            <img src="{{asset('front/images/featured-2.png')}}" alt="featured">
-                        </div>
-                        <div class="content">
-                            <p>It is a long established fact that a reader will be distracted</p>
-                            <a href="#" class="link">Read More</a>
-                        </div>
-                    </div>
-                    <div class="owl-item">
-                        <div class="image">
-                            <img src="{{asset('front/images/featured-3.png')}}" alt="featured">
-                        </div>
-                        <div class="content">
-                            <p>It is a long established fact that a reader will be distracted</p>
-                            <a href="#" class="link">Read More</a>
-                        </div>
-                    </div>
-                    <div class="owl-item">
-                        <div class="image">
-                            <img src="{{asset('front/images/featured-1.png')}}" alt="featured">
-                        </div>
-                        <div class="content">
-                            <p>It is a long established fact that a reader will be distracted</p>
-                            <a href="#" class="link">Read More</a>
-                        </div>
-                    </div>
-                    <div class="owl-item">
-                        <div class="image">
-                            <img src="{{asset('front/images/featured-2.png')}}" alt="featured">
-                        </div>
-                        <div class="content">
-                            <p>It is a long established fact that a reader will be distracted</p>
-                            <a href="#" class="link">Read More</a>
-                        </div>
-                    </div>
-                    <div class="owl-item">
-                        <div class="image">
-                            <img src="{{asset('front/images/featured-3.png')}}" alt="featured">
-                        </div>
-                        <div class="content">
-                            <p>It is a long established fact that a reader will be distracted</p>
-                            <a href="#" class="link">Read More</a>
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>
@@ -272,19 +251,14 @@
                                 by sustainable practices that make a difference.</p>
                         </div>
                         <div class="tab-pane fade" id="impact" role="tabpanel" aria-labelledby="impact-tab">
-                            <p>Our goal as a thriving group of companies in the country is to inject growth and success into
-                                every
-                                business, brand, and employee journey associated with us. At the same time, we acknowledge our
-                                duty
-                                towards the planet, our home. As a part of that commitment, we make sure that our businesses are
-                                backed
-                                by sustainable practices that make a difference.</p>
+                            <p>We believe that any contribution made to the well-being of the planet can prove to be monumental. By incorporating sustainable practices like electric mobility, solar power, and organic farming into our work, we aim to reduce carbon emissions and pollution, thereby, making a tangible difference in the environment.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 @endsection
 @section('script')
 

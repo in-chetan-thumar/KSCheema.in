@@ -29,6 +29,7 @@ Route::get('/mercedes-benz-central-star', [App\Http\Controllers\FrontController:
 Route::get('/ather', [App\Http\Controllers\FrontController::class, 'ather'])->name('ather');
 Route::get('/car-wale', [App\Http\Controllers\FrontController::class, 'carWale'])->name('car.wale');
 Route::get('/altigreen', [App\Http\Controllers\FrontController::class, 'altigreen'])->name('altigreen');
+Route::get('/print/{print_page}', [App\Http\Controllers\FrontController::class, 'print'])->name('print');
 
 Route::group(['middleware' => 'auth'], function () {
 

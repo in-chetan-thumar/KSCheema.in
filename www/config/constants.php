@@ -46,7 +46,7 @@ return [
             'address' => 'Opp. Transpek Company, Near Squirrel Circle, Kalai road, Baroda 390013, Gujarat.', 
             'phone' => '+91 70690 70748', 
             'know_more' => '#', 
-            'photos' => ['carwale\location1.1.png', 'carwale\location1.2.png', 'carwale\location1.3.png', 'carwale\location1.4.png']
+            'photos' => ['carwale\location1.1.JPG', 'carwale\location1.2.JPG', 'carwale\location1.3.JPG', 'carwale\location1.4.JPG']
         ],
         [
             'name' => 'GARNET GALAXY', 
@@ -54,7 +54,15 @@ return [
             'address' => 'P-11/B, Central MIDC Rd, Hingna, Nagpur, Maharashtra 440028', 
             'phone' => '+91 71042 99095', 
             'know_more' => '#', 
-            'photos' => ['carwale\location1.5.png', 'carwale\location1.6.png', 'carwale\location1.7.png', 'carwale\location1.8.png']
+            'photos' => ['carwale\location2.1.JPG', 'carwale\location2.2.JPG', 'carwale\location2.3.JPG', 'carwale\location2.4.JPG']
+        ],
+        [
+            'name' => 'GARNET GALAXY', 
+            'short_line' => 'Nagpur (Workshop)', 
+            'address' => 'P-11/B, Central MIDC Rd, Hingna, Nagpur, Maharashtra 440028', 
+            'phone' => '+91 71042 99095', 
+            'know_more' => '#', 
+            'photos' => ['carwale\location3.1.JPG', 'carwale\location3.2.JPG', 'carwale\location3.3.JPG', 'carwale\location3.4.JPG']
         ],
     ],
 
@@ -76,7 +84,7 @@ return [
             'address' => 'Plot No C-43/1, Central MIDC Main Road, MIDC Hingna, Nagpur - 440028, India.', 
             'phone' => '+91 92235 40194', 
             'know_more' => '#', 
-            'photos' => ['mercedes-benz\location1.1.JPG', 'mercedes-benz\location1.2.JPG', 'mercedes-benz\location1.3.JPG', 'mercedes-benz\location1.4.JPG', 'mercedes-benz\location1.5.JPG', 'mercedes-benz\location1.6.JPG', 'mercedes-benz\location1.7.JPG', 'mercedes-benz\location1.8.JPG', 'mercedes-benz\location1.9.JPG', 'mercedes-benz\location1.10.JPG', 'mercedes-benz\location1.11.JPG', 'mercedes-benz\location1.12.JPG']
+            'photos' => ['mercedes-benz\location1.1.JPG', 'mercedes-benz\location1.2.JPG', 'mercedes-benz\location1.3.JPG', 'mercedes-benz\location1.4.JPG', 'mercedes-benz\location1.5.JPG']
         ],
         [
             'name' => 'MERCEDES BENZ CENTRAL STAR', 
@@ -84,7 +92,7 @@ return [
             'address' => 'Central Star, Nagpur, Plot No C-40-B, Central MIDC Main Road, MIDC Hingna, Nagpur - 440028, India.', 
             'phone' => '+91 71042 38121', 
             'know_more' => '#', 
-            'photos' => ['mercedes-benz\location2.1.png', 'mercedes-benz\location2.2.png', 'mercedes-benz\location2.3.png', 'mercedes-benz\location2.4.png']
+            'photos' => ['mercedes-benz\location2.1.JPG', 'mercedes-benz\location2.2.JPG', 'mercedes-benz\location2.3.JPG', 'mercedes-benz\location2.4.JPG']
         ],
         [
             'name' => 'MERCEDES BENZ CENTRAL STAR', 
@@ -92,7 +100,7 @@ return [
             'address' => 'Plot No.4, Shanti Sadan Society, Near Parimal Garden, C.G. Road, Ellisbridge, Ahmedabad, Gujarat - 380006.', 
             'phone' => '+91 78787 33555', 
             'know_more' => '#', 
-            'photos' => ['mercedes-benz\location3.1.png', 'mercedes-benz\location3.2.png', 'mercedes-benz\location3.3.png', 'mercedes-benz\location3.4.png', 'mercedes-benz\location3.5.png']
+            'photos' => ['mercedes-benz\location3.1.JPG', 'mercedes-benz\location3.2.JPG', 'mercedes-benz\location3.3.JPG', 'mercedes-benz\location3.4.JPG', 'mercedes-benz\location3.5.JPG', 'mercedes-benz\location3.6.JPG']
         ],
         [
             'name' => 'MERCEDES BENZ CENTRAL STAR', 
@@ -100,7 +108,7 @@ return [
             'address' => 'Reegus Business Center, New City light Road, New Tirumala, Near.Bharthana, BRTS Station, Surat, Gujarat – 395007.', 
             'phone' => '+91 78786 33555', 
             'know_more' => '#', 
-            'photos' => ['mercedes-benz\location4.1.png', 'mercedes-benz\location4.2.png', 'mercedes-benz\location4.3.png', 'mercedes-benz\location4.4.png']
+            'photos' => ['mercedes-benz\location4.1.JPG', 'mercedes-benz\location4.2.JPG', 'mercedes-benz\location4.3.JPG', 'mercedes-benz\location4.4.JPG']
         ],
         [
             'name' => 'MERCEDES BENZ CENTRAL STAR', 
@@ -108,8 +116,137 @@ return [
             'address' => 'Plot No A/29, Maruti Industrial Estate, Opposite BRC Colony, Near Daxeshwar Mahadev Temple, Surat - 394221.', 
             'phone' => '+91 78786 33555', 
             'know_more' => '#', 
-            'photos' => ['mercedes-benz\location4.1.png', 'mercedes-benz\location4.2.png', 'mercedes-benz\location4.3.png', 'mercedes-benz\location4.4.png']
+            'photos' => ['mercedes-benz\location5.1.JPG', 'mercedes-benz\location5.2.JPG', 'mercedes-benz\location5.3.JPG', 'mercedes-benz\location5.4.JPG']
         ],
     ],
     
+    'MEDIA' => [
+        [
+            'web_image' => 'articles/article-1.png',
+            'mobile_image' => 'articles/article-1-mobile.png',
+            'title' => 'Altigreen EV inaugurates its first dealership in Ahmedabad, Seventh outlet in India',
+            'description' => 'Altigreen EV has inaugurated its first retail outlet in Ahmedabad, Gujarat. This is the company’s seventh dealership launch in India within a span of two months.',
+            'date' => '11 Nov 2022',
+            'link' => 'https://www.financialexpress.com/express-mobility/altigreen-ev-inaugurates-its-first-dealership-in-ahmedabad-seventh-outlet-in-india/2805344/',
+            'type' => 'article',
+        ],
+        [
+            'web_image' => 'articles/article-2.png',
+            'mobile_image' => 'articles/article-2-mobile.png',
+            'title' => 'K S Cheema Group of Companies expands its wings in Gujarat',
+            'description' => 'After successful forays into real estate, automobile, mining and crushing sector in Maharashtra, city based K S Cheema Group of Companies has expanded its wings in Gujarat.',
+            'date' => '26 Nov 2020',
+            'link' => 'https://www.thehitavada.com/Encyc/2020/11/26/K-S-Cheema-Group-of-Companies-expands-its-wings-in-Gujarat.html',
+            'type' => 'article',
+        ],
+        [
+            'web_image' => 'articles/article-3.png',
+            'mobile_image' => 'articles/article-3-mobile.png',
+            'title' => 'K S Metals & Mining Crushing Plant now operational',
+            'description' => 'K S Metals & Mining Industries Private Limited, a group company of K S Cheema Group, has inaugurated it Algondi Mining and Crushing unit on Sunday in a simple ceremony after recitation of "Sukhmani Sahib Path" followed by "Ardas" for the wellbeing of all and "Guru ka Langar".',
+            'date' => '11 Nov 2022',
+            'link' => 'https://www.thehitavada.com/Encyc/2020/10/27/K-S-Metals-Mining-Crushing-Plant-now-operational.html',
+            'type' => 'article',
+        ],
+        [
+            'web_image' => 'articles/article-4.png',
+            'mobile_image' => 'articles/article-4-mobile.png',
+            'title' => 'Nagpur offers huge biz opportunities: K S Cheema',
+            'description' => 'K S Cheema, Chairman and Managing Director of Central Star, dealership of Mercedes-Benz and Garnet Motors (India) Pvt. Ltd said, “Nagpur city offers great business opportunities, that’s why I have selected and decided to settle in Nagpur finally.”',
+            'date' => '29 Nov 2019',
+            'link' => 'https://www.thehitavada.com/Encyc/2019/11/28/Nagpur-offers-huge-biz-opportunities-K-S-Cheema.html',
+            'type' => 'article',
+        ],
+        [
+            'web_image' => 'articles/article-5.png',
+            'mobile_image' => 'articles/article-5-mobile.png',
+            'title' => 'K S Metals & Mining to take over UltraTech crushing plant',
+            'description' => 'City-based company K S Metals and Mining Pvt Ltd is in process of taking over UltraTech crushing and mining plant at Algandhi, near Butibori.',
+            'date' => '29 Nov 2019',
+            'link' => 'https://www.thehitavada.com/Encyc/2019/11/28/K-S-Metals-Mining-to-take-over-UltraTech-crushing-plant.html',
+            'type' => 'article',
+        ],
+        [
+            'web_image' => 'articles/article-6.png',
+            'mobile_image' => 'articles/article-5-mobile.png',
+            'title' => 'Mercedes-Benz India opens two new showrooms in Nagpur',
+            'description' => 'Mercedes-Benz opens two new showrooms in Nagpur with its newest partner Garnet Motors, celebrating 25th anniversary in India',
+            'date' => '24 Apr 2019',
+            'link' => 'https://www.autocarpro.in/news-national/mercedesbenz-india-opens-two-new-showrooms-in-nagpur-42812',
+            'type' => 'article',
+        ],
+        [
+            'web_image' => 'articles/print/print-1-web.png',
+            'mobile_image' => 'articles/print/print-1-mobile.png',
+            'title' => 'NRi of Powai Bags Hind Ratna Award',
+            'description' => '',
+            'date' => '11 Nov 2022',
+            'link' => 'print-1',
+            'type' => 'print',
+        ],
+        [
+            'web_image' => 'articles/print/print-2-web.png',
+            'mobile_image' => 'articles/print/print-2-mobile.png',
+            'title' => 'Cheema ne kiya desh ka naam roshan',
+            'description' => '',
+            'date' => '11 Nov 2022',
+            'link' => 'print-2',
+            'type' => 'print',
+        ],
+        [
+            'web_image' => 'articles/print/print-3-web.png',
+            'mobile_image' => 'articles/print-3-mobile.png',
+            'title' => 'Manzil unhi ko milti hai, jinke kadmo me jaan ho',
+            'description' => '',
+            'date' => '11 Nov 2022',
+            'link' => 'print-3',
+            'type' => 'print',
+        ],
+        [
+            'web_image' => 'articles/print/print-4-web.png',
+            'mobile_image' => 'articles/print/print-4-mobile.png',
+            'title' => 'Naming ceremony held for new tanker chartered to oman methanol',
+            'description' => '',
+            'date' => '11 Nov 2022',
+            'link' => 'print-4',
+            'type' => 'print',
+        ],
+        [
+            'web_image' => 'articles/print/print-5-web.png',
+            'mobile_image' => 'articles/print/print-5-mobile.png',
+            'title' => 'Jog for focus',
+            'description' => '',
+            'date' => '11 Nov 2022',
+            'link' => 'print-5',
+            'type' => 'print',
+        ],
+        [
+            'web_image' => 'articles/print/print-6-web.png',
+            'mobile_image' => 'articles/print/print-6-mobile.png',
+            'title' => 'Mumbai real estate may slump further',
+            'description' => '',
+            'date' => '11 Nov 2022',
+            'link' => 'print-6',
+            'type' => 'print',
+        ],
+        [
+            'web_image' => 'articles/print/print-7-web.png',
+            'mobile_image' => 'articles/print/print-7-mobile.png',
+            'title' => 'Karnataka Govt. descision puts Binny in a bind',
+            'description' => '',
+            'date' => '11 Nov 2022',
+            'link' => 'print-7',
+            'type' => 'print',
+        ],
+        [
+            'web_image' => 'articles/print/print-8-web.png',
+            'mobile_image' => 'articles/print/print-8-mobile.png',
+            'title' => 'Legal Eagle',
+            'description' => '',
+            'date' => '11 Nov 2022',
+            'link' => 'print-8',
+            'type' => 'print',
+        ],
+        
+    ]
 ];

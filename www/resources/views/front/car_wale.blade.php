@@ -27,7 +27,7 @@
                             <img src="front/images/companies/{{ $location_detail['photos'][0] }}" alt="car">
                             <img src="front/images/companies/{{ $location_detail['photos'][1] }}" alt="car">
                         </div>
-                        <div class="images-box box-2" data-bs-toggle="modal" data-bs-target="#cardekho">
+                        <div class="images-box box-2" data-bs-toggle="modal" data-bs-target="#cardekho{{ $key }}">
                             <img src="front/images/companies/{{ $location_detail['photos'][2] }}" alt="car">
                             <img src="front/images/companies/{{ $location_detail['photos'][3] }}" alt="car">
                         </div>
@@ -35,7 +35,7 @@
                         $photo_count = sizeof($location_detail['photos']);
                         @endphp
                         @if($photo_count > 4)
-                            <div class="images-counter-galler"> +{{ $photo_count }} Images</div>
+                            <div class="images-counter-galler"> +{{ $photo_count - 4 }} Images</div>
                         @endif
                     </div>
                     <div class="owl-carousel images-group-mobile  owl-theme">
@@ -51,7 +51,7 @@
                         </div>
                         <p>{{ $location_detail['address'] }}</p>
                         <a class="phone-no" href="tel:{{ $location_detail['phone'] }}">Tel: {{ $location_detail['phone'] }}</a>
-                        <a href="{{ $location_detail['phone'] }}" class="know-more-button">
+                        <a href="https://www.carwale.com/" class="know-more-button" target="_blank">
                             <span class="icon"> <img src="front/images/benz-option/global.png" alt="global">
                             </span>
                             <span class="text">know More</span>
@@ -63,8 +63,8 @@
     @endforeach
 
     @foreach (config('constants.CARWALE') as $key => $location_detail)
-        <div class="modal fade" id="cardekho{{ $key }}" tabindex="-1" aria-labelledby="cardekho{{ $key }}" aria-hidden="true">
-            <div class="modal-dialog">
+        <div class="modal fade cardekho" id="cardekho{{ $key }}" tabindex="-1" aria-labelledby="cardekho{{ $key }}" aria-hidden="true">
+            <div class="modal-dialog model-xl">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>

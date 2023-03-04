@@ -42,7 +42,7 @@
                             progress.</p>
                         <h4>MISSION :</h4>
                         <p>Our sole mission is to be a one-stop destination for automobile sales and services, and an
-                            organisation with substance committed to delivering smiles to our stakeholders and customers
+                            organisation with substance committed to delivering smiles to our stakeholders and customers.
                         </p>
                     </div>
                     <div class="mobile-content">
@@ -130,7 +130,7 @@
                         </div>
                         <p>K S Metal produces the best quality metals (Crushed sand and metals from 6mm-8mm sizes) complying with all rules and regulations, using solar power. (Green energy)</p>
                         <div class="brands-know-button">
-                            <a href="#">VISIT WEBSITE</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#website_under_development">VISIT WEBSITE</a>
                         </div>
                     </div>
                 </div>
@@ -149,7 +149,7 @@
                         </div>
                         <p>A one-stop destination for luxury real estate, Diamond Estate boasts high-end and valuable properties.</p>
                         <div class="brands-know-button">
-                            <a href="#">VISIT WEBSITE</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#website_under_development">VISIT WEBSITE</a>
                         </div>
                     </div>
                 </div>

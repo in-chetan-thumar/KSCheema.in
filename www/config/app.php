@@ -161,6 +161,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        Jenssegers\Agent\AgentServiceProvider::class,
         
 
         /*
@@ -240,6 +241,7 @@ return [
         'JsonLdMulti'   => Artesaos\SEOTools\Facades\JsonLdMulti::class,
         'SEO' => Artesaos\SEOTools\Facades\SEOTools::class,
         'Webp' => Buglinjo\LaravelWebp\Facades\Webp::class,
+        'Agent' => Jenssegers\Agent\Facades\Agent::class,
     ],
 
 ];
