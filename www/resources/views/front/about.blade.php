@@ -45,7 +45,10 @@
                 <div>
                     <div class="our-journey-slider">
                         <div class="swiper-wrapper">
-                            
+                            <div class="swiper-slide our_journey_extra" data-imageurl="">
+                                <h3 class="year"></h3>
+                                <p class="content"><br><br></p>
+                            </div>
                             <div class="swiper-slide" data-imageurl="{{asset('front/images/aboutus/Our_Journey_2012.png')}}">
                                 <h3 class="year">2012</h3>
                                 <p class="content">With a vision of optimizing his worldwide exposure, experience and knowledge, Mr KS Cheema started his entrepreneurial journey in 2012 with a real estate project in Nagpur, K K A Lifestyle through an entity, K K Associates Builders & Developers with professional partners.<br><br>
