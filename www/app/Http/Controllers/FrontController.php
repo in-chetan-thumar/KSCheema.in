@@ -7,6 +7,7 @@ use Artesaos\SEOTools\Facades\SEOTools;
 use Artesaos\SEOTools\Facades\SEOMeta;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Jenssegers\Agent\Agent;
 
 class FrontController extends Controller
 {
@@ -18,9 +19,11 @@ class FrontController extends Controller
     }
     public function about()
     {
+        $agent = new Agent();
+
         $this->setSEOMeta();
         // app('common-helper')->getSEOMeta();
-        return view('front.about');
+        return view('front.about', compact('agent'));
     }
     public function ourCompany()
     {
