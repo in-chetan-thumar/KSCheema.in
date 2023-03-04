@@ -12,21 +12,23 @@
     <div class="artical-section">
         <div class="artical-top">
             <div class="container d-flex justify-content-between">
-                <div class="swiper-prev d-flex gap-3 align-items-center">
-                    <a href="{{ route('print', 'print-7') }}">    
-                        <div class="swiper-button-prev slide-button">
-                            <img src="{{asset('front/images/aboutus/down-arrow.png')}}" alt="arrow">
-                        </div>
-                    </a>
+            <div class="prev_page">
+                    <a href="{{ route('print', 'print-7') }}">
+                    <div class="prev_page_img">
+                        <img src="{{asset('front/images/aboutus/down-arrow.png')}}" alt="arrow">
+                    </div>
                     <span>Prev  Article</span>
+                    </a>
                 </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-next  d-flex gap-3 align-items-center">
-                    <span>Next  Article</span>
-                    <div class="swiper-button-next slide-button">
+                <div class="next_page">
+                    <a href="#">
+                    <div class="next_page_img">
                         <img src="{{asset('front/images/aboutus/up-arrow.png')}}" alt="arrow">
                     </div>
+                    <span>Prev  Article</span>
+                    </a>
                 </div>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
         <div class="container artical-slider-main">
@@ -36,7 +38,6 @@
                         <img src="{{asset('front/images/articles/print/8.png')}}" alt="artical">
                     </div>          
                 </div>
-                
             </div>
         </div>
     </div>
