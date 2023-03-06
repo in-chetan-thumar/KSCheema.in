@@ -6,12 +6,12 @@
 <script>
     // Initialize and add the map
     function initMap() {
-        var location1 = {lat: 21.1424934, lng: 79.0038316};
-        var location2 = {lat: 21.1424934, lng: 79.0038316};
-        var location3 = {lat: 21.1424934, lng: 79.0038316};
-        var location4 = {lat: 21.1424934, lng: 79.0038316};
-        var location5 = {lat: 21.1424934, lng: 79.0038316};
-        var location6 = {lat: 21.1424934, lng: 79.0038316};
+        var location1 = {lat: 21.114111, lng: 78.981117};
+        var location2 = {lat: 21.114110, lng: 78.981120};
+        var location3 = {lat: 21.114111, lng: 78.981117};
+        var location4 = {lat: 21.14631, lng: 79.08491};
+        var location5 = {lat: 21.114111, lng: 78.981117};
+        var location6 = {lat: 21.114110, lng: 78.981120};
 
 
         var mapOptions1 = {
