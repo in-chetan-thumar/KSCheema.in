@@ -27,65 +27,62 @@
     <div class="our-companies-map-slider ">
         <h2>OUR COMPANIES</h2>
         <div class="owl-carousel map-section owl-theme">
-            <div class="item">
-                <div class="map-sectopn-box">
-                    <h3>Nagpur <span>(Showroom)</span></h3>
-                    <p>C-43/1, Central MIDC Rd, Hingna, Nagpur, Maharashtra 440028</p>
-                    <a href="tel:+917104238121">7104238121/41</a>
-                    <div id="map1" style="width: 280px;height:380px">
+            @foreach (config('constants.MERCEDES_BENZ') as $key => $location_detail)
+                <div class="item">
+                    <div class="map-sectopn-box">
+                        <div class="contact-location-block">
+                            <h3> {{ $location_detail['name'] }}</h3>
+                            <h4> {{ $location_detail['short_line'] }} {{ $location_detail['location_type'] }}</h4>
+                            <p>{{ $location_detail['address'] }}</p>
+                        </div>
+                        <a href="tel:+{{ $location_detail['phone'] }}">{{ $location_detail['phone'] }}</a>
+                        <div id="map{{ $key}}" style="width: 280px;height:380px"></div>
+                    </div>
+                </div>
+            @endforeach
 
+            @foreach (config('constants.ATHER') as $key => $location_detail)
+                <div class="item">
+                    <div class="map-sectopn-box">                        
+                        <div class="contact-location-block">
+                            <h3> {{ $location_detail['name'] }}</h3>
+                            <h4> {{ $location_detail['short_line'] }} {{ $location_detail['location_type'] }}</h4>
+                            <p>{{ $location_detail['address'] }}</p>
+                        </div>
+                        <a href="tel:+{{ $location_detail['phone'] }}">{{ $location_detail['phone'] }}</a>
+                        <div id="map{{ $key + count(config('constants.MERCEDES_BENZ')) }}" style="width: 280px;height:380px"></div>
                     </div>
                 </div>
-            </div>
-            <div class="item">
-                <div class="map-sectopn-box">
-                    <h3>Nagpur <span>(Workshop)</span></h3>
-                    <p>C-40/B, Central MIDC Rd, Hingna, Nagpur, Maharashtra 440028</p>
-                    <a href="tel:+917104238183">7104238183</a>
-                    <div id="map2" style="width: 280px;height:380px">
+            @endforeach
 
+            @foreach (config('constants.CARWALE') as $key => $location_detail)
+                <div class="item">
+                    <div class="map-sectopn-box">
+                        <div class="contact-location-block">
+                            <h3> {{ $location_detail['name'] }}</h3>
+                            <h4> {{ $location_detail['short_line'] }} {{ $location_detail['location_type'] }}</h4>
+                            <p>{{ $location_detail['address'] }}</p>
+                        </div>
+                        <a href="tel:+{{ $location_detail['phone'] }}">{{ $location_detail['phone'] }}</a>
+                        <div id="map{{ $key + count(config('constants.MERCEDES_BENZ')) + count(config('constants.ATHER')) }}" style="width: 280px;height:380px"></div>
                     </div>
                 </div>
-            </div>
-            <div class="item">
-                <div class="map-sectopn-box">
-                    <h3>Nagpur <span>(Showroom)</span></h3>
-                    <p>P-11/B, Central MIDC Rd, Hingna, Nagpur, Maharashtra 440028</p>
-                    <a href="tel:+917104299095">7104299095</a>
-                    <div id="map3" style="width: 280px;height:380px">
+            @endforeach
 
+            @foreach (config('constants.ALTIGREEN') as $key => $location_detail)
+                <div class="item">
+                    <div class="map-sectopn-box">
+                        <div class="contact-location-block">
+                            <h3> {{ $location_detail['name'] }}</h3>
+                            <h4> {{ $location_detail['short_line'] }} {{ $location_detail['location_type'] }}</h4>
+                            <p>{{ $location_detail['address'] }}</p>
+                        </div>
+                        <a href="tel:+{{ $location_detail['phone'] }}">{{ $location_detail['phone'] }}</a>
+                        <div id="map{{ $key + count(config('constants.MERCEDES_BENZ')) + count(config('constants.ATHER')) + count(config('constants.CARWALE'))  }}" style="width: 280px;height:380px"></div>
                     </div>
                 </div>
-            </div>
-            <div class="item">
-                <div class="map-sectopn-box">
-                    <h3>Nagpur <span>(Workshop)</span></h3>
-                    <p>E-18, Central MIDC Rd, Hingna, Nagpur, Maharashtra 440028</p>
-                    <a href="tel:+917104299148">7104299148</a>
-                    <div id="map4" style="width: 280px;height:380px">
+            @endforeach
 
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="map-sectopn-box">
-                    <h3>Nagpur <span>(Showroom)</span></h3>
-                    <p>C-43/1, Central MIDC Rd, Hingna, Nagpur, Maharashtra 440028</p>
-                    <a href="tel:+917104238121">7104238121/41</a>
-                    <div id="map5" style="width: 280px;height:380px">
-
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="map-sectopn-box">
-                    <h3>Nagpur <span>(Workshop)</span></h3>
-                    <p>C-40/B, Central MIDC Rd, Hingna, Nagpur, Maharashtra 440028</p>
-                    <a href="tel:+917104238183">7104238183</a>
-                    <div id="map6" style="width: 280px;height:380px">
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 
@@ -129,4 +126,6 @@
 
 @endsection
 @section('script')
+
+
 @endsection

@@ -45,7 +45,7 @@
                     </div>
                     <div class="benz-gallary-contect">
                         <h2 class="title">{{ $location_detail['name'] }} </h2>
-                        <h3 class="sub-title">{{ $location_detail['short_line'] }}</h3>
+                        <h3 class="sub-title">{{ $location_detail['short_line'] }} {{ $location_detail['location_type'] }}</h3>
                         <div class="benz-line">
                             <p class="contact">Contact</p>
                         </div>

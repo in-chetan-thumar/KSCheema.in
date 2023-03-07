@@ -4,60 +4,64 @@
 <script src="{{asset('front/js/owl.carousel.js')}}"></script>
 <script src="{{asset('front/js/script.js')}}"></script>
 <script>
+    
     // Initialize and add the map
     function initMap() {
-        var location1 = {lat: 21.114111, lng: 78.981117};
-        var location2 = {lat: 21.114110, lng: 78.981120};
-        var location3 = {lat: 21.114111, lng: 78.981117};
-        var location4 = {lat: 21.14631, lng: 79.08491};
-        var location5 = {lat: 21.114111, lng: 78.981117};
-        var location6 = {lat: 21.114110, lng: 78.981120};
+
+        var location0 = {lat: 21.114110, lng: 78.981120};
+        var location1 = {lat: 21.114110, lng: 78.981120};
+        var location2 = {lat: 23.018440, lng: 72.558670};
+        var location3 = {lat: 21.156350, lng: 72.797200};
+        var location4 = {lat: 22.26421000000005, lng: 70.82495000000006};
+        var location5 = {lat: 19.091090, lng: 72.902340};
+        var location6 = {lat: 28.669070, lng: 77.345100};
+        var location7 = {lat: 19.099919, lng: 73.006169};
+        var location8 = {lat: 22.320150, lng: 73.199100};
+        var location9 = {lat: 21.114110, lng: 78.981120};
+        var location10 = {lat: 21.114110, lng: 78.981120};
+        var location11 = {lat: 22.961670, lng: 72.475800};
 
 
-        var mapOptions1 = {
-            zoom: 17,
-            center: location1
-        }
+        var mapOptions0 = { zoom: 17, center: location0}
+        var mapOptions1 = { zoom: 17, center: location1}
+        var mapOptions2 = { zoom: 17, center: location2}
+        var mapOptions3 = { zoom: 17, center: location3}
+        var mapOptions4 = { zoom: 17, center: location4}
+        var mapOptions5 = { zoom: 17, center: location5}
+        var mapOptions6 = { zoom: 17, center: location6}
+        var mapOptions7 = { zoom: 17, center: location7}
+        var mapOptions8 = { zoom: 17, center: location8}
+        var mapOptions9 = { zoom: 17, center: location9}
+        var mapOptions10 = { zoom: 17, center: location10}
+        var mapOptions11 = { zoom: 17, center: location11}
 
-        var mapOptions2 = {
-            zoom: 17,
-            center: location2
-        }
-
-        var mapOptions3 = {
-            zoom: 17,
-            center: location3
-        }
-
-        var mapOptions4 = {
-            zoom: 17,
-            center: location4
-        }
-
-        var mapOptions5 = {
-            zoom: 17,
-            center: location5
-        }
-
-        var mapOptions6 = {
-            zoom: 17,
-            center: location6
-        }
-
+        map0 = new google.maps.Map(document.getElementById('map0'), mapOptions0);
         map1 = new google.maps.Map(document.getElementById('map1'), mapOptions1);
         map2 = new google.maps.Map(document.getElementById('map2'), mapOptions2);
         map3 = new google.maps.Map(document.getElementById('map3'), mapOptions3);
         map4 = new google.maps.Map(document.getElementById('map4'), mapOptions4);
         map5 = new google.maps.Map(document.getElementById('map5'), mapOptions5);
         map6 = new google.maps.Map(document.getElementById('map6'), mapOptions6);
+        map7 = new google.maps.Map(document.getElementById('map7'), mapOptions7);
+        map8 = new google.maps.Map(document.getElementById('map8'), mapOptions8);
+        map9 = new google.maps.Map(document.getElementById('map9'), mapOptions9);
+        map10 = new google.maps.Map(document.getElementById('map10'), mapOptions10);
+        map11 = new google.maps.Map(document.getElementById('map11'), mapOptions11);
 
 
+
+        addMarker(location0, map0);
         addMarker(location1, map1);
         addMarker(location2, map2);
         addMarker(location3, map3);
         addMarker(location4, map4);
         addMarker(location5, map5);
         addMarker(location6, map6);
+        addMarker(location7, map7);
+        addMarker(location8, map8);
+        addMarker(location9, map9);
+        addMarker(location10, map10);
+        addMarker(location11, map11);
     }
 
     // Adds a marker to the map.

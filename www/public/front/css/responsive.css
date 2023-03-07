@@ -120,6 +120,10 @@
         min-height: unset;
         max-height: unset;
     }
+
+    .contact-location-block {
+        min-height: 230px;
+    }
 }
 
 @media(max-width:768px) {
@@ -938,6 +942,12 @@
         height: 200px;
         object-fit: cover;
     }
+    .owl-carousel .owl-stage{
+        width: max-content !important;
+    }
+    .owl-carousel .owl-item {
+        width: 280px !important;
+    }
 }
 
 @media(max-width:767px) {
@@ -993,6 +1003,9 @@
 
     .companies-contect .title::before {
         bottom: 0;
+    }
+    .contact-location-block {
+        min-height: 210px;
     }
 
 }
