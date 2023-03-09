@@ -11,14 +11,6 @@
                 <div class="owl-stage">
                     <div class="owl-item">
                         <div class="heading">
-                            <h1 class="sub-title">A future-ready <br>automobile business</h1>
-                        </div>
-                        <div class="images">
-                            <img class="img" src="{{asset('front/images/home_page_slider_1.png')}}" alt="mask">
-                        </div>
-                    </div>
-                    <div class="owl-item">
-                        <div class="heading">
                             <h1 class="sub-title">Largest self-owned <br>stone mines in India</h1>
                         </div>
                         <div class="images">
@@ -31,6 +23,14 @@
                         </div>
                         <div class="images">
                             <img class="img" src="{{asset('front/images/home_page_slider_3.png')}}" alt="mask">
+                        </div>
+                    </div>
+                    <div class="owl-item">
+                        <div class="heading">
+                            <h1 class="sub-title">A future-ready <br>automobile business</h1>
+                        </div>
+                        <div class="images">
+                            <img class="img" src="{{asset('front/images/home_page_slider_1.png')}}" alt="mask">
                         </div>
                     </div>
                 </div>
