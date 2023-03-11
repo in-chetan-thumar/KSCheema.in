@@ -2,7 +2,12 @@
 <script src="{{asset('front/js/bootstrap.min.js')}}"></script>
 <script src="{{asset('front/js/swiper-bundle.min.js')}}"></script>
 <script src="{{asset('front/js/owl.carousel.js')}}"></script>
-<script src="{{asset('front/js/script.js')}}"></script>
+@if(Session::get('device_type', 'web') == 'web')
+    <script src="{{asset('front/js/script.js')}}"></script>
+@else
+    <script src="{{asset('front/js/script_mobile.js')}}"></script>
+@endif
+@dd(Session::get('device_type'))
 <script>
     
     // Initialize and add the map

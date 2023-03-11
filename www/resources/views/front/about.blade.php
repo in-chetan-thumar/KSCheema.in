@@ -45,7 +45,7 @@
                 <div>
                     <div class="our-journey-slider">
                         <div class="swiper-wrapper">
-                            @if(!$agent->isMobile() AND !$agent->isTablet())
+                            @if(Session::get('device_type') == 'web')
                             <div class="swiper-slide our_journey_extra" data-imageurl="">
                                 <h3 class="year"></h3>
                                 <p class="content"><br><br></p>
@@ -86,7 +86,7 @@
                                     3. Opened the first Altigreen 3S dealership in Ahmedabad that deals in electric commercial vehicles.
                                 </p>
                             </div>
-                            @if(!$agent->isMobile() AND !$agent->isTablet())
+                            @if(Session::get('device_type') == 'web')
                             <div class="swiper-slide our_journey_extra" data-imageurl="">
                                 <h3 class="year"></h3>
                                 <p class="content"><br><br>

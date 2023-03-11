@@ -13,8 +13,23 @@ use Illuminate\Support\Facades\Route;
 use App\Mail\ContactMail;
 use Jenssegers\Agent\Agent;
 
+use Session;
+
 class FrontController extends Controller
 {
+    public function __construct()
+    {
+        $agent = new Agent();
+        $device_type = "web";
+        if($agent->isMobile())
+            $device_type = "mobile"; 
+        if($agent->isTablet())
+            $device_type = "tablet";
+
+            //dd($device_type);
+        Session::put('device_type', $device_type);
+    }
+
     public function index()
     {
         $this->setSEOMeta();
@@ -24,10 +39,17 @@ class FrontController extends Controller
     public function about()
     {
         $agent = new Agent();
+        $device_type = "web";
+        if($agent->isMobile())
+            $device_type = "mobile"; 
+        if($agent->isTablet())
+            $device_type = "tablet";
 
+            //dd($device_type);
+        Session::put('device_type', $device_type);
         $this->setSEOMeta();
         // app('common-helper')->getSEOMeta();
-        return view('front.about', compact('agent'));
+        return view('front.about');
     }
     public function ourCompany()
     {
