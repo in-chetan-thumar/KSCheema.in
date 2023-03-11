@@ -94,7 +94,7 @@
                                     <a href="{{ $media['link'] }}" target="_blank">Read More <span><img src="front/images/benz-option/right-arrow.png"
                                                                 alt="arrow"></span></a>
                                 @else
-                                    <a href="{{ route('print', $media['link']) }}" target="_blank">Read More <span><img src="front/images/benz-option/right-arrow.png"
+                                    <a href="{{ route('print', $key + 1) }}" target="_blank">Read More <span><img src="front/images/benz-option/right-arrow.png"
                                                                 alt="arrow"></span></a>
                                 @endif
                             </div>

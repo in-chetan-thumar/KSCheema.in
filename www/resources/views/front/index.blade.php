@@ -164,29 +164,35 @@
         <div class="owl-carousel featured-slider reveal">
             <div class="owl-stage-outer">
                 <div class="owl-stage">
-                    @foreach (config('constants.MEDIA') as $key => $media)
+                    @foreach (config('constants.MEDIA')['ARTICLE'] as $key => $media)
                     <div class="owl-item">
-                        @if($media['type'] == 'article')
-                            <a href="{{ $media['link'] }}" target="_blank">
-                        @else
-                            <a href="{{ route('print', $media['link']) }}"  target="_blank">
-                        @endif
-                            
+                        <a href="{{ $media['link'] }}" target="_blank">
                             <div class="image">
                                 <img src="{{asset('front/images/'.$media['web_image'])}}" alt="featured">
                             </div>
-                        
                         </a>
-                            <div class="content">
-                                @if($media['type'] == 'article')
-                                    <a href="{{ $media['link'] }}" target="_blank">
-                                @else
-                                    <a href="{{ route('print', $media['link']) }}"  target="_blank">
-                                @endif
+                        <div class="content">
+                            <a href="{{ $media['link'] }}" target="_blank">
                                 <p>{{ $media['title'] }}</p>
                                 Read More
-                                </a>
+                            </a>
+                        </div>
+                    </div>
+                    @endforeach
+
+                    @foreach (config('constants.MEDIA')['PRINT'] as $key => $media)
+                    <div class="owl-item">
+                        <a href="{{ route('print', $media['link']) }}"  target="_blank">
+                            <div class="image">
+                                <img src="{{asset('front/images/'.$media['web_image'])}}" alt="featured">
                             </div>
+                        </a>
+                        <div class="content">
+                            <a href="{{ route('print', $key + 1) }}">
+                                <p>{{ $media['title'] }}</p>
+                                Read More
+                            </a>
+                        </div>
                     </div>
                     @endforeach
                 </div>

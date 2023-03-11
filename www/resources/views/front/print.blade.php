@@ -14,10 +14,10 @@
                 <div class="detail">
                     <h1>{{ config('constants.MEDIA')['PRINT'][$print_page - 1]['title'] }}</h1>
                 </div>
-                <div class="date">
+                <!-- <div class="date">
                     <img src="{{asset('front/images//media/Icon.png')}}" alt="icon">
                     <p>{{ config('constants.MEDIA')['PRINT'][$print_page - 1]['date'] }}</p>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
