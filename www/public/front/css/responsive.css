@@ -944,10 +944,10 @@
     }
     .owl-carousel .owl-stage{
         width: max-content !important;
-    }
+    }/* 
     .owl-carousel .owl-item {
         width: 280px !important;
-    }
+    } */
 }
 
 @media(max-width:767px) {

@@ -7,7 +7,7 @@
 @else
     <script src="{{asset('front/js/script_mobile.js')}}"></script>
 @endif
-@dd(Session::get('device_type'))
+
 <script>
     
     // Initialize and add the map
