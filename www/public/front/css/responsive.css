@@ -241,6 +241,7 @@
 
     .image-tab .tab .tablist {
         margin: 0 auto;
+        flex-wrap: inherit;
     }
 
     .image-tab .tab .disc {
@@ -948,6 +949,10 @@
     .owl-carousel .owl-item {
         width: 280px !important;
     } */
+
+    .image-tab .tab .tablist .nav-link {
+        padding: 8px 23px;
+    }
 }
 
 @media(max-width:767px) {
@@ -1005,7 +1010,7 @@
         bottom: 0;
     }
     .contact-location-block {
-        min-height: 210px;
+        min-height: 160px;
     }
 
 }

@@ -21,9 +21,13 @@
         <div class="container">
             <div class="latest-news-inner">
                 
-                @foreach (config('constants.MEDIA') as $key => $media)
+                @foreach (config('constants.MEDIA')['ARTICLE'] as $key => $media)
 
-                    <div class="latest-news-box">
+                    @if($key > 3)
+                        <div class="latest-news-box hide_media" style="display:none">
+                    @else
+                        <div class="latest-news-box ">
+                    @endif
                         <div class="images-box">
                             <div class="img-destop">
                                 <img src="front/images/{{$media['web_image']}}" alt="news">
@@ -54,7 +58,48 @@
                             </div>
                         </div>
                     </div>
-                    
+
+                    @if($key == 3)
+                        <div id="media_view_all">
+                            <div class="lat-read-more-button">
+                                <a href="javascript:void(0)">View All<span><img src="front/images/benz-option/right-arrow.png" alt="arrow"></span></a>
+                            </div>
+                        </div>
+                    @endif
+                @endforeach
+                @foreach (config('constants.MEDIA')['PRINT'] as $key => $media)
+
+                    <div class="latest-news-box hide_media" style="display:none">
+                        <div class="images-box">
+                            <div class="img-destop">
+                                <img src="front/images/{{$media['web_image']}}" alt="news">
+                            </div>
+                            <div class="img-mobile">
+                                <img src="front/images/{{$media['web_image']}}" alt="news">
+                            </div>
+                        </div>
+                        <div class="latest-content">
+                            <div class="img-destop">
+                                <h4>{{ $media['title'] }}</h4>
+                            </div>
+                            <div class="img-mobile">
+                                <h4>{{ $media['title'] }}</h4>
+                            </div>
+                            <div class="date">
+                                <p>{{ $media['date'] }}</p>
+                            </div>
+                            <p>{{ $media['description'] }}</p>
+                            <div class="lat-read-more-button">
+                                @if($media['type'] == 'article')
+                                    <a href="{{ $media['link'] }}" target="_blank">Read More <span><img src="front/images/benz-option/right-arrow.png"
+                                                                alt="arrow"></span></a>
+                                @else
+                                    <a href="{{ route('print', $media['link']) }}" target="_blank">Read More <span><img src="front/images/benz-option/right-arrow.png"
+                                                                alt="arrow"></span></a>
+                                @endif
+                            </div>
+                        </div>
+                    </div>
                 @endforeach
              
             </div>

@@ -82,11 +82,18 @@ class FrontController extends Controller
         $this->setSEOMeta();
         return view('front.car_wale');
     }
-    public function print($print_page)
+    /* public function print($print_page)
     {
         $this->setSEOMeta();
         return view('front.print.'.$print_page);
+    } */
+    
+    public function print($print_page)
+    {
+        $this->setSEOMeta();
+        return view('front.print', compact('print_page'));
     }
+    
     public function altigreen()
     {
         $this->setSEOMeta();

@@ -9,7 +9,17 @@
 @endif
 
 <script>
-    
+   /*  
+$('#media_view_all1').onClick( function(e) {
+    $('.hide_media').fadeToggle();
+    $('#media_view_all').hide();
+}); */
+$(document).ready(function() {
+    $('#media_view_all').click(function(e) {  
+        $('.hide_media').fadeToggle();
+    $('#media_view_all').hide();
+    });
+});
     // Initialize and add the map
     function initMap() {
 
