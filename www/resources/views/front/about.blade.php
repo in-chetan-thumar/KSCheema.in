@@ -17,23 +17,16 @@
         <div class="container">
             <div class="know-content">
                 <h1>Know About Us</h1>
-                <p class="desktop-text">A savant of law and management, Mr KS Cheema has been a successful independent
-                    lawyer, in-house legal
-                    counsel, director of business & projects development, and a board member of various MNCs. He also
-                    achieved notable success with the establishment of many international joint ventures before he
-                    founded the KS Cheema Group of Companies.</p>
-                <p class="desktop-text">It was in the year 2012 that he started this entrepreneurial journey by entering
-                    the real estate
-                    industry. From there on, the corporate group ventured into the automobile and mining sector, led by
-                    his strong vision of being an ethical, futuristic and customer-friendly organisation. Backed by
-                    decades of experience in business and an unfettered visionary spirit, Mr Cheema’s hard work and
-                    persistence have enabled us to secure a successful future for countless individuals across the
-                    country. </p>
-                <p class="mobile-text ">Founded by Mr KS Cheema in 2012, the group of companies first saw the daylight by
-                    stepping foot into the real estate industry. Since then, we have forayed our way into the automobile
-                    and mining sector, led by his vision, values, and guidance. Backed by decades of experience in
-                    business and an unfettered visionary spirit, Mr Cheema’s hard work and persistence have enabled us
-                    to secure a successful future for countless individuals across the country.</p>
+                <p class="desktop-text">The company was started and built on the core principles of transparency, determination, a
+futuristic mindset, and a customer-friendly approach. Our vision is to retain these values in
+all our business endeavours in the coming decades. We aim to occupy our customers’ mind
+space as a distinguished business house known for its ethics, integrity, honesty, quality
+and punctuality.</p>
+                <p class="desktop-text">With efficiency, ethical practices, and environmentalism at the core of our values, our
+mission is to create a lasting impact on the society’s development. Our purpose is to
+perpetually fuel the growth of our businesses, thereby, empowering our people and
+resources for sustainable success. We thrive to be an organisation of substance, which
+delivers smiles to the lives of our stakeholders, employees, and customers.</p>
             </div>
         </div>
     </div>
@@ -141,7 +134,7 @@
                     <div class="member-detail">
                         <h5>Mr Ankur <br>Singh Cheema</h5>
                         <p>Executive Director</p>
-                        <p>BALLB</p>
+                        <p>BA, LLB</p>
                     </div>
                 </div>
             </div>
@@ -160,7 +153,7 @@
                             <button class="nav-link active
                         " id="vison-tab" data-bs-toggle="pill" data-bs-target="#vison" type="button" role="tab"
                                     aria-controls="vison" aria-selected="true">
-                                Vison
+                                Vision
                             </button>
                         </li>
                         <li class="nav-item" role="presentation">

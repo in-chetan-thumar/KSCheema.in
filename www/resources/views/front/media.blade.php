@@ -28,7 +28,7 @@
                     @else
                         <div class="latest-news-box ">
                     @endif
-                        <div class="images-box">
+                        <div class="images-box order-lg-1 order-2">
                             <div class="img-destop">
                                 <img src="front/images/{{$media['web_image']}}" alt="news">
                             </div>
@@ -36,7 +36,7 @@
                                 <img src="front/images/{{$media['web_image']}}" alt="news">
                             </div>
                         </div>
-                        <div class="latest-content">
+                        <div class="latest-content order-lg-2 order-1">
                             <div class="img-destop">
                                 <h4>{{ $media['title'] }}</h4>
                             </div>
@@ -70,7 +70,7 @@
                 @foreach (config('constants.MEDIA')['PRINT'] as $key => $media)
 
                     <div class="latest-news-box hide_media" style="display:none">
-                        <div class="images-box">
+                        <div class="images-box order-lg-1 order-2">
                             <div class="img-destop">
                                 <img src="front/images/{{$media['web_image']}}" alt="news">
                             </div>
@@ -78,7 +78,7 @@
                                 <img src="front/images/{{$media['web_image']}}" alt="news">
                             </div>
                         </div>
-                        <div class="latest-content">
+                        <div class="latest-content order-lg-2 order-1">
                             <div class="img-destop">
                                 <h4>{{ $media['title'] }}</h4>
                             </div>

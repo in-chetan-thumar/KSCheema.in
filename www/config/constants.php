@@ -275,8 +275,8 @@ return [
                 'type' => 'print',
             ],
             [
-                'web_image' => 'articles/print/print-8-web.png',
-                'mobile_image' => 'articles/print/print-8-mobile.png',
+                'web_image' => 'articles/print/print-7-web.png',
+                'mobile_image' => 'articles/print/print-7-mobile.png',
                 'title' => 'Legal Eagle',
                 'description' => '',
                 'date' => '11 Nov 2022',
@@ -284,8 +284,8 @@ return [
                 'type' => 'print',
             ],
             [
-                'web_image' => 'articles/print/print-7-web.png',
-                'mobile_image' => 'articles/print/print-7-mobile.png',
+                'web_image' => 'articles/print/print-8-web.png',
+                'mobile_image' => 'articles/print/print-8-mobile.png',
                 'title' => 'Karnataka Govt. descision puts Binny in a bind',
                 'description' => '',
                 'date' => '11 Nov 2022',

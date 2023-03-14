@@ -35,23 +35,24 @@
                             country.
                         </p>
                         <h4>VISION :</h4>
-                        <p>Garnet aspires to occupy every customer’s mind space as a distinguished automobile business
-                            known
-                            for its ethics, integrity, honesty, quality and punctuality, and in turn, contribute to
-                            India’s
-                            progress.</p>
+                        <p>We aspire to occupy every customer's mind space as a distinguished automobile business known for its ethical practices, in turn, contributing to India's progress and delivering smiles.</p>
                         <h4>MISSION :</h4>
-                        <p>Our sole mission is to be a one-stop destination for automobile sales and services, and an
-                            organisation with substance committed to delivering smiles to our stakeholders and customers.
+                        <p>Our sole mission is to be a one-stop destination for automobile sales and services that facilitates a business of 6,000 vehicles and services 50,000 vehicles per year by 2025.
                         </p>
                     </div>
+
                     <div class="mobile-content">
                         <p>Built on the strong pillars of integrity, honesty, a growth-centric approach, and a
                             customer-first ideology, Garnet Motors started operations in 2019 in Nagpur, Maharashtra.
-                            Today, it has successfully spread its wings and established business across 5 cities in the
+                            Today,
+                            it has successfully spread its wings and established business across 5 cities in the
                             country.
-                            Garnet aspires to occupy the mind-space of every automobile enthusiast, be it for purchase
-                            or service and deliver both with a smile.</p>
+                        </p>
+                        <h4>VISION</h4>
+                        <p>We aspire to occupy every customer's mind space as a distinguished automobile business known for its ethical practices, in turn, contributing to India's progress and delivering smiles.</p>
+                        <h4>MISSION</h4>
+                        <p>Our sole mission is to be a one-stop destination for automobile sales and services that facilitates a business of 6,000 vehicles and services 50,000 vehicles per year by 2025.
+                        </p>
                     </div>
                     <div class="brands-text">
                         <h5>Brands We Are Working With</h5>

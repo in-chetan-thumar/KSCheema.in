@@ -132,7 +132,7 @@
                     <p>Producing multi-size metals from its world class crushing plant setup in 77 acres of its own mining
                         land
                         near
-                        Butibori in Nagpur (Vidarbha).</p>
+                        Butibori in Nagpur(Vidarbha).</p>
                     <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#website_under_development">VISIT WEBSITE</a>
                     
                 </div>
@@ -226,10 +226,10 @@
                 </div>
                 <div class="tab">
                     <h4 class="sub-title">Taking India towards Growth, Mindfully</h4>
-                    <p class="disc">Our goal as a thriving group of companies in the country is to inject growth and success
+                    <!-- <p class="disc">Our goal as a thriving group of companies in the country is to inject growth and success
                         into
                         every business, brand, and employee journey associated with us.
-                        At the same time, we acknowledge our duty towards the planet, our home.</p>
+                        At the same time, we acknowledge our duty towards the planet, our home.</p> -->
                     <ul class="nav nav-pills tablist" id="service-tab" role="tablist">
                         <li class="nav-item" role="presentation">
                             <button class="nav-link active

@@ -489,11 +489,9 @@
     }
 
     .delarship-images .delarship-desktop {
-        display: none;
-    }
-
-    .delarship-images .delarship-mobile {
         display: block;
+        text-align: left;
+        max-width: 90%;
     }
 
     .delarship-images .delarship-mobile .date {
@@ -507,14 +505,14 @@
         margin-bottom: 28px;
         font-size: 32px;
         line-height: 38px;
-        max-width: 70%;
+        max-width: 100%;
     }
 
     .delarship-images .detail {
         margin: 0;
         padding: 0;
         display: flex;
-        text-align: center;
+        text-align: left;
         justify-content: center;
     }
 
@@ -570,7 +568,7 @@
     }
 
     .articles-inner-section .section-box-one {
-        display: none;
+        /* display: none; */
     }
 
     .articles-inner-section .section-box-two {
@@ -589,7 +587,7 @@
     }
 
     .latest-news {
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
     .lat-arti-fature-slider {
@@ -707,7 +705,7 @@
     }
 
     .know-aboutus-section .know-content .desktop-text {
-        display: none;
+        display: block;
     }
 
     .know-aboutus-section .know-content .mobile-text {
@@ -784,14 +782,14 @@
         text-align: center;
     }
 
-    .our-journey-wrapper .our-journey-slider .swiper-slide-next {
+    /*.our-journey-wrapper .our-journey-slider .swiper-slide-next {
         opacity: 0.5;
-    }
+    }*/
 
-    .our-journey-wrapper .our-journey-slider .swiper-slide-next .year {
+    /*.our-journey-wrapper .our-journey-slider .swiper-slide-next .year {
         color: var(--primery-color);
         font-weight: 700;
-    }
+    }*/
 
     .our-journey-wrapper .our-journey-slider .swiper-slide-active .year {
         color: var(--secondary-color);
@@ -911,6 +909,8 @@
         width: 100%;
         max-height: 158px;
         min-height: 158px;
+        object-fit: contain;
+        margin-top: 30px;
     }
 
     .news-articles-section .articles-section-title h1 {
@@ -953,6 +953,19 @@
     .image-tab .tab .tablist .nav-link {
         padding: 8px 23px;
     }
+
+    .delarship-images.artical_page .delarship-desktop .detail::before {
+        content: '';
+        height: -webkit-fill-available;
+        height: fill-available;
+        width: 6px;
+        background-color: var(--secondary-color);
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: -6px;
+    }
+    
 }
 
 @media(max-width:767px) {

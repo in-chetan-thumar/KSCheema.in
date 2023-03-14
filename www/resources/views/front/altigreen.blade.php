@@ -3,7 +3,7 @@
 @section('title') Garnet Motors India Pvt. Ltd  @endsection
 
 @section('content')
-    <div class="benz-option-car-heading">
+    <div class="benz-option-car-heading altigreen-header">
         <div class="benz-option-title">
             <h2>Garnet Motors India Pvt. Ltd.</h2>
         </div>
@@ -38,12 +38,12 @@
                             <div class="images-counter-galler"> +{{ $photo_count - 4 }} Images</div>
                         @endif
                     </div>
-                    <div class="owl-carousel images-group-mobile  owl-theme">
+                    <div class="owl-carousel images-group-mobile  owl-theme order-lg-1 order-2">
                         @foreach($location_detail['photos'] as $photo)
                             <div class="item"><img src="front/images/companies/{{ $photo }}" alt="slider"></div>
                         @endforeach
                     </div>
-                    <div class="benz-gallary-contect">
+                    <div class="benz-gallary-contect order-lg-2 order-1">
                         <h2 class="title">{{ $location_detail['name'] }} </h2>
                         <h3 class="sub-title">{{ $location_detail['short_line'] }} {{ $location_detail['location_type'] }}</h3>
                         <div class="benz-line">

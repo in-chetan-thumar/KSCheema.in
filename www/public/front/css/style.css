@@ -750,9 +750,23 @@ padding-left: 5px;
 .benz-gallary-section {
     overflow: hidden;
 }
+.mercedes-benz-header{
+    background: url(../images/benz-option/mercedes-header.png) no-repeat;
+}
+
+.ather-header{
+    background: url(../images/benz-option/ather-header.png) no-repeat;
+}
+
+.car-wale-header{
+    background: url(../images/benz-option/carwale-header.png) no-repeat;
+}
+
+.altigreen-header{
+    background: url(../images/benz-option/altigreen-header.png) no-repeat;
+}
 
 .benz-option-car-heading {
-    background: url(../images/benz-option/bg-1.png) no-repeat;
     background-size: cover;
     max-height: 201px;
     min-height: 201px;
