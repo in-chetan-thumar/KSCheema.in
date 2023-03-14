@@ -135,7 +135,7 @@ class FrontController extends Controller
     }
     public function setSEOMeta(){
         $content = Page::select('id','title','meta_keywords','meta_description')->whereRouteName(Route::currentRouteName())->first(); 
-        SEOTools::setTitle(!empty($content->title)?$content->title:'KSCheema', false);
+        SEOTools::setTitle(!empty($content->title)?$content->title:'KS Cheema', false);
         SEOTools::setDescription(!empty($content->meta_description)?$content->meta_description:'KS Cheema description');
         SEOMeta::addKeyword(!empty($content->meta_keywords)?$content->meta_keywords:'KS Cheema keywords');
     }

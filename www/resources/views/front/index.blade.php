@@ -41,11 +41,7 @@
 
     <div class="container our-business-main">
         <div class="our-business-section">
-            <p class="info">A culmination of hard work, ethics, environmentalism, and efficiency over the years has made us a
-                thriving
-                group
-                of companies,
-                set to continue expanding across India.</p>
+            <p class="info">A culmination of environmentalism, a customer-centric approach, hard work, and ethics over the years has made us a thriving group of companies, set to continue expanding across India.</p>
             <h2 class="title">Our Businesses</h2>
             <div class="image-content one">
                 <div class="image position-relative reveal">

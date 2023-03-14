@@ -17,16 +17,18 @@
         <div class="container">
             <div class="know-content">
                 <h1>Know About Us</h1>
-                <p class="desktop-text">The company was started and built on the core principles of transparency, determination, a
-futuristic mindset, and a customer-friendly approach. Our vision is to retain these values in
-all our business endeavours in the coming decades. We aim to occupy our customers’ mind
-space as a distinguished business house known for its ethics, integrity, honesty, quality
-and punctuality.</p>
-                <p class="desktop-text">With efficiency, ethical practices, and environmentalism at the core of our values, our
-mission is to create a lasting impact on the society’s development. Our purpose is to
-perpetually fuel the growth of our businesses, thereby, empowering our people and
-resources for sustainable success. We thrive to be an organisation of substance, which
-delivers smiles to the lives of our stakeholders, employees, and customers.</p>
+                <p class="desktop-text">A savant of law and management, Mr KS Cheema has been a successful independent
+                    lawyer, in-house legal
+                    counsel, director of business & projects development, and a board member of various MNCs. He also
+                    achieved notable success with the establishment of many international joint ventures before he
+                    founded the KS Cheema Group of Companies.</p>
+                <p class="desktop-text">It was in the year 2012 that he started this entrepreneurial journey by entering
+                    the real estate
+                    industry. From there on, the corporate group ventured into the automobile and mining sector, led by
+                    his strong vision of being an ethical, futuristic and customer-friendly organization. Backed by
+                    decades of experience in business and an unfettered visionary spirit, Mr Cheema’s hard work and
+                    persistence have enabled us to secure a successful future for countless individuals across the
+                    country. </p>
             </div>
         </div>
     </div>
@@ -46,7 +48,7 @@ delivers smiles to the lives of our stakeholders, employees, and customers.</p>
                             @endif
                             <div class="swiper-slide" data-imageurl="{{asset('front/images/aboutus/Our_Journey_2012.png')}}">
                                 <h3 class="year">2012</h3>
-                                <p class="content">With a vision of optimizing his worldwide exposure, experience and knowledge, Mr KS Cheema started his entrepreneurial journey in 2012 with a real estate project in Nagpur, K K A Lifestyle through an entity, K K Associates Builders & Developers with professional partners.<br><br>
+                                <p class="content">With a vision of optimising his worldwide exposure, experience and knowledge, Mr KS Cheema started his entrepreneurial journey in 2012 with a real estate project in Nagpur, K K A Lifestyle through an entity, K K Associates Builders & Developers with professional partners.<br><br>
                                 </p>
                             </div>
                             <div class="swiper-slide" data-imageurl="{{asset('front/images/aboutus/Our_Journey_2016.png')}}">
@@ -61,21 +63,21 @@ delivers smiles to the lives of our stakeholders, employees, and customers.</p>
                             </div>
                             <div class="swiper-slide" data-imageurl="{{asset('front/images/aboutus/Our_Journey_2019.png')}}">
                                 <h3 class="year">2019</h3>
-                                <p class="content">Acquired an existing loss-making Mercedes Benz dealership in Nagpur and made it profitable within a year, under the brand name, "Central Star."<br><br>
+                                <p class="content">Acquired an existing loss-making Mercedes Benz dealership in Nagpur and made it profitable within a year, under the brand name, "Central Star".<br><br>
                                 </p>
                             </div>
                             <div class="swiper-slide" data-imageurl="{{asset('front/images/aboutus/Our_Journey_2020.png')}}">
                                 <h3 class="year">2020</h3>
                                 <p class="content">
-                                    1. Formed KS Metal Industries Private Limited, through which acquired 77 acres of mining land and crushing plant from Aditya Birla Group (UltraTech Cement Limited) situated at Alagondi, Butibori, Nagpur. (Please make it bullet) <br><br>
-                                    2. Garnet acquired 2 loss-making Mercedes Benz dealerships in Ahmedabad and Surat, and converted them into profitable ventures within the very first year with the same manpower, proving the power of strong business practices and visionary leadership.
+                                    1. Formed KS Metal Industries Private Limited, and acquired 77 acres of mining land and crushing plant from Aditya Birla Group (Ultratech Cement Limited) situated at Alagondi, Butibori, Nagpur.<br>
+                                    2. Garnet acquired 2 loss-making Mercedes Benz dealerships in Ahmedabad and Surat. Converted them into profitable ventures within the very first year with the same manpower, proving the power of strong business practices and visionary leadership.
                                 </p>
                             </div>
                             <div class="swiper-slide" data-imageurl="{{asset('front/images/aboutus/Our_Journey_2022.png')}}">
                                 <h3 class="year">2022</h3>
                                 <p class="content">
-                                    1. Opened Garnet Galaxy in association with Absure - Car Wale in Nagpur and Vadodara. <br><br>
-                                    2. Opened multiple outlets of Ather electric scooters in Mumbai. <br><br>
+                                    1. Opened Garnet Galaxy in association with Absure - Car Wale in Nagpur and Vadodara.<br>
+                                    2. Opened multiple outlets of Ather electric scooters in Mumbai.<br>
                                     3. Opened the first Altigreen 3S dealership in Ahmedabad that deals in electric commercial vehicles.
                                 </p>
                             </div>
@@ -174,10 +176,10 @@ delivers smiles to the lives of our stakeholders, employees, and customers.</p>
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="vison" role="tabpanel"
                              aria-labelledby="vison-tab">
-                            <p>Infusing the same spirit that the group of companies started with, into our work today, we hope to keep that hard work, diligence, and empathy intact even tomorrow. Our mission is to treat hustle, transparency, determination, and environmentalism as non-negotiable pillars in our journey to expand beyond our dreams.</p>
+                            <p>The company was started and built on the core principles of transparency, determination, a futuristic mindset, and a customer-friendly approach. Our vision is to retain these values in all our business endeavours in the coming decades. We aim to occupy our customers’ mind space as a distinguished business house known for its ethics, integrity, honesty, quality and punctuality.</p>
                         </div>
                         <div class="tab-pane fade" id="mission" role="tabpanel" aria-labelledby="mission-tab">
-                            <p>With efficiency, ethical practices, and environmentalism at the core of our values, our mission is to create a lasting impact on the country’s development. Our purpose is to perpetually fuel the growth of our businesses, thereby, empowering our people and resources for sustainable success.</p>
+                            <p>With efficiency, ethical practices, and environmentalism at the core of our values, our mission is to create a lasting impact on the society's development. Our purpose is to perpetually fuel the growth of our businesses, thereby, empowering our people and resources for sustainable success. We thrive to be an organization of substance, which delivers smiles to the lives of our stakeholders, employees, and customers.</p>
                         </div>
                         <div class="tab-pane fade" id="values" role="tabpanel" aria-labelledby="values-tab">
                             <ul class="tab-content-list">
