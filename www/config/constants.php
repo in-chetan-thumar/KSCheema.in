@@ -12,7 +12,7 @@ return [
     'LOGO_FILE_NAME' => 'logo-dark.png',
     'DEVELOPED_BY' => 'Zero technology',
     'CONTACT_FORM' => [
-        'TO' => ['cmdoffice@centralstar.co.in'],
+        'TO' => ['groupofcompanies@kscheema.co.in'],
         'CC' => [],
     ],
     
