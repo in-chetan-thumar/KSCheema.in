@@ -12,8 +12,8 @@ return [
     'LOGO_FILE_NAME' => 'logo-dark.png',
     'DEVELOPED_BY' => 'Zero technology',
     'CONTACT_FORM' => [
-        'TO' => ['kscheema1@mailinator.com', 'kscheema2@mailinator.com'],
-        'CC' => ['1@gmail.com', '2@gmail.com'],
+        'TO' => ['cmdoffice@centralstar.co.in'],
+        'CC' => [],
     ],
     
     
