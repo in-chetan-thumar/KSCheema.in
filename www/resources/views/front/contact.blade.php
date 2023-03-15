@@ -19,7 +19,7 @@
                 <div class="information">
                     <h1>Let's talk! </h1>
                     <a href="tel:+917104238121">+91 7104238121/41</a>
-                    <a href="mailto:cndoffice@centrastar.co.in">cndoffice@centrastar.co.in</a>
+                    <a href="mailto:cmdoffice@centralstar.co.in">cmdoffice@centralstar.co.in</a>
                 </div>
             </div>
         </div>
