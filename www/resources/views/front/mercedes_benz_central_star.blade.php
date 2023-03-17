@@ -5,7 +5,7 @@
 @section('content')
     <div class="benz-option-car-heading mercedes-benz-header">
         <div class="benz-option-title">
-            <h2>Garnet Motors India Pvt. Ltd</h2>
+            <h2>Garnet Motors India Pvt. Ltd.</h2>
         </div>
         <div class="benz-option-logo">
             <img src="front/images/benz-option/logo-1.png" alt="car-logo">
@@ -42,7 +42,7 @@
                     </div>
                     <div class="owl-carousel images-group-mobile  owl-theme order-lg-1 order-2">
                         @foreach($location_detail['photos'] as $photo)
-                            <div class="item"><img src="front/images/companies/{{ $photo }}" alt="slider"></div>
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#cardekho{{ $key }}"><img src="front/images/companies/{{ $photo }}" alt="slider"></div>
                         @endforeach
                     </div>
                     <div class="benz-gallary-contect order-lg-2 order-1">

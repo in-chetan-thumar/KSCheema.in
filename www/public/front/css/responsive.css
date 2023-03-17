@@ -985,6 +985,9 @@
         font-size: 14px;
         line-height: 1.2em;
     }
+    .benz-option-title h2 {
+        padding: 0 10px 0 10px;
+    }
 }
 
 @media(max-width:640px) {

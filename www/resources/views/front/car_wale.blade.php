@@ -40,7 +40,7 @@
                     </div>
                     <div class="owl-carousel images-group-mobile  owl-theme order-lg-1 order-2">
                         @foreach($location_detail['photos'] as $photo)
-                            <div class="item"><img src="front/images/companies/{{ $photo }}" alt="slider"></div>
+                            <div class="item" data-bs-toggle="modal" data-bs-target="#cardekho{{ $key }}"><img src="front/images/companies/{{ $photo }}" alt="slider"></div>
                         @endforeach
                     </div>
                     <div class="benz-gallary-contect order-lg-2 order-1">
