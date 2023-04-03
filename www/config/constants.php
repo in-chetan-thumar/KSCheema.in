@@ -105,7 +105,7 @@ return [
             'address' => 'Plot no. 16 Unit No. 2, Ground Floor, Neelkanth Chs, Turbhe Village, Sector 24, Turbhe, Navi Mumbai - 400705', 
             'phone' => '+91 87999 16250', 
             'know_more' => '', 
-            'photos' => ['ather\byk-9.jpg', 'ather\byk-10.jpg', 'ather\byk-11.jpg', 'ather\byk-1.jpg'],
+            'photos' => ['ather\byk-9.jpg', 'ather\byk-10.jpg', 'ather\byk-11.jpg', 'ather\byk-12.jpg'],
             'latitude' => '19.099919',
             'longitude' => '73.006169'
         ],
