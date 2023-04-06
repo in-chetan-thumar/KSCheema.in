@@ -24,6 +24,12 @@ Route::get('/about', [App\Http\Controllers\FrontController::class, 'about'])->na
 Route::get('/our-company', [App\Http\Controllers\FrontController::class, 'ourCompany'])->name('ourcompany');
 Route::get('/media', [App\Http\Controllers\FrontController::class, 'media'])->name('media');
 Route::get('/contact', [App\Http\Controllers\FrontController::class, 'contact'])->name('contact');
+Route::get('/careers', [App\Http\Controllers\FrontController::class, 'careers'])->name('careers');
+Route::get('/view-open-positions', [App\Http\Controllers\FrontController::class, 'viewOpenPositions'])->name('view.open.positions');
+Route::get('/view-open-positions/company/{id}', [App\Http\Controllers\FrontController::class, 'getLocationFormCompany'])->name('get.location.company');
+Route::post('/view-open-positions/job', [App\Http\Controllers\FrontController::class, 'getJobs'])->name('show.job');
+Route::post('/store/job-application', [App\Http\Controllers\FrontController::class, 'storeJobApplication'])->name('store.job.application');
+Route::post('/view-apply-form', [App\Http\Controllers\FrontController::class, 'viewApplyForm'])->name('view.apply.form');
 Route::post('/contact', [App\Http\Controllers\FrontController::class, 'contactSubmit'])->name('contact.submit');
 Route::get('/mercedes-benz-central-star', [App\Http\Controllers\FrontController::class, 'mercedesBenzCentralStar'])->name('mercedes.benz.central.star');
 Route::get('/ather', [App\Http\Controllers\FrontController::class, 'ather'])->name('ather');

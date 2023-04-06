@@ -16,7 +16,7 @@
                         </ul>
                         <ul>
                             <li><a href="{{route('contact')}}">Contact Us</a></li>
-                            <li><a href="#" data-bs-toggle="modal" data-bs-target="#page_under_development">Careers</a></li>
+                            <li><a href="{{route('careers')}}">Careers</a></li>
                         </ul>
                     </div>
                 </div>

@@ -98,6 +98,28 @@ $('.map-section').owlCarousel({
     }
 })
 
+$('.stories-slider').owlCarousel({
+    loop: true,
+    margin: 16,
+    nav: true,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        500: {
+            items: 2,
+        },
+        768: {
+            items: 3,
+        },
+        1124: {
+            items: 4
+        },
+
+    }
+})
+
 $('.images-galler-section').owlCarousel({
     loop: true,
     margin: 10,
@@ -110,6 +132,31 @@ $('.images-galler-section').owlCarousel({
     }
 })
 
+
+$('.side-of-work-slider').owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 10000,
+    smartSpeed: 5000,
+    animateIn: 'linear',
+    animateOut: 'linear',
+    margin: 36,
+    stagePadding: 80,
+    nav: false,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1,
+            margin: 15,
+            stagePadding: 0,
+        },
+        768: {
+            items: 2.5,
+            margin: 16,
+            stagePadding: 0,
+        },
+    }
+})
 
 var swiper = new Swiper(".mySwiper", {
     direction: "vertical",
