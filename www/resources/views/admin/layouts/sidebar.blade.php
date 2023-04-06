@@ -24,7 +24,18 @@
                 {{--                    </ul>--}}
                 {{--                </li>--}}
 
-
+                <li>
+                    <a href="{{ route('job.index') }}" class="waves-effect">
+                        {{-- <i class="bx bx-home"></i> --}}
+                        <span>Jobs</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ route('jobapplication.index') }}" class="waves-effect">
+                        {{-- <i class="bx bx-home"></i> --}}
+                        <span>Job applications</span>
+                    </a>
+                </li>
                 <li>
                     <a href="{{ route('page.index') }}" class="waves-effect">
                         {{-- <i class="bx bx-home"></i> --}}

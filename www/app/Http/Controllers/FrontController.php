@@ -134,7 +134,6 @@ class FrontController extends Controller
             }
         }
 
-
         return view('front.view_open_positions', compact('companies', 'jobDepartments','job_list_view'));
     }
 
@@ -195,7 +194,7 @@ class FrontController extends Controller
             $params['job_department_id'] = $request->get('job_department_id',0);
             $params['job_id'] = $request->get('job_id',0);
             $params['current_location'] = $request->get('current_location',0);
-            
+
             if ($request->has('file_name')) {
                 $fileDir = config('constants.APPLICATION_DOC_PATH');
 

@@ -64,5 +64,9 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('export',[ \App\Http\Controllers\Admin\ContactController::class, 'export'])->name('contects.export');
     // Pagelist Controller
     Route::resource('page', \App\Http\Controllers\Admin\PageController::class);
+    // Job Controller
+    Route::resource('job', \App\Http\Controllers\Admin\JobController::class);
+    // Job application Controller
+    Route::resource('jobapplication', \App\Http\Controllers\Admin\JobApplicationController::class);
 
 });

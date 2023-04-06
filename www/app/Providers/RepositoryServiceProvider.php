@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Repositories\CommonRepository;
 use App\Repositories\ContactRepository;
+use App\Repositories\JobRepository;
 use App\Repositories\NewsRepository;
 use App\Repositories\PageRepository;
 use App\Repositories\RoleRepository;
@@ -34,6 +35,7 @@ class RepositoryServiceProvider extends ServiceProvider
         $this->app->singleton('common-repo', CommonRepository::class);
         $this->app->singleton('page-repo', PageRepository::class);
         $this->app->singleton('news-repo', NewsRepository::class);
+        $this->app->singleton('job-repo', JobRepository::class);
         $this->app->singleton('cont-repo', ContactRepository::class);
     }
 }
