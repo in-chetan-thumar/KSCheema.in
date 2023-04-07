@@ -11,7 +11,7 @@
                     <h6>Home</h6>
                     <div class="footer-link">
                         <ul>
-                            <li><a href="{{route('about')}}">About us</a></li>
+                            <li><a href="{{route('about')}}">About Us</a></li>
                             <li><a href="{{route('media')}}">Media</a></li>
                         </ul>
                         <ul>
