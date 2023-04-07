@@ -137,8 +137,7 @@ class FrontController extends Controller
                 $companies[$company->parentCompany->company_name][$company['id']] = $company->company_name;
             }
         }
-
-        return view('front.view_open_positions', compact('companies', 'jobDepartments', 'job_list_view','jobs'));
+        return view('front.view_open_positions', compact('companies', 'jobDepartments', 'job_list_view', 'jobs'));
     }
 
     public function getLocationFormCompany($id)
@@ -167,22 +166,24 @@ class FrontController extends Controller
     {
         try {
 
-            $jobs = Jobs::where('title', 'LIKE', '%' . $request->query_str . '%')
+            $jobs = Jobs::when(!empty($request->query_str), function ($query) use ($request) {
+                       $query->where('title', 'LIKE', '%' . $request->query_str . '%');
+                })
                 ->when(!empty($request->company_id), function ($query) use ($request) {
-                    $query->orWhere('company_id', $request->company_id);
+                    $query->where('company_id', $request->company_id);
                 })
                 ->when(!empty($request->company_location_id), function ($query) use ($request) {
-                    $query->orWhere('company_location_id', $request->company_location_id);
+                    $query->where('company_location_id', $request->company_location_id);
                 })->when(!empty($request->company_location_id), function ($query) use ($request) {
-                    $query->orWhere('company_location_id', $request->company_location_id);
+                    $query->where('company_location_id', $request->company_location_id);
                 })->when(!empty($request->job_department_id), function ($query) use ($request) {
-                    $query->orWhere('job_department_id', $request->job_department_id);
+                    $query->where('job_department_id', $request->job_department_id);
                 })->get();
 
             $data['error'] = false;
             $data['message'] = "";
             $data['view'] = view('front.job_list', compact('jobs'))->render();
-            $data['number_of_jobs'] = $jobs->count()." Open Positions";
+            $data['number_of_jobs'] = $jobs->count() . " Open Positions";
             return response()->json($data);
         } catch (\Exception $e) {
             $data['error'] = true;

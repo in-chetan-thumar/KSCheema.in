@@ -137,6 +137,7 @@
                     success: function (data, textStatus, jqXHR) {
                         if (!data.error) {
                             $(".location").html(data.options)
+                            refreshJobList();
                         }
                     },
                     error: function (jqXHR, textStatus, errorThrown) {
@@ -146,42 +147,47 @@
             }
         });
 
+        $(".location").on('change', function (e) {
+            refreshJobList();
+        });
+        $(".department").on('change', function (e) {
+            refreshJobList();
+        });
         $(".search-job-input").on('input', function (e) {
             var queryString = $(this).val();
+            refreshJobList(queryString);
+        })
+
+        function refreshJobList(queryString = '') {
             var company = $(".company").val();
             var location = $(".location").val();
             var department = $(".department").val();
 
-            if (queryString != '' && company != '') {
-                e.preventDefault();
-                var formData = new FormData();
-                formData.append('query_str', queryString);
-                formData.append('company_id', company);
-                formData.append('company_location_id', location);
-                formData.append('job_department_id', department);
-                var url = window.origin + "/view-open-positions/job";
-                $.ajax({
-                    headers: {
-                        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-                    },
-                    url: url,
-                    processData: false,
-                    contentType: false,
-                    type: "POST",
-                    data: formData,
-                    success: function (data, textStatus, jqXHR) {
-                        if (!data.error) {
-                            $(".joblist").html(data.view)
-                            $(".number_of_jobs").text(data.number_of_jobs)
-                        }
-                    },
-                    error: function (jqXHR, textStatus, errorThrown) {
-                        alert('Error occurred!');
+            var formData = new FormData();
+            formData.append('query_str', queryString);
+            formData.append('company_id', company);
+            formData.append('company_location_id', location);
+            formData.append('job_department_id', department);
+            var url = window.origin + "/view-open-positions/job";
+            $.ajax({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                },
+                url: url,
+                processData: false,
+                contentType: false,
+                type: "POST",
+                data: formData,
+                success: function (data, textStatus, jqXHR) {
+                    if (!data.error) {
+                        $(".joblist").html(data.view)
+                        $(".number_of_jobs").text(data.number_of_jobs)
                     }
-                });
-            } else {
-                alert('Select company.!');
-            }
-        })
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    alert('Error occurred!');
+                }
+            });
+        }
     </script>
 @endsection
