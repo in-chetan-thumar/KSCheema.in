@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\JobApplicationRequest;
+use App\Mail\JobSubmitMail;
 use App\Models\Company;
 use App\Models\CompanyLocations;
 use App\Models\Contact;
@@ -10,6 +11,7 @@ use App\Models\JobApplications;
 use App\Models\JobDepartments;
 use App\Models\Jobs;
 use App\Models\Page;
+use App\Models\User;
 use Artesaos\SEOTools\Facades\SEOTools;
 use Artesaos\SEOTools\Facades\SEOMeta;
 use Illuminate\Http\Request;
@@ -96,12 +98,13 @@ class FrontController extends Controller
         $this->setSEOMeta();
         return view('front.careers');
     }
+
     public function viewApplyForm(Request $request)
     {
         try {
-            $companies = $jobDepartments =[];
+            $companies = $jobDepartments = [];
             $params = $request->all();
-            if($request->type == 1){
+            if ($request->type == 1) {
                 $companiesList = Company::where('is_active', 'Y')->get();
                 $jobDepartments = JobDepartments::where('is_active', 'Y')->pluck('title', 'id');
                 foreach ($companiesList as $company) {
@@ -112,7 +115,7 @@ class FrontController extends Controller
             }
             $data['error'] = false;
             $data['message'] = "";
-            $data['view'] = view('front.apply_job_form', compact('params','companies','jobDepartments'))->render();
+            $data['view'] = view('front.apply_job_form', compact('params', 'companies', 'jobDepartments'))->render();
             return response()->json($data);
         } catch (\Exception $e) {
             $data['error'] = true;
@@ -120,13 +123,14 @@ class FrontController extends Controller
             return response()->json($data);
         }
     }
+
     public function viewOpenPositions()
     {
         $companies = [];
         $this->setSEOMeta();
         $companiesList = Company::where('is_active', 'Y')->get();
         $jobDepartments = JobDepartments::where('is_active', 'Y')->pluck('title', 'id');
-        $jobs = Jobs::where('is_active','Y')->get();
+        $jobs = Jobs::where('is_active', 'Y')->get();
         $job_list_view = view('front.job_list', compact('jobs'))->render();
         foreach ($companiesList as $company) {
             if (!empty($company->parentCompany)) {
@@ -134,7 +138,7 @@ class FrontController extends Controller
             }
         }
 
-        return view('front.view_open_positions', compact('companies', 'jobDepartments','job_list_view'));
+        return view('front.view_open_positions', compact('companies', 'jobDepartments', 'job_list_view'));
     }
 
     public function getLocationFormCompany($id)
@@ -165,8 +169,8 @@ class FrontController extends Controller
 
             $jobs = Jobs::where('title', 'LIKE', '%' . $request->query_str . '%')
                 ->when(!empty($request->company_id), function ($query) use ($request) {
-                        $query->orWhere('company_id', $request->company_id);
-                 })
+                    $query->orWhere('company_id', $request->company_id);
+                })
                 ->when(!empty($request->company_location_id), function ($query) use ($request) {
                     $query->orWhere('company_location_id', $request->company_location_id);
                 })->when(!empty($request->company_location_id), function ($query) use ($request) {
@@ -186,14 +190,15 @@ class FrontController extends Controller
         }
     }
 
-    public function storeJobApplication(JobApplicationRequest $request){
+    public function storeJobApplication(JobApplicationRequest $request)
+    {
         try {
 
             $params = [];
             $params = $request->validated();
-            $params['job_department_id'] = $request->get('job_department_id',0);
-            $params['job_id'] = $request->get('job_id',0);
-            $params['current_location'] = $request->get('current_location',0);
+            $params['job_department_id'] = $request->get('job_department_id', 0);
+            $params['job_id'] = $request->get('job_id', 0);
+            $params['current_location'] = $request->get('current_location', 0);
 
             if ($request->has('file_name')) {
                 $fileDir = config('constants.APPLICATION_DOC_PATH');
@@ -206,7 +211,14 @@ class FrontController extends Controller
 
             $job_application = JobApplications::create($params);
 
-            if(!empty($job_application)){
+            if (!empty($job_application)) {
+                $params = [];
+                $params['user'] = 'Admin';
+                $params['email'] = User::whereHas('roles', function ($query) {
+                        $query->where('name', 'Admin');
+                    })->first()->email ?? null;
+
+                Mail::send(new JobSubmitMail($params));
                 $data['error'] = false;
                 $data['message'] = "Job application save successfully.!";
                 return response()->json($data);
