@@ -13,7 +13,7 @@
     <tbody>
     @if (count($tableData) == 0)
         <tr>
-            <td colspan="3" class="text-center">
+            <td colspan="6" class="text-center">
                 <h3>No Data Found</h3>
             </td>
         </tr>

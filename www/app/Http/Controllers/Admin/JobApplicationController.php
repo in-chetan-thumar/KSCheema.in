@@ -2,10 +2,13 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Exports\ContactExport;
+use App\Exports\JobApplicationExport;
 use App\Http\Controllers\Controller;
 use App\Models\Company;
 use App\Models\JobDepartments;
 use Illuminate\Http\Request;
+use Maatwebsite\Excel\Facades\Excel;
 
 class JobApplicationController extends Controller
 {
@@ -16,6 +19,10 @@ class JobApplicationController extends Controller
      */
     public function index(Request $request)
     {
+        if($request->type == 'export'){
+            return Excel::download(new JobApplicationExport($request->all()), 'job_application.xlsx');
+        }
+
         $table = resolve('job-application-repo')->renderHtmlTable($request);
         $companiesList = Company::where('is_active', 'Y')->get();
         $jobDepartments = JobDepartments::where('is_active', 'Y')->pluck('title', 'id');

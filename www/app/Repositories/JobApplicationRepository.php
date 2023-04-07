@@ -28,10 +28,10 @@ class JobApplicationRepository
 
     // Create new recoard
     public function create($params)
-     {
+    {
 
         // return $this->create($params);
-     }
+    }
 
     // Update recoard
     public function update($params, $id)
@@ -39,7 +39,7 @@ class JobApplicationRepository
         return $this->findByID($id)->update($params);
     }
 
-   // Store new recoard
+    // Store new recoard
     public function store($params)
     {
         return $this->model->create($params);
@@ -50,12 +50,21 @@ class JobApplicationRepository
         $tableData = $this->filter($params);
         return view('admin.jobsapplication.table', compact('tableData'))->render();
     }
+
     public function filter($params)
     {
 
+        $this->model = $this->model->when(!empty($params['company']), function ($query) use ($params) {
+            $query->where('company_id', $params['company']);
+        });
+
+        $this->model = $this->model->when(!empty($params['department']), function ($query) use ($params) {
+            $query->where('job_department_id', $params['department']);
+        });
+
         return $this->model
             ->latest()
-            ->paginate(config('constants.PER_PAGE'), ['*'],'page',!empty($params['page'])? $params['page']:'')
+            ->paginate(config('constants.PER_PAGE'), ['*'], 'page', !empty($params['page']) ? $params['page'] : '')
             ->setPath($params['path']);
     }
 

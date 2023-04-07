@@ -4,12 +4,13 @@ namespace App\Exports;
 
 use App\Models\Contact;
 use Maatwebsite\Excel\Concerns\FromCollection;
+use Maatwebsite\Excel\Concerns\WithColumnWidths;
 use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\WithMapping;
 use Maatwebsite\Excel\Concerns\WithEvents;
 use Maatwebsite\Excel\Events\AfterSheet;
 
-class ContactExport implements FromCollection, WithHeadings, WithMapping, WithEvents
+class ContactExport implements FromCollection, WithHeadings, WithMapping, WithEvents,WithColumnWidths
 {
     /**
     * @return \Illuminate\Support\Collection
@@ -50,10 +51,16 @@ class ContactExport implements FromCollection, WithHeadings, WithMapping, WithEv
                 $event->sheet->getStyle('A1:F1')->applyFromArray([
                     'font' => [
                         'bold' => true
-
                     ]
                 ]);
             }
+        ];
+    }
+    public function columnWidths(): array
+    {
+        return [
+            'A' => 55,
+            'B' => 45,
         ];
     }
 }
