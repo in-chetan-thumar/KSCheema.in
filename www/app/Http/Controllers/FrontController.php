@@ -138,7 +138,7 @@ class FrontController extends Controller
             }
         }
 
-        return view('front.view_open_positions', compact('companies', 'jobDepartments', 'job_list_view'));
+        return view('front.view_open_positions', compact('companies', 'jobDepartments', 'job_list_view','jobs'));
     }
 
     public function getLocationFormCompany($id)
@@ -182,6 +182,7 @@ class FrontController extends Controller
             $data['error'] = false;
             $data['message'] = "";
             $data['view'] = view('front.job_list', compact('jobs'))->render();
+            $data['number_of_jobs'] = $jobs->count()." Open Positions";
             return response()->json($data);
         } catch (\Exception $e) {
             $data['error'] = true;

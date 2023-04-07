@@ -11,7 +11,7 @@
 
     <div class="container">
         <form class="open-positions-form">
-            <h2>6 Open Positions</h2>
+            <h2 class="number_of_jobs">{{$jobs->count()}} Open Positions</h2>
             <div class="open-positions">
                 <div class="input-group">
                     <label class="select-label">Choose Company</label>
@@ -172,6 +172,7 @@
                     success: function (data, textStatus, jqXHR) {
                         if (!data.error) {
                             $(".joblist").html(data.view)
+                            $(".number_of_jobs").text(data.number_of_jobs)
                         }
                     },
                     error: function (jqXHR, textStatus, errorThrown) {

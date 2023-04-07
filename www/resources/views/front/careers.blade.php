@@ -236,7 +236,7 @@
 
     <div class="opportunities-now container reveal">
         <h4>Explore opportunities now.</h4>
-        <a href="view-open-positions.html" class="view-open-button">View All Openings<img
+        <a href="{{route('view.open.positions')}}" class="view-open-button">View All Openings<img
                 src="front/images/career/arrow-white.png" alt="arrow"></a>
     </div>
 @endsection
