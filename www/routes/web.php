@@ -25,6 +25,7 @@ Route::get('/our-company', [App\Http\Controllers\FrontController::class, 'ourCom
 Route::get('/media', [App\Http\Controllers\FrontController::class, 'media'])->name('media');
 Route::get('/contact', [App\Http\Controllers\FrontController::class, 'contact'])->name('contact');
 Route::get('/careers', [App\Http\Controllers\FrontController::class, 'careers'])->name('careers');
+Route::get('/careers-stories', [App\Http\Controllers\FrontController::class, 'careersStories'])->name('careers.stories');
 Route::get('/view-open-positions', [App\Http\Controllers\FrontController::class, 'viewOpenPositions'])->name('view.open.positions');
 Route::get('/view-open-positions/company/{id}', [App\Http\Controllers\FrontController::class, 'getLocationFormCompany'])->name('get.location.company');
 Route::post('/view-open-positions/job', [App\Http\Controllers\FrontController::class, 'getJobs'])->name('show.job');

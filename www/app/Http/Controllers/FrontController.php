@@ -99,6 +99,12 @@ class FrontController extends Controller
         return view('front.careers');
     }
 
+    public function careersStories()
+    {
+        $this->setSEOMeta();
+        return view('front.careers-stories');
+    }
+
     public function viewApplyForm(Request $request)
     {
         try {

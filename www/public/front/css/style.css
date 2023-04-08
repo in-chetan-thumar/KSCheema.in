@@ -1899,7 +1899,8 @@ footer {
     margin-top: 0;
 }
 
-.map-section .owl-nav {
+.map-section .owl-nav,
+.stories-one-slider .owl-nav {
     position: absolute;
     right: 10px;
     top: -97px;
@@ -1908,7 +1909,9 @@ footer {
 }
 
 .map-section .owl-prev,
-.map-section .owl-next {
+.stories-one-slider .owl-prev,
+.map-section .owl-next,
+.stories-one-slider .owl-next {
     min-width: 42px;
     height: 42px;
     border: 1px solid var(--primery-color) !important;
@@ -1922,11 +1925,14 @@ footer {
 }
 
 .map-section .owl-prev span,
-.map-section .owl-next span {
+.map-section .owl-next span,
+.stories-one-slider .owl-prev span,
+.stories-one-slider .owl-next span {
     display: none;
 }
 
-.map-section .owl-prev::after {
+.map-section .owl-prev::after,
+.stories-one-slider .owl-prev::after{
     content: '';
     position: absolute;
     top: 50%;
@@ -1938,7 +1944,8 @@ footer {
     width: 16px;
 }
 
-.map-section .owl-next::after {
+.map-section .owl-next::after,
+.stories-one-slider .owl-next::after {
     content: '';
     position: absolute;
     top: 50%;
@@ -2857,6 +2864,7 @@ footer {
 .group-values h3,
 .side-of-work h3,
 .stories h3,
+.stories-one h3,
 .numbers-section h4 {
     text-align: center;
     font-size: 42px;
@@ -3497,6 +3505,50 @@ footer {
     line-height: 32px;
     color: var(--primery-color);
 }
+.stories-one-slider{
+    margin-bottom: 50px;
+}
+.stories-one-box{
+    background: #F6F7F8;
+    padding: 25px;
+}
+.stories-one-box .stories-one-info{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 6px;
+}
+.stories-one-box .stories-one-info p{
+    font-size: 14px;
+    line-height: 20px;
+}
+.stories-one-box .stories-one-info .images-box{
+    max-width: 48px;
+    width: 100%;
+    height: 48px;
+}
+.stories-one-box .stories-one-info .images-box img{
+    height: 100%;
+}
+.stories-one-box .stories-one-detail h6{
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.stories-one-box .stories-one-detail p{
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 0;
+}
+.stories-one{
+    overflow: hidden;
+}
+.stories-one .stories-one-slider .owl-stage-outer{
+    overflow: inherit;
+}
+.stories-one a{
+    color: var(--secondary-color);
+}
 @media (max-width: 1024px) {
     #apply-position .btn-close, #apply-success .btn-close{
         width: 30px;
@@ -3590,6 +3642,14 @@ footer {
     }
     .accordion-item{
         padding: 15px;
+    }
+    .stories-one .stories-one-slider{
+        padding-bottom: 66px;
+        margin-bottom: 20px;
+    }
+    .stories-one .stories-one-slider .owl-nav{
+        top: unset;
+        bottom: 0;
     }
 }
 

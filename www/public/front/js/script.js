@@ -15,7 +15,7 @@ $(window).scroll(function () {
         $('.header-section').addClass('sticky')
     } else {
         $('.header-section').removeClass('sticky')
-    }if ($(this).scrollTop() > 150) {
+    } if ($(this).scrollTop() > 150) {
         $('.header-section').addClass('sticky')
     } else {
         $('.header-section').removeClass('sticky')
@@ -39,11 +39,11 @@ $('.images-group-mobile').owlCarousel({
     dots: false,
     nav: true,
     responsive: {
-      0: {
-        items: 1.8
-      },
+        0: {
+            items: 1.8
+        },
     }
-  })
+})
 
 $('.featured-slider').owlCarousel({
     margin: 30,
@@ -61,6 +61,9 @@ $('.featured-slider').owlCarousel({
         }
     }
 })
+
+
+
 
 $('.banner-slider').owlCarousel({
     loop: true,
@@ -119,6 +122,48 @@ $('.stories-slider').owlCarousel({
 
     }
 })
+
+
+$('.side-of-work-slider').owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 10000,
+    smartSpeed: 5000,
+    animateIn: 'linear',
+    animateOut: 'linear',
+    margin: 36,
+    stagePadding: 80,
+    nav: false,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1,
+            margin: 15,
+            stagePadding: 0,
+        },
+        768: {
+            items: 2.5,
+            margin: 16,
+            stagePadding: 0,
+        },
+    }
+})
+
+$('.stories-one-slider').owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: true,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        1024: {
+            items: 1.9,
+        },
+    }
+})
+
 
 $('.images-galler-section').owlCarousel({
     loop: true,

@@ -11,7 +11,7 @@ return [
     // APP VERSION
     'APP_VERSION' => env('APP_VERSION', '1.0'),
     'LOGO_FILE_NAME' => 'logo-dark.png',
-    'DEVELOPED_BY' => 'Zero technology',
+    'DEVELOPED_BY' => 'Buzzmakers',
     'CONTACT_FORM' => [
         'TO' => ['groupofcompanies@kscheema.co.in'],
         'CC' => [],

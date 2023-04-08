@@ -172,51 +172,65 @@
         </div>
     </div>
 
-    <div class="stories-one container reveal">
-        <h3><a href="{{route('careers.stories')}}">Stories</a></h3>
-        <div class="owl-carousel stories-one-slider owl-theme reveal">
+    <div class="stories container reveal">
+        <h3>stories</h3>
+        <div class="owl-carousel stories-slider owl-theme reveal">
             <div class="item">
-                <div class="stories-one-box">
-                    <div class="stories-one-info">
-                        <div class="images-box">
-                            <img src="front/images/career/tt.png" alt="testimonials">
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
-                    </div>
-                    <div class="stories-one-detail">
-                        <h6>Tejas Ardeshna</h6>
+                <div class="stories-box">
+                    <video width="100%" height="471" controls>
+                        <source src="front/images/reel-1.mp4" type="video/mp4">
+                        <source src="front/images/reel-1.ogg" type="video/ogg">
+                    </video>
+                    <div class="stories-detail">
+                        <p><strong>Tejas Ardeshna</strong></p>
                         <p>CEO Metrix </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="stories-box">
+                    <video height="471" controls poster="front/images/career/r2.png">
+                        <source src="front/images/career/r2.png" type="video/mp4">
+                    </video>
+                    <div class="stories-detail">
+                        <p><strong>Tejas Ardeshna</strong></p>
+                        <p>CEO Metrix </p>
+                    </div>
+                    <div class="video-play">
+                        <img src="front/images/career/video-p.png" alt="video-play">
                     </div>
                 </div>
             </div>
             <div class="item">
-                <div class="stories-one-box">
-                    <div class="stories-one-info">
-                        <div class="images-box">
-                            <img src="front/images/career/tt.png" alt="testimonials">
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
-                    </div>
-                    <div class="stories-one-detail">
-                        <h6>Tejas Ardeshna</h6>
+                <div class="stories-box">
+                    <video height="471" controls poster="front/images/career/r3.png">
+                        <source src="front/images/career/r2.png" type="video/mp4">
+                    </video>
+                    <div class="stories-detail">
+                        <p><strong>Tejas Ardeshna</strong></p>
                         <p>CEO Metrix </p>
+                    </div>
+                    <div class="video-play">
+                        <img src="front/images/career/video-p.png" alt="video-play">
                     </div>
                 </div>
             </div>
             <div class="item">
-                <div class="stories-one-box">
-                    <div class="stories-one-info">
-                        <div class="images-box">
-                            <img src="front/images/career/tt.png" alt="testimonials">
-                        </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
-                    </div>
-                    <div class="stories-one-detail">
-                        <h6>Tejas Ardeshna</h6>
+                <div class="stories-box">
+                    <video height="471" controls poster="front/images/career/r4.png">
+                        <source src="front/images/career/r2.png" type="video/mp4">
+                    </video>
+                    <div class="stories-detail">
+                        <p><strong>Tejas Ardeshna</strong></p>
                         <p>CEO Metrix </p>
+                    </div>
+                    <div class="video-play">
+                        <img src="front/images/career/video-p.png" alt="video-play">
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 
