@@ -30,4 +30,8 @@ class CompanyLocations extends Model
         'deleted_at',
         'deleted_by',
     ];
+
+    function company(){
+        return $this->belongsTo(Company::class,'company_id','id');
+    }
 }

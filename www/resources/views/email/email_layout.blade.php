@@ -277,7 +277,7 @@
                 <tr>
                     <td class="header">
                         <a href="" style="display: inline-block;">
-                            <img src="{{asset('assets/images/logo'.DIRECTORY_SEPARATOR.config('constants.LOGO_FILE_NAME'))}}"
+                            <img src="{{asset('front/images/logo'.DIRECTORY_SEPARATOR.config('constants.LOGO_FILE_NAME'))}}"
                                  alt="{{config('constants.APP_NAME')}}" title="{{config('constants.APP_NAME')}}">
                         </a>
                     </td>
@@ -314,7 +314,7 @@
                                                        alt="{{config('constants.APP_NAME')}}">
                                                     </a>
                                                     <img
-                                                            src="{{asset('images'.DIRECTORY_SEPARATOR.config('constants.CAPRI_HELTH_CARE_LOGO_FILE_NAME'))}}"
+                                                            src="{{asset('front/images/logo'.DIRECTORY_SEPARATOR.config('constants.CAPRI_HELTH_CARE_LOGO_FILE_NAME'))}}"
                                                             alt="{{config('constants.APP_NAME')}}" height="40"
                                                             style="vertical-align: middle"/>
                                                 </p>

@@ -26,4 +26,8 @@ class Company extends Model
     function parentCompany(){
         return $this->belongsTo(Company::class,'parent_id','id');
     }
+
+    function companyLocations(){
+        return $this->hasMany(CompanyLocations::class,'company_id','id');
+    }
 }

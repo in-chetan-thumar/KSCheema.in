@@ -5,30 +5,30 @@
             <div class="navbar-brand-box">
                 <a href="index" class="logo logo-dark">
                     <span class="logo-sm">
-                        <img src="{{asset('assets/images').DIRECTORY_SEPARATOR.config('constants.LOGO_FILE_NAME')}}"
+                        <img src="{{asset('front/images').DIRECTORY_SEPARATOR.config('constants.LOGO_FILE_NAME')}}"
                              alt="" height="22">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{asset('assets/images').DIRECTORY_SEPARATOR.config('constants.LOGO_FILE_NAME')}}"
+                        <img src="{{asset('front/images').DIRECTORY_SEPARATOR.config('constants.LOGO_FILE_NAME')}}"
                              alt="" height="17">
                     </span>
                 </a>
 
                 <a href="index" class="logo logo-light">
                     <span class="logo-sm">
-                        <img src="{{asset('assets/images').DIRECTORY_SEPARATOR.config('constants.LOGO_FILE_NAME')}}"
+                        <img src="{{asset('front/images/small-32x32.png')}}"
                              alt="" height="22">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{asset('assets/images').DIRECTORY_SEPARATOR.config('constants.LOGO_FILE_NAME')}}"
-                             alt="" height="19">
+                        <img src="{{asset('front/images').DIRECTORY_SEPARATOR.config('constants.LOGO_FILE_NAME')}}"
+                             alt="" >
                     </span>
                 </a>
             </div>
 
-            <button type="button" class="btn btn-sm px-3 font-size-16 header-item waves-effect" id="vertical-menu-btn">
+            <!-- <button type="button" class="btn btn-sm px-3 font-size-16 header-item waves-effect" id="vertical-menu-btn">
                 <i class="fa fa-fw fa-bars"></i>
-            </button>
+            </button> -->
 
 {{--            <!-- App Search-->--}}
 {{--            <form class="app-search d-none d-lg-block">--}}

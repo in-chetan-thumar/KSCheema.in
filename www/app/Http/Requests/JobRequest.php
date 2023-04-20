@@ -28,7 +28,7 @@ class JobRequest extends FormRequest
             'company_location_id' => 'required',
             'job_department_id' => 'required',
             'title' => 'required',
-            'sub_title' => 'required',
+            /* 'sub_title' => 'required', */
             'description' => 'required',
         ];
     }

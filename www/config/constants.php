@@ -10,7 +10,7 @@ return [
     'USER_DOC_URL' => 'storage' . DIRECTORY_SEPARATOR,
     // APP VERSION
     'APP_VERSION' => env('APP_VERSION', '1.0'),
-    'LOGO_FILE_NAME' => 'logo-dark.png',
+    'LOGO_FILE_NAME' => 'logo.png',
     'DEVELOPED_BY' => 'Buzzmakers',
     'CONTACT_FORM' => [
         'TO' => ['groupofcompanies@kscheema.co.in'],

@@ -81,10 +81,10 @@
 
 
 
-        <video width="100%" height="401" controls>
-            <source src="front/images/video.mp4" type="video/mp4">
+        <!-- <video width="100%" height="401" controls>
+            <source src="https://youtu.be/JjMSvMFp0R0" type="video/mp4">
             <source src="front/images/video.ogg" type="video/ogg">
-        </video>
+        </video> -->
 
 
     </div>
@@ -173,7 +173,8 @@
     </div>
 
     <div class="stories-one container reveal">
-        <h3><a href="{{route('careers.stories')}}">Stories</a></h3>
+        <!-- <h3><a href="{{route('careers.stories')}}">Stories</a></h3> -->
+        <h3>Stories</h3>
         <div class="owl-carousel stories-one-slider owl-theme reveal">
             <div class="item">
                 <div class="stories-one-box">

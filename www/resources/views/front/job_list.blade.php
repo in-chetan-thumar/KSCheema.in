@@ -5,7 +5,8 @@
                     data-bs-target="#collapse{{$job_key}}" aria-expanded="true" aria-controls="collapse{{$job_key}}">
                 <div class="heading">
                     <h3>{{$job['title']}}</h3>
-                    <p>{{$job['sub_title']}}</p>
+                    
+                    <p>{{ $job->company->company_name }} - {{ $job->company_locations->city}}, {{ $job->company_locations->state}}</p>
                 </div>
                 <div class="form-button">View More<img src="front/images/contact/Arrow-button.png" alt=""></div>
             </button>

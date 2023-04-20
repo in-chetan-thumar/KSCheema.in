@@ -11,6 +11,7 @@
                     <li class="menu-item"><a class="link" href="{{route('ourcompany')}}">Our Companies</a></li>
                     <li class="menu-item"><a class="link" href="{{route('media')}}">Media</a></li>
                     <li class="menu-item"><a class="link" href="{{route('contact')}}">Contact</a></li>
+                    <li class="menu-item"><a class="link" href="{{route('careers')}}">Careers</a></li>
                 </ul>
             </nav>
             <div class="bar-mobile-icon">

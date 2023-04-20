@@ -10,7 +10,7 @@
         <meta content="{{config('constants.APP_NAME')}}" name="description" />
         <meta content="{{config('constants.APP_NAME')}}" name="author" />
         <!-- App favicon -->
-        <link rel="shortcut icon" href="{{ URL::asset('assets/images/favicon.ico')}}">
+        <link rel="shortcut icon" href="{{ URL::asset('assets/images/favicon.ico') }}">
         @include('admin.layouts.head-css')
   </head>
 

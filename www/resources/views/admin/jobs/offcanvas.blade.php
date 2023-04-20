@@ -57,7 +57,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12" id="title1">
+            <!-- <div class="col-12" id="title1">
                 <div class="mb-3">
                     <div class="form-group">
                         {!! Form::label('sub_title', 'Sub title', ['style' => 'justify-content: right']) !!}<span class="required">*</span>
@@ -69,7 +69,7 @@
                         @enderror
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="col-12">
                 <div class="mb-3">
                     <div class="form-group">

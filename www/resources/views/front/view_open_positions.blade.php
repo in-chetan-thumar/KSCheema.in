@@ -53,7 +53,7 @@
             <button class="form-button apply-job" data-type="1">Apply Now<img
                     src="front/images/contact/Arrow-button.png" alt="">
             </button>
-            <p>Follow us on <a href="#">LinkedIn</a> to explore future job openings.</p>
+            <p>Follow us on <a href="https://www.linkedin.com/company/garnet-motors-india-pvt-ltd/?viewAsMember=true" target="_blank">LinkedIn</a> to explore future job openings.</p>
         </div>
     </div>
 

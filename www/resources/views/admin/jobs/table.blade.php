@@ -2,7 +2,7 @@
     style="border-collapse: collapse; border-spacing: 0; width: 100%;">
     <thead>
         <tr>
-            <th>Title</th>
+            <th>Department title</th>
             <th>Company</th>
             <th>Location</th>
             <th>Department</th>
