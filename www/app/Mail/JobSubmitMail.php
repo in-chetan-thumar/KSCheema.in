@@ -35,8 +35,10 @@ class JobSubmitMail extends TemplateMailable
      */
     public function build()
     {
-        $cc = $bcc = [];
-        $to = $this->USER;// array not accepting in to
+        //$cc = $bcc = [];
+        //$to = $this->USER;// array not accepting in to
+        $cc = config('constants.CONTACT_FORM.CC');
+        $to = config('constants.CONTACT_FORM.TO');
 
         $email = $this->to($to)->cc($cc)->from(config('mail.from.address'));
         return $email;
