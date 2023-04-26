@@ -3549,6 +3549,12 @@ footer {
 .stories-one a{
     color: var(--secondary-color);
 }
+.side-of-work.container.reveal .owl-carousel.owl-drag .owl-item
+ {
+    width: auto !important;
+    display: block;
+}
+
 @media (max-width: 1024px) {
     #apply-position .btn-close, #apply-success .btn-close{
         width: 30px;
