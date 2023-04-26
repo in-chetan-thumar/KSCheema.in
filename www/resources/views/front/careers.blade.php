@@ -79,7 +79,7 @@
     <div class="welcome-in-style reveal">
         <h3>Welcome In Style</h3>
 
-
+        <iframe width="1000" height="400" src="https://www.youtube-nocookie.com/embed/JjMSvMFp0R0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
         <!-- <video width="100%" height="401" controls>
             <source src="https://youtu.be/JjMSvMFp0R0" type="video/mp4">
