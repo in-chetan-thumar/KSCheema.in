@@ -14,6 +14,7 @@
     {!! SEOMeta::generate() !!}
     @include('front.layouts.vendor-css')
     @yield('css')
+	<meta name="facebook-domain-verification" content="oznl8azp268q01dhe2b9fuo18djmve" />
 </head>
 
 <body>
