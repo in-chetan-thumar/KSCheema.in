@@ -3554,6 +3554,11 @@ footer {
     width: auto !important;
     display: block;
 }
+.stories-one-box .stories-one-info .images-box img {
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+}
 
 @media (max-width: 1024px) {
     #apply-position .btn-close, #apply-success .btn-close{

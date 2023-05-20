@@ -180,13 +180,13 @@
                 <div class="stories-one-box">
                     <div class="stories-one-info">
                         <div class="images-box">
-                            <img src="front/images/career/tt.png" alt="testimonials">
+                            <img src="front/images/career/mr-praveen.jpg" alt="testimonials">
                         </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                        <p>Although I have just joined the KS Cheema group, I have had the opportunity to work with Mr. KS Cheema on various projects in the last 6 years. I must say that every experience in those years and every day as an employee here is marked with a learning opportunity. If there's one key takeaway from my time here it's that taking decisions, whether successful or unsuccessful, and acting on them is the most crucial step to success. I will forever be grateful to the whole team at KS Cheema Group and always cherish my time with Mr. KS Cheema Sir.</p>
                     </div>
                     <div class="stories-one-detail">
-                        <h6>Tejas Ardeshna</h6>
-                        <p>CEO Metrix </p>
+                        <h6>Mr. Pravin Kumar</h6>
+                        <p>Business Head, Garnet Motors</p>
                     </div>
                 </div>
             </div>
@@ -194,13 +194,13 @@
                 <div class="stories-one-box">
                     <div class="stories-one-info">
                         <div class="images-box">
-                            <img src="front/images/career/tt.png" alt="testimonials">
+                            <img src="front/images/career/mr-sachin.jpg" alt="testimonials">
                         </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                        <p>Words fail to express the gratitude I feel towards KS Cheema Group. As an ex-employee who re-joined the Garnet family, I am deeply thankful for the grand welcome, warm onboarding process, and heartfelt surprises on my day one back.  The organization culture is truly admirable and I feel blessed to be a part of it. I'd also like to take this opportunity to thank Mr. KS Cheema for his guidance and encouragement as I look forward to building a long-lasting relationship with the group. The organization truly makes me believe that with proper guidance and leadership anyone can achieve success in life.</p>
                     </div>
                     <div class="stories-one-detail">
-                        <h6>Tejas Ardeshna</h6>
-                        <p>CEO Metrix </p>
+                        <h6>Mr. Sachin Lambe</h6>
+                        <p>VP - POC, Mercedes Benz Central Star Nagpur</p>
                     </div>
                 </div>
             </div>
@@ -208,13 +208,13 @@
                 <div class="stories-one-box">
                     <div class="stories-one-info">
                         <div class="images-box">
-                            <img src="front/images/career/tt.png" alt="testimonials">
+                            <img src="front/images/career/mr-dhanraj.jpg" alt="testimonials">
                         </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                        <p>In  my career of 22 years, I never knew that farewells could be so heartwarming. I am grateful to Mr. KS Cheema and the board of directors for making my time here so warm with memories that will last a lifetime. No matter where we are, we will always remember him and keep him in our highest regards. The KS Cheema Group is like a family to me, the memories and learnings of which I will cherish forever.</p>
                     </div>
                     <div class="stories-one-detail">
-                        <h6>Tejas Ardeshna</h6>
-                        <p>CEO Metrix </p>
+                        <h6>Mr. Dhanraj Kamdar</h6>
+                        <p>CEO - Customer Services, Mercedes Benz Gujarat</p>
                     </div>
                 </div>
             </div>
