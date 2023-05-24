@@ -170,7 +170,54 @@ var swiper = new Swiper(".artical-slider", {
     },
 });
 
+$('.side-of-work-slider').owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 10000,
+    smartSpeed: 5000,
+    animateIn: 'linear',
+    animateOut: 'linear',
+    margin: 36,
+    stagePadding: 80,
+    nav: false,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1,
+            margin: 15,
+            stagePadding: 0,
+        },
+        768: {
+            items: 2.5,
+            margin: 16,
+            stagePadding: 0,
+        },
+    }
+})
 
 
-
+$('.side-of-work-slider').owlCarousel({
+    loop: true,
+    autoplay: true,
+    autoplayTimeout: 10000,
+    smartSpeed: 5000,
+    animateIn: 'linear',
+    animateOut: 'linear',
+    margin: 36,
+    stagePadding: 80,
+    nav: false,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1,
+            margin: 15,
+            stagePadding: 0,
+        },
+        768: {
+            items: 2.5,
+            margin: 16,
+            stagePadding: 0,
+        },
+    }
+})
 
