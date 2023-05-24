@@ -5,17 +5,17 @@
 @if(Session::get('device_type', 'web') == 'web')
     <script src="{{asset('front/js/script.js')}}"></script>
 @else
-    <script src="{{asset('front/js/script_mobile.js')}}"></script>
+    <script src="{{asset('front/js/script.js')}}"></script>
 @endif
 
 <script>
-   /*  
+   /*
 $('#media_view_all1').onClick( function(e) {
     $('.hide_media').fadeToggle();
     $('#media_view_all').hide();
 }); */
 $(document).ready(function() {
-    $('#media_view_all').click(function(e) {  
+    $('#media_view_all').click(function(e) {
         $('.hide_media').fadeToggle();
     $('#media_view_all').hide();
     });
