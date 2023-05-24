@@ -3559,6 +3559,28 @@ footer {
     width: 48px;
     border-radius: 100%;
 }
+.welcome-in-style iframe {
+    border: 0;
+    max-width: 100%;
+}
+
+
+sanjay, 12:23
+.stories-one-box .stories-one-info .images-box img {
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+    object-fit: contain;
+    max-width: 48px;
+}
+
+.stories-one-box .stories-one-info .images-box img {
+    height: 48px;
+    width: 48px;
+    border-radius: 100%;
+    object-fit: contain;
+    max-width: 48px;
+}
 
 @media (max-width: 1024px) {
     #apply-position .btn-close, #apply-success .btn-close{
