@@ -27,10 +27,10 @@
                             <p><a href="{{route('ourcompany')}}" target="_blank">Garnet Motors (I) Pvt. Ltd.</a></p>
                         </li>
                         <li>
-                            <p><a href="/" target="_blank" data-bs-toggle="modal" data-bs-target="#website_under_development">KS Metals and Mining Industries Pvt. Ltd.</a></p>
+                            <p><a href="https://www.ksmetals.co.in/" target="_blank" data-bs-toggle="modal" data-bs-target="#website_under_development">KS Metals and Mining Industries Pvt. Ltd.</a></p>
                         </li>
                         <li>
-                            <p><a href="/" target="_blank" data-bs-toggle="modal" data-bs-target="#website_under_development">Diamond Estate Builders & Developers</a></p>
+                            <p><a href="https://www.diamondestate.co.in/" target="_blank" data-bs-toggle="modal" data-bs-target="#website_under_development">Diamond Estate Builders & Developers</a></p>
                         </li>
                     </ul>
                 </div>

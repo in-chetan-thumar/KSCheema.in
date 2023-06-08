@@ -129,7 +129,7 @@
                         land
                         near
                         Butibori in Nagpur(Vidarbha).</p>
-                    <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#website_under_development">VISIT WEBSITE</a>
+                    <a href="https://www.ksmetals.co.in/" target="_blank" class="link" data-bs-toggle="modal" data-bs-target="#website_under_development">VISIT WEBSITE</a>
                     
                 </div>
             </div>
@@ -148,7 +148,7 @@
                     <p>A one-stop destination for luxurious commercial and residential properties, Diamond Real Estate
                         caters to
                         high-end and valuable real estate in the city of Nagpur.</p>
-                    <a href="#" class="link" data-bs-toggle="modal" data-bs-target="#website_under_development">VISIT WEBSITE</a>
+                    <a href="https://www.diamondestate.co.in/" target="_blank" class="link" data-bs-toggle="modal" data-bs-target="#website_under_development">VISIT WEBSITE</a>
                 </div>
             </div>
         </div>
