@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="copy-right footer-Businesses">
-            <p>© KS Cheema. Handcrafted with ❤ by <a href="https://www.buzzmakers.in/" target="_blank">Buzz Makers.</a></p>
+            <p>© KS Cheema. Handcrafted with by <a href="https://www.buzzmakers.in/" target="_blank">Buzz Makers.</a></p>
             </div>
         </div>
     </div>

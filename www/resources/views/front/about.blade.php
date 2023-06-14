@@ -107,7 +107,7 @@
 
     <div class="team-section">
         <div class="container">
-            <h4>MEET OUR TEAM</h4>
+            <h4>MEET PROMOTERS</h4>
             <div class="team-wrapper reveal">
                 <div class="member">
                     <div class="member-image">
@@ -116,7 +116,7 @@
                     <div class="member-detail">
                         <h5>Mr Karnail <br>Singh Cheema</h5>
                         <p>Chairman & Managing Director</p>
-                        <p>BA, LLB, LLM, Post Graduate <br>Diploma in "Industrial Relations <br>& Personnel Management"</p>
+                        {{-- <p>BA, LLB, LLM, Post Graduate <br>Diploma in "Industrial Relations <br>& Personnel Management"</p> --}}
                     </div>
                 </div>
                 <div class="member">
@@ -126,7 +126,7 @@
                     <div class="member-detail">
                         <h5>Mrs Kokila <br>Karnail Cheema</h5>
                         <p>Director</p>
-                        <p>B.Com. LLB.</p>
+                        {{-- <p>B.Com. LLB.</p> --}}
                     </div>
                 </div>
                 <div class="member">
@@ -136,7 +136,7 @@
                     <div class="member-detail">
                         <h5>Mr Ankur <br>Singh Cheema</h5>
                         <p>Executive Director</p>
-                        <p>BA, LLB</p>
+                        {{-- <p>BA, LLB</p> --}}
                     </div>
                 </div>
             </div>
@@ -176,10 +176,10 @@
                     <div class="tab-content">
                         <div class="tab-pane fade show active" id="vison" role="tabpanel"
                              aria-labelledby="vison-tab">
-                            <p>The company was started and built on the core principles of transparency, determination, a futuristic mindset, and a customer-friendly approach. Our vision is to retain these values in all our business endeavours in the coming decades. We aim to occupy our customers’ mind space as a distinguished business house known for its ethics, integrity, honesty, quality and punctuality.</p>
+                            <p>To occupy customer’s mind space as a distinguished business house known for its ethics, Integrity, honesty, quality and punctuality.</p>
                         </div>
                         <div class="tab-pane fade" id="mission" role="tabpanel" aria-labelledby="mission-tab">
-                            <p>With efficiency, ethical practices, and environmentalism at the core of our values, our mission is to create a lasting impact on the society's development. Our purpose is to perpetually fuel the growth of our businesses, thereby, empowering our people and resources for sustainable success. We thrive to be an organization of substance, which delivers smiles to the lives of our stakeholders, employees, and customers.</p>
+                            <p>Be an organisation of substance committed to change stakeholder’s lives by delivering smiles.</p>
                         </div>
                         <div class="tab-pane fade" id="values" role="tabpanel" aria-labelledby="values-tab">
                             <ul class="tab-content-list">
