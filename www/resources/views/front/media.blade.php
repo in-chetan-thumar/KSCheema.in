@@ -20,7 +20,7 @@
     <div class="latest-news">
         <div class="container">
             <div class="latest-news-inner">
-                
+
                 @foreach (config('constants.MEDIA')['ARTICLE'] as $key => $media)
 
                     @if($key > 3)
@@ -33,7 +33,7 @@
                                 <img src="front/images/{{$media['web_image']}}" alt="news">
                             </div>
                             <div class="img-mobile">
-                                <img src="front/images/{{$media['web_image']}}" alt="news">
+                                <img src="front/images/{{$media['mobile_image']}}" alt="news">
                             </div>
                         </div>
                         <div class="latest-content order-lg-2 order-1">
@@ -75,7 +75,7 @@
                                 <img src="front/images/{{$media['web_image']}}" alt="news">
                             </div>
                             <div class="img-mobile">
-                                <img src="front/images/{{$media['web_image']}}" alt="news">
+                                <img src="front/images/{{$media['mobile_image']}}" alt="news">
                             </div>
                         </div>
                         <div class="latest-content order-lg-2 order-1">
@@ -101,7 +101,7 @@
                         </div>
                     </div>
                 @endforeach
-             
+
             </div>
         </div>
     </div>
