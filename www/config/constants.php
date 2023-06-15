@@ -166,16 +166,16 @@ return [
     'MEDIA' => [
         'ARTICLE' => [
             [
-                'web_image' => 'articles/article-1.png',
-                'mobile_image' => 'articles/article-1-mobile.png',
+                'web_image' => 'articles/article-7.png',
+                'mobile_image' => 'articles/article-7-mobile.png',
                 'title' => 'Altigreen’s maiden showroom ‘Garnet Motors’ opens in city',
                 'description' => 'GARNET Motors (India) Private Limited (Garnet Motors), a flagship company of Nagpur-based K S Cheema Group of Companies, opened its maiden Altigreen Retail Experience Centre at Ghat Road, opposite Hotel Taibah, Nagpur, on Saturday.',
                 'date' => '10 Jun 2023',
                 'link' => 'https://www.thehitavada.com/Encyc/2023/6/11/Altigreen-s-maiden-showroom-Garnet-Motors-opens-in-city.html',
                 'type' => 'article',
             ],[
-                'web_image' => 'articles/article-1.png',
-                'mobile_image' => 'articles/article-1-mobile.png',
+                'web_image' => 'articles/article-8.png',
+                'mobile_image' => 'articles/article-8-mobile.png',
                 'title' => "अल्टिग्रीन मेडेन शोरूम 'गार्नेट मोटर्स'चे उद्घाटन",
                 'description' => 'नागपूर : गार्नेट मोटर्स (इंडिया) प्रा. लि. (गार्नेट मोटर्स) ही के.एस. चीमा ग्रुप ऑफ
                 कंपनीजची प्रमुख कंपनी आहे.',
@@ -183,8 +183,8 @@ return [
                 'link' => 'http://epaper.lokmat.com/sub-editions/Hello%20Nagpur/2023-06-11/5',
                 'type' => 'article',
             ],[
-                'web_image' => 'articles/article-1.png',
-                'mobile_image' => 'articles/article-1-mobile.png',
+                'web_image' => 'articles/article-9.png',
+                'mobile_image' => 'articles/article-9-mobile.png',
                 'title' => 'नागपुर में अल्टीग्रीन मेडेन शोरुम गार्नेट मोटर्स का शुभारंभ',
                 'description' => 'नागपुर: गार्नेट मोटर्स (इंडिया) प्रा. लि. (गार्नेट मोटर्स), जो नागपुर स्थित केएस चीमा ग्रुप ऑफ कंपनीज की प्रमुख कंपनी है, ने 10 जून को घाट रोड, होटल तैयबा के सामने, नागपुर में अपने पहले अल्टीग्रीन रिटेल एक्सपीरियंस सेंटर का उद्घाटन किया.',
                 'date' => '10 Jun 2023',
