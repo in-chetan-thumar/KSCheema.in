@@ -4,7 +4,7 @@
         <div class="footer-detail">
             <div class="footer-img">
                 <img src="{{asset('front/images/footer/Frame-4.png')}}" alt="logo">
-                <p>© KS Cheema. Handcrafted with ❤ by <a href="https://www.buzzmakers.in/" target="_blank">Buzz Makers.</a></p>
+                <p>© KS Cheema. Handcrafted by <a href="https://www.buzzmakers.in/" target="_blank">Buzz Makers.</a></p>
             </div>
             <div class="footer-info">
                 <div class="footer-home">
