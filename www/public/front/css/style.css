@@ -3582,6 +3582,10 @@ footer {
     max-width: 48px;
 }
 
+.stories-one-box {
+    min-height: 265px;
+}
+
 @media (max-width: 1024px) {
     .stories-one-box{
         background: #F6F7F8;
