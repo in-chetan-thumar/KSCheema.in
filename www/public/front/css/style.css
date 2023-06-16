@@ -3582,6 +3582,10 @@ sanjay, 12:23
     max-width: 48px;
 }
 
+.stories-one-box {
+    min-height: 265px;
+}
+
 @media (max-width: 1024px) {
     #apply-position .btn-close, #apply-success .btn-close{
         width: 30px;

@@ -115,7 +115,7 @@
                     </div>
                     <div class="member-detail">
                         <h5>Mr Karnail <br>Singh Cheema</h5>
-                        <p>Chairman & Managing Director</p>
+                        <p>Chairman & MD</p>
                         {{-- <p>BA, LLB, LLM, Post Graduate <br>Diploma in "Industrial Relations <br>& Personnel Management"</p> --}}
                     </div>
                 </div>
