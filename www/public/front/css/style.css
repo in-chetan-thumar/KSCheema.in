@@ -3511,6 +3511,7 @@ footer {
 .stories-one-box{
     background: #F6F7F8;
     padding: 25px;
+    min-height: 270px;
 }
 .stories-one-box .stories-one-info{
     display: flex;
@@ -3565,7 +3566,6 @@ footer {
 }
 
 
-sanjay, 12:23
 .stories-one-box .stories-one-info .images-box img {
     height: 48px;
     width: 48px;
@@ -3587,6 +3587,11 @@ sanjay, 12:23
 }
 
 @media (max-width: 1024px) {
+    .stories-one-box{
+        background: #F6F7F8;
+        padding: 25px;
+        min-height: 515px;
+    }
     #apply-position .btn-close, #apply-success .btn-close{
         width: 30px;
         height: 30px;
